@@ -16642,8 +16642,8 @@
       "in_scope": [
         {
           "type": "website",
-          "target": "https://*.points.com",
-          "uri": "https://*.points.com",
+          "target": "*.points.com",
+          "uri": "",
           "name": "*.points.com",
           "ipAddress": ""
         }
@@ -22304,6 +22304,13 @@
           "uri": "https://partnerresources.viator.com",
           "name": "partnerresources.viator.com",
           "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "partner.viator.com",
+          "uri": "",
+          "name": "partner.viator.com",
+          "ipAddress": ""
         }
       ]
     }
