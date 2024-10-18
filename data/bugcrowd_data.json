@@ -5277,6 +5277,13 @@
           "uri": "https://telcosuccess.bitdefender.com",
           "name": "telcosuccess.bitdefender.com",
           "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "demo.bitdefender.com",
+          "uri": "",
+          "name": "demo.bitdefender.com",
+          "ipAddress": ""
         }
       ]
     }
@@ -5560,22 +5567,22 @@
     "url": "https://bugcrowd.com/engagements/braze-bb",
     "allows_disclosure": false,
     "managed_by_bugcrowd": true,
-    "safe_harbor": null,
+    "safe_harbor": "full",
     "max_payout": 5000,
     "targets": {
       "in_scope": [
         {
           "type": "api",
-          "target": "https://security-testing-env-api.k8s.tools-001.d-use-1.braze.com/",
-          "uri": "https://security-testing-env-api.k8s.tools-001.d-use-1.braze.com/",
-          "name": "https://security-testing-env-api.k8s.tools-001.d-use-1.braze.com/",
+          "target": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
+          "uri": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
+          "name": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
           "ipAddress": null
         },
         {
           "type": "website",
-          "target": "https://security-testing-env-dashboard.k8s.tools-001.d-use-1.braze.com/",
-          "uri": "https://security-testing-env-dashboard.k8s.tools-001.d-use-1.braze.com/",
-          "name": "https://security-testing-env-dashboard.k8s.tools-001.d-use-1.braze.com/",
+          "target": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com",
+          "uri": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com",
+          "name": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
           "ipAddress": null
         }
       ],
@@ -16642,8 +16649,8 @@
       "in_scope": [
         {
           "type": "website",
-          "target": "https://*.points.com",
-          "uri": "https://*.points.com",
+          "target": "*.points.com",
+          "uri": "",
           "name": "*.points.com",
           "ipAddress": ""
         }
@@ -22304,6 +22311,13 @@
           "uri": "https://partnerresources.viator.com",
           "name": "partnerresources.viator.com",
           "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "partner.viator.com",
+          "uri": "",
+          "name": "partner.viator.com",
+          "ipAddress": ""
         }
       ]
     }
