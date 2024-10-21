@@ -1303,6 +1303,8 @@ www.*mongodb.com
 *.gymshark.io
 *.sdm.network
 *.sidefx.com
+*.wellsfargo.com
+*.wf.com
 *.circle.com
 *.cybavo.com
 *.allegion.com
@@ -2091,12 +2093,6 @@ www.amazon.*
 *.api.playstation.com
 *.playstation.net
 *.sonyentertainmentnetwork.com
-*.advisor-connection.com
-*.mworld.com
-*.wellsfargo.com
-*.wellsfargoadvisors.com
-*.wf.com
-*.wystar.com
 *.pubg.com
 *.pubgesports.com
 *.a.exodus.io
