@@ -3208,9 +3208,6 @@ aqora.naiad.*
 *.stag.weareone.world
 *.tomorrowland.com
 *.trouw.nl
-*.truelayer.cloud
-*.truelayer.com
-*.truelayer.io
 *.itprojects.talent-community.com
 *.tweakblogs.net
 *.tweakers.net
@@ -3228,6 +3225,7 @@ aqora.naiad.*
 *.uphold.com
 *.vtm.be
 *.vtmgo.be
+*.veriff.com
 *.vinted.net
 *.vinted.com
 *.vinted.fr
