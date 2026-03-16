@@ -3097,6 +3097,8 @@ www.fing.com*
 *.acc.mobilevikings.be
 *.dev-pub.mobilevikings.be
 *.dev.mobilevikings.be
+*.monzo.com
+*.prod-ffs.io
 *.moralis.com
 *.bigmoralis.com
 *.grandmoralis.com
@@ -3225,7 +3227,6 @@ aqora.naiad.*
 *.uphold.com
 *.vtm.be
 *.vtmgo.be
-*.veriff.com
 *.vinted.net
 *.vinted.com
 *.vinted.fr
