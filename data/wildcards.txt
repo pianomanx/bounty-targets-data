@@ -3056,6 +3056,15 @@ www.fing.com*
 *.iciparisxl.nl
 *.iciparisxl.be
 *.pourvous.nl
+*.klubcinema.fr
+*.kinepolis.be
+*.kinepolis.ch
+*.kinepolis.com
+*.kinepolis.fr
+*.kinepolis.lu
+*.kinepolis.nl
+*.landmarkcinemas.com
+*.mjrtheatres.com
 *.kiwa.com
 *.kiwa.info
 *.kiwa.nl
@@ -3232,8 +3241,6 @@ aqora.naiad.*
 *company.vinted.com
 *.vlerick.com
 *.deliciousbrains.com
-*.localwp.com
-*.nitropack.io
 *.studiopress.com
 *.wpengine.io
 *.wpesvc.net
