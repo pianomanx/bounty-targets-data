@@ -3421,7 +3421,6 @@ visayanelectric.com.ph
 visayanelectric.ph
 developer.worldcoin.org
 getworldcoin.com
-id.worldcoin.org
 toolsforhumanity.com
 world.org
 worldcoin.org
@@ -23731,12 +23730,6 @@ paystackintegrations.com
 paystackmfb.com
 standard.paystack.co
 zap.money
-yourdomain.freshcaller.com
-yourdomain.freshchat.com
-yourdomain.freshdesk.com
-yourdomain.freshrelease.com
-yourdomain.freshservice.com
-yourdomain.myfreshworks.com
 bigcommerce-adapter.judge.me
 cache.judge.me
 judge.me
@@ -35129,16 +35122,6 @@ ecom-data.trekpleister.nl
 service.trekpleister.nl
 folder.trekpleister.nl
 www.prijsmepper.nl
-app.lansweeper.com
-fb.lansweeper.com
-edge.lansweeper.com
-api.lansweeper.com
-backoffice.lansweeper.com
-lsagentrelay.lansweeper.com
-autoupdateapi.lansweeper.com
-docs.lansweeper.com
-login.lansweeper.com
-www.lansweeper.com
 www.libelle.nl
 www.liferay.com
 liferay.dev
