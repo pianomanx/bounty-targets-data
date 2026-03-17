@@ -3025,6 +3025,7 @@ munin-*.wordpress.org
 *.digi.ro
 *.dpgmedia.be
 *.dpgmedia.nl
+*.datacamp.com
 *.demorgen.be
 *.volkskrant.nl
 *.digitalocean.com
@@ -3238,6 +3239,7 @@ aqora.naiad.*
 *.uphold.com
 *.vtm.be
 *.vtmgo.be
+*.veriff.com
 *.vinted.net
 *.vinted.com
 *.vinted.fr

@@ -22464,6 +22464,7 @@ next-safesite.dev.myvirtualsuper.com
 nfse-campinas.mfg-branch-and-parts-prod-vpn.us.e11.c01.johndeerecloud.com
 nfse-campinas.mfg-sd-branch-and-parts-devl-vpn.us.e11.c01.johndeerecloud.com
 nfse-campinas.mfg-sd-branch-and-parts-qual-vpn.us.e11.c01.johndeerecloud.com
+nmq.deere.com
 node.bhp.myvirtualsuper.com
 node.myvirtualsuper.com
 notifications.deere.com
@@ -22500,6 +22501,7 @@ oi-grafana.bluerivertech.com
 one.deere.com
 online-infothek.voegele.info
 operationscenter.deere.com
+orchestrator-qual.deere.com
 orderagent.sentera.com
 orderagentdev.sentera.com
 orderagentstaging.sentera.com
@@ -34977,6 +34979,14 @@ annualreport.cybersecuritycoalition.be
 award.cybersecuritycoalition.be
 blog.cybersecuritycoalition.be
 www.cybersecuritycoalition.be
+profiles-api.datacamp.com
+app.datacamp.com
+assessment-api.datacamp.com
+assessment.datacamp.com
+campus.datacamp.com
+practice.datacamp.com
+projects.datacamp.com
+www.datacamp.com
 myaccount.demorgen.be
 shop.demorgen.be
 www.demorgen.be
@@ -35410,6 +35420,16 @@ login.arkane.network
 login.venly.io
 wallet.venly.io
 api-wallet-sandbox.venly.io
+alchemy.veriff.com
+api.flamingo-eu.veriff.com
+api.us.veriff.me
+api.veriff.me
+louvre.veriff.me
+magic.veriff.me
+station.veriff.com
+stationapi.veriff.com
+developers.veriff.me
+www.veriff.com
 accountsettings.connect.identity.stagaws.visma.com
 admin.stage.vismaonline.com
 ai-testing.maventa.com
