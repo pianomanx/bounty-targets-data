@@ -1943,6 +1943,7 @@ wlr-cf.*.aws.indriverapp.com
 *.zurichna.com
 *.zurichseguros.com.ec
 *.krisp.ai
+*.whatnot.com
 *.appslatam.com
 *.lan.com
 *.lanchile.cl
@@ -3055,15 +3056,6 @@ www.fing.com*
 *.iciparisxl.nl
 *.iciparisxl.be
 *.pourvous.nl
-*.klubcinema.fr
-*.kinepolis.be
-*.kinepolis.ch
-*.kinepolis.com
-*.kinepolis.fr
-*.kinepolis.lu
-*.kinepolis.nl
-*.landmarkcinemas.com
-*.mjrtheatres.com
 *.kiwa.com
 *.kiwa.info
 *.kiwa.nl
