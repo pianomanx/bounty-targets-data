@@ -22624,6 +22624,7 @@ redaktion-servicedocs.applications.wirtgen-group.com
 redaktion7-salestraining-user.applications.wirtgen-group.com
 redeem.rewards.deere.com
 redirect.spark.ai
+redjd2.deere.com
 registration.deere.com
 relay-service-qual.deere.com
 relay-service.qual.us.e01.c01.johndeerecloud.com
@@ -34890,6 +34891,7 @@ profile-photos.hackerone-user-content.com
 reviewer.pullrequest.com
 www.hackerone.com
 www.wearehackerone.com
+app.aikido.dev
 myaccount.ad.nl
 webwinkel.ad.nl
 www.ad.nl
@@ -35058,6 +35060,19 @@ campagne.iciparisxl.lu
 campagne.iciparisxl.be
 servicenl.iciparisxl.be
 www.pourvous.nl
+www.gamma.nl
+www.gamma.be
+www.karwei.nl
+kassa.gamma.nl
+kassa.gamma.be
+kassa.karwei.nl
+mijn.gamma.nl
+mijn.gamma.be
+mijn.karwei.nl
+irmg.nl
+gammacademy.be
+karwei-promotiepunt.nl
+gammalokaal.nl
 booking.mjrtheatres.com
 extras.landmarkcinemas.com
 identityserver.landmarkcinemas.com
