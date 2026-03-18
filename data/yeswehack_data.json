@@ -2857,6 +2857,10 @@
         {
           "target": "academy.infomaniak.com",
           "type": "web-application"
+        },
+        {
+          "target": "mail-builder.infomaniak.com/",
+          "type": "web-application"
         }
       ],
       "out_of_scope": [
@@ -2870,10 +2874,6 @@
         },
         {
           "target": "We do not manage Open Stack dashboard which is therefore out of scope",
-          "type": "other"
-        },
-        {
-          "target": "newsletter.infomaniak.com",
           "type": "other"
         },
         {
