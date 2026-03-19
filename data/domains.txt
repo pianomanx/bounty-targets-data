@@ -17,6 +17,11 @@ portal.clearpay.co.uk
 mobileapi.clearpay.com
 portalapi.eu.clearpay.co.uk
 api.clearpay.com
+aiven.io
+regatta.aiven.io
+console.aiven.io
+api.aiven.io
+falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com
 api.anytask.com
 www.anytask.com
 api.anytask.thesecurityteam.rocks
@@ -10365,7 +10370,6 @@ cadburymatchandwin.com.au
 cadburypakistan.com
 cadburyperksmartunlocks.com
 cadburyrugbypromo.com.au
-cadburytimeout.com
 cadburytrytime.co.nz
 cadburyworld.co.uk
 canjeatupremiomdlz.com
@@ -10488,8 +10492,6 @@ milka.be
 milka.cl
 milka.com
 milka.de
-milka.es
-milka.it
 milka.ru
 milkacandies.cz
 milkacandies.sk
@@ -10501,10 +10503,6 @@ milkamaxpromo.si
 milkamozi.hu
 milkapromo.hu
 milkaszaloncukor.hu
-minichipsahoy.mondelezplayminigames.com
-minigolden.mondelezplayminigames.com
-minioreo.mondelezplayminigames.com
-miniprincipe.mondelezplayminigames.com
 miracelwhip.de
 mitiendamondelez.com.ar
 mmm.marabou.se
@@ -10514,9 +10512,7 @@ momentosnack.com
 mondelez-afh.co.uk
 mondelez-professional.de
 mondelezcanadafoodservice.ca
-mondelezgrowthprogram.com
 mondelezinternational.com
-mondelezinternationalfoodservice.com
 mondelezinternationalnutritionscience.com
 mondelezpromo.com
 mondelezvending.com
@@ -10623,7 +10619,6 @@ stimorolflavourthemoment.co.za
 suchard.es
 sutaz-opavia.sk
 tang-gulf.com
-taste-play-win.oreo.eu
 tayyarijeetki.in
 ternuracontralasoledad.com
 thebournvitaquiz.in
@@ -10683,6 +10678,7 @@ www.winwithphilly.no
 www.winwithphilly.se
 xn--80abwto.xn--p1ai
 xn--90aiefdldtba7bg.xn--p1ai
+ygeiaspavlides.gr
 zapytajoreo.pl
 zbaradventure.com
 zeus-portal.oreobm.com

@@ -311,228 +311,228 @@
       "in_scope": [
         {
           "type": "other",
-          "target": "████████████████████",
-          "uri": null,
-          "name": "████████████████████",
+          "target": "https://aiven.io/clickhouse",
+          "uri": "https://aiven.io/clickhouse",
+          "name": "Aiven for Clickhouse",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "█████████████████",
-          "uri": null,
-          "name": "█████████████████",
+          "target": "https://aiven.io/docs/products/metrics/concepts/metrics-overview",
+          "uri": "https://aiven.io/docs/products/metrics/concepts/metrics-overview",
+          "name": "Aiven for Metrics",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "████████████████",
-          "uri": null,
-          "name": "████████████████",
+          "target": "Aiven for Valkey",
+          "uri": "",
+          "name": "Aiven for Valkey",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "██████████████████████",
-          "uri": null,
-          "name": "██████████████████████",
+          "target": "Aiven for Apache Kafka",
+          "uri": "",
+          "name": "Aiven for Apache Kafka",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "████████████████████",
-          "uri": null,
-          "name": "████████████████████",
+          "target": "Aiven for OpenSearch",
+          "uri": "",
+          "name": "Aiven for OpenSearch",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "█████████████████",
-          "uri": null,
-          "name": "█████████████████",
+          "target": "Aiven for Grafana",
+          "uri": "",
+          "name": "Aiven for Grafana",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "████████████████████",
-          "uri": null,
-          "name": "████████████████████",
+          "target": "Aiven for PostgreSQL",
+          "uri": "",
+          "name": "Aiven for PostgreSQL",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "█████████████████",
-          "uri": null,
-          "name": "█████████████████",
+          "target": "Aiven for Caching",
+          "uri": "",
+          "name": "Aiven for Caching",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "███████████████",
-          "uri": null,
-          "name": "███████████████",
+          "target": "Aiven for MySQL",
+          "uri": "",
+          "name": "Aiven for MySQL",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "██████████████████████",
-          "uri": null,
-          "name": "██████████████████████",
+          "target": "Aiven for Apache Flink",
+          "uri": "",
+          "name": "Aiven for Apache Flink",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "███████████████████",
-          "uri": null,
-          "name": "███████████████████",
+          "target": "Aiven for Dragonfly",
+          "uri": "",
+          "name": "Aiven for Dragonfly",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "████████████████",
-          "uri": null,
-          "name": "████████████████",
+          "target": "https://regatta.aiven.io/",
+          "uri": "https://regatta.aiven.io/",
+          "name": "regatta.aiven.io",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "████████",
-          "uri": null,
-          "name": "████████",
+          "target": "https://aiven.io/",
+          "uri": "https://aiven.io/",
+          "name": "aiven.io",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "████████████████",
-          "uri": null,
-          "name": "████████████████",
+          "target": "https://console.aiven.io/login",
+          "uri": "https://console.aiven.io/login",
+          "name": "console.aiven.io",
           "ipAddress": ""
         },
         {
           "type": "api",
-          "target": "████████████",
-          "uri": null,
-          "name": "████████████",
+          "target": "https://api.aiven.io/login",
+          "uri": "https://api.aiven.io/login",
+          "name": "api.aiven.io",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "█████████████████████",
-          "uri": null,
-          "name": "█████████████████████",
+          "target": "https://github.com/Aiven-Open",
+          "uri": "https://github.com/Aiven-Open",
+          "name": "github.com/Aiven-Open",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "████████████████",
-          "uri": null,
-          "name": "████████████████",
+          "target": "https://github.com/Aiven",
+          "uri": "https://github.com/Aiven",
+          "name": "github.com/Aiven",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "███████████████████████████████████████████████████████",
-          "uri": null,
-          "name": "███████████████████████████████████████████████████████",
+          "target": "http://falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com/",
+          "uri": "http://falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com/",
+          "name": "falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com",
           "ipAddress": ""
         }
       ],
       "out_of_scope": [
         {
           "type": "website",
-          "target": "██████████████████",
-          "uri": null,
-          "name": "██████████████████",
+          "target": "aquarium.aiven.io\t",
+          "uri": "",
+          "name": "aquarium.aiven.io\t",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "████████████████",
-          "uri": null,
-          "name": "████████████████",
+          "target": "uptime.aiven.io\t",
+          "uri": "",
+          "name": "uptime.aiven.io\t",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "███████████████",
-          "uri": null,
-          "name": "███████████████",
+          "target": "video.aiven.io\t",
+          "uri": "",
+          "name": "video.aiven.io\t",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "██████████████████",
-          "uri": null,
-          "name": "██████████████████",
+          "target": "aiven.io/community",
+          "uri": "",
+          "name": "aiven.io/community",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "████████████████",
-          "uri": null,
-          "name": "████████████████",
+          "target": "aiven.io/contact",
+          "uri": "",
+          "name": "aiven.io/contact",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "████████████████████████████████████",
-          "uri": null,
-          "name": "████████████████████████████████████",
+          "target": "Customer services you did not create",
+          "uri": "",
+          "name": "Customer services you did not create",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "██████████",
-          "uri": null,
-          "name": "██████████",
+          "target": "*.aiven.fi",
+          "uri": "",
+          "name": "*.aiven.fi",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "█████████████████████",
-          "uri": null,
-          "name": "█████████████████████",
+          "target": "github.com/Aiven-Labs",
+          "uri": "",
+          "name": "github.com/Aiven-Labs",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "██████████",
-          "uri": null,
-          "name": "██████████",
+          "target": "*.avns.net",
+          "uri": "",
+          "name": "*.avns.net",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "███████████████",
-          "uri": null,
-          "name": "███████████████",
+          "target": "events.aiven.io",
+          "uri": "",
+          "name": "events.aiven.io",
           "ipAddress": ""
         },
         {
           "type": "other",
-          "target": "██████████████",
-          "uri": null,
-          "name": "██████████████",
+          "target": "ideas.aiven.io",
+          "uri": "",
+          "name": "ideas.aiven.io",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "█████████████████████",
-          "uri": null,
-          "name": "█████████████████████",
+          "target": "aivenhelp.zendesk.com",
+          "uri": "",
+          "name": "aivenhelp.zendesk.com",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "████████████████",
-          "uri": null,
-          "name": "████████████████",
+          "target": "support.aiven.io",
+          "uri": "",
+          "name": "support.aiven.io",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "███████████████████████████",
-          "uri": null,
-          "name": "███████████████████████████",
+          "target": "Creation of support tickets",
+          "uri": "",
+          "name": "Creation of support tickets",
           "ipAddress": ""
         }
       ]
