@@ -4884,14 +4884,28 @@
           "type": "android",
           "target": "https://play.google.com/store/apps/details?id=com.bitgo.verify&hl=en_US",
           "uri": "https://play.google.com/store/apps/details?id=com.bitgo.verify&hl=en_US",
-          "name": "Platform Access - Mobile app (Android)",
+          "name": "BitGo Verify Mobile App (Android)",
           "ipAddress": ""
         },
         {
           "type": "ios",
           "target": "https://apps.apple.com/us/app/bitgo-verify/id1608937235",
           "uri": "https://apps.apple.com/us/app/bitgo-verify/id1608937235",
-          "name": "Platform Access - Mobile App (iOS)",
+          "name": "BitGo Verify Mobile App (iOS)",
+          "ipAddress": ""
+        },
+        {
+          "type": "android",
+          "target": "https://play.google.com/store/apps/details?id=com.bitgo.mobileapp",
+          "uri": "https://play.google.com/store/apps/details?id=com.bitgo.mobileapp",
+          "name": "BitGo Platform Access Mobile App (Android)",
+          "ipAddress": ""
+        },
+        {
+          "type": "ios",
+          "target": "https://apps.apple.com/us/app/bitgo/id6739010408",
+          "uri": "https://apps.apple.com/us/app/bitgo/id6739010408",
+          "name": "BitGo Platform Access Mobile App (iOS)",
           "ipAddress": ""
         }
       ],
