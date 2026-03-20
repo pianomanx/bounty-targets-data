@@ -6337,13 +6337,6 @@
           "ipAddress": null
         },
         {
-          "type": "other",
-          "target": "Cisco Meraki Virtual Security Appliances",
-          "uri": null,
-          "name": "Cisco Meraki Virtual Security Appliances",
-          "ipAddress": null
-        },
-        {
           "type": "website",
           "target": "*.network-auth.com",
           "uri": null,
@@ -6373,9 +6366,9 @@
         },
         {
           "type": "hardware",
-          "target": "Cisco Meraki MX Security Appliances",
+          "target": "Cisco Meraki MX & Z Series Security Appliances (Including vMX)",
           "uri": null,
-          "name": "Cisco Meraki MX Security Appliances",
+          "name": "Cisco Meraki MX & Z Series Security Appliances (Including vMX)",
           "ipAddress": null
         },
         {
@@ -6394,17 +6387,17 @@
         },
         {
           "type": "hardware",
-          "target": "Cisco Meraki MV Security Cameras",
+          "target": "Cisco Meraki MV Smart Cameras",
           "uri": null,
-          "name": "Cisco Meraki MV Security Cameras",
+          "name": "Cisco Meraki MV Smart Cameras",
           "ipAddress": null
         },
         {
           "type": "hardware",
-          "target": "Cisco Meraki Z Series (Z1,Z3(C))",
-          "uri": null,
-          "name": "Cisco Meraki Z Series (Z1,Z3(C))",
-          "ipAddress": null
+          "target": "Cisco Meraki MG Fixed Wireless Access Devices",
+          "uri": "",
+          "name": "Cisco Meraki MG Fixed Wireless Access Devices",
+          "ipAddress": ""
         }
       ],
       "out_of_scope": [
@@ -20575,6 +20568,89 @@
           "ipAddress": ""
         }
       ]
+    }
+  },
+  {
+    "name": "Recorded Future Public Managed Bug Bounty Engagement",
+    "url": "https://bugcrowd.com/engagements/recorded-future-mbb-og",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://www.recordedfuture.com",
+          "uri": "https://www.recordedfuture.com",
+          "name": "www.recordedfuture.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://tria.ge",
+          "uri": "https://tria.ge",
+          "name": "https://tria.ge",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://id.recordedfuture.com",
+          "uri": "https://id.recordedfuture.com",
+          "name": "id.recordedfuture.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://hatching.io",
+          "uri": "https://hatching.io",
+          "name": "hatching.io",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://geminiadvisory.io",
+          "uri": "https://geminiadvisory.io",
+          "name": "geminiadvisory.io",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://bgpview.io",
+          "uri": "https://bgpview.io",
+          "name": "bgpview.io",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://app.recordedfuture.com",
+          "uri": "https://app.recordedfuture.com",
+          "name": "app.recordedfuture.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "api",
+          "target": "https://api.recordedfuture.com",
+          "uri": "https://api.recordedfuture.com",
+          "name": "api.recordedfuture.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "ios",
+          "target": "https://apps.apple.com/us/app/recorded-future/id1435597894",
+          "uri": "https://apps.apple.com/us/app/recorded-future/id1435597894",
+          "name": "Recorded Future iOS",
+          "ipAddress": ""
+        },
+        {
+          "type": "android",
+          "target": "https://play.google.com/store/apps/details?id=com.recordedfuture.mobile&hl=en_US",
+          "uri": "https://play.google.com/store/apps/details?id=com.recordedfuture.mobile&hl=en_US",
+          "name": "Recorded Future Android",
+          "ipAddress": ""
+        }
+      ],
+      "out_of_scope": []
     }
   },
   {

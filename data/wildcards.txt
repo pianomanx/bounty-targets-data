@@ -2916,6 +2916,9 @@ munin-*.wordpress.org
 *.hackerone-ext-content.com
 *.hackerone-user-content.com
 *.ad.nl
+*.allegro.cz.allegrosandbox.pl
+*.allegro.pl.allegrosandbox.pl
+*.allegro.sk.allegrosandbox.pl
 *.asadcdn.com
 *.hey.bild.de
 *.auth.bild.de
@@ -3064,6 +3067,17 @@ www.fing.com*
 *.iciparisxl.nl
 *.iciparisxl.be
 *.pourvous.nl
+*.gamma.nl
+*.gamma.be
+*.karwei.nl
+*.intergamma.cloud
+*.intergamma.nl
+*.restintergamma.nl
+*.intergamma-test.nl
+*.werkenbijgamma.nl
+*.werkenbijgamma.be
+*.werkenbijkarwei.nl
+*.karweioutletstore.nl
 *.klubcinema.fr
 *.kinepolis.be
 *.kinepolis.ch
@@ -3336,7 +3350,6 @@ storage*.infomaniak.com
 *.privateinternetaccess.com
 *.piaservers.com
 *.piaservers.net
-*.app.spacelift.dev
 *.vidaxl.org
 *.vidaxl.io
 *.vidaxl.net
