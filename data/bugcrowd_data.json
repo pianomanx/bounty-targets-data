@@ -22739,16 +22739,16 @@
         },
         {
           "type": "website",
-          "target": "https://t-mobile.com",
-          "uri": "https://t-mobile.com",
-          "name": "*.t-mobile.com",
+          "target": "https://metrobyt-mobile.com",
+          "uri": "https://metrobyt-mobile.com",
+          "name": "*.metrobyt-mobile.com",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "https://metrobyt-mobile.com",
-          "uri": "https://metrobyt-mobile.com",
-          "name": "*.metrobyt-mobile.com",
+          "target": "https://t-mobile.com",
+          "uri": "https://t-mobile.com",
+          "name": "*.t-mobile.com",
           "ipAddress": ""
         },
         {
@@ -22942,9 +22942,9 @@
         },
         {
           "type": "website",
-          "target": "https://amazon-tacticalplanner.com",
-          "uri": "https://amazon-tacticalplanner.com",
-          "name": "amazon-tacticalplanner.com",
+          "target": "https://assets.platform.blis.com",
+          "uri": "https://assets.platform.blis.com",
+          "name": "assets.platform.blis.com",
           "ipAddress": ""
         },
         {
@@ -22952,13 +22952,6 @@
           "target": "https://assets.development.amazon-tacticalplanner.com",
           "uri": "https://assets.development.amazon-tacticalplanner.com",
           "name": "assets.development.amazon-tacticalplanner.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://assets.platform.blis.com",
-          "uri": "https://assets.platform.blis.com",
-          "name": "assets.platform.blis.com",
           "ipAddress": ""
         },
         {
@@ -22977,23 +22970,9 @@
         },
         {
           "type": "website",
-          "target": "https://atom-lens.com",
-          "uri": "https://atom-lens.com",
-          "name": "atom-lens.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
           "target": "https://audiencelogos.blis.com",
           "uri": "https://audiencelogos.blis.com",
           "name": "audiencelogos.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://blis.co.uk",
-          "uri": "https://blis.co.uk",
-          "name": "blis.co.uk",
           "ipAddress": ""
         },
         {
@@ -23005,20 +22984,6 @@
         },
         {
           "type": "website",
-          "target": "https://blis.media",
-          "uri": "https://blis.media",
-          "name": "blis.media",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://blismedia.com",
-          "uri": "https://blismedia.com",
-          "name": "blismedia.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
           "target": "https://creative.infinity.blismedia.com",
           "uri": "https://creative.infinity.blismedia.com",
           "name": "creative.infinity.blismedia.com",
@@ -23026,93 +22991,9 @@
         },
         {
           "type": "website",
-          "target": "https://development.amazon-tacticalplanner.com",
-          "uri": "https://development.amazon-tacticalplanner.com",
-          "name": "development.amazon-tacticalplanner.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://development.atom-lens.com",
-          "uri": "https://development.atom-lens.com",
-          "name": "development.atom-lens.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://development.emaudience.com",
-          "uri": "https://development.emaudience.com",
-          "name": "development.emaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://development.groupmaudience.com",
-          "uri": "https://development.groupmaudience.com",
-          "name": "development.groupmaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://development.msaudience.com",
-          "uri": "https://development.msaudience.com",
-          "name": "development.msaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://development.publicis.blis.com",
-          "uri": "https://development.publicis.blis.com",
-          "name": "development.publicis.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://development.t-ads.blis.com",
-          "uri": "https://development.t-ads.blis.com",
-          "name": "development.t-ads.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://development.telekom.blis.com",
-          "uri": "https://development.telekom.blis.com",
-          "name": "development.telekom.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://development.tpmaudience.com",
-          "uri": "https://development.tpmaudience.com",
-          "name": "development.tpmaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
           "target": "https://development.wmaudience.com",
           "uri": "https://development.wmaudience.com",
           "name": "development.wmaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://emaudience.com",
-          "uri": "https://emaudience.com",
-          "name": "emaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://events.blis.com",
-          "uri": "https://events.blis.com",
-          "name": "events.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://groupmaudience.com",
-          "uri": "https://groupmaudience.com",
-          "name": "groupmaudience.com",
           "ipAddress": ""
         },
         {
@@ -23131,20 +23012,6 @@
         },
         {
           "type": "website",
-          "target": "https://imply.amazon-tacticalplanner.com",
-          "uri": "https://imply.amazon-tacticalplanner.com",
-          "name": "imply.amazon-tacticalplanner.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.atom-lens.com",
-          "uri": "https://imply.atom-lens.com",
-          "name": "imply.atom-lens.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
           "target": "https://imply.blis.com",
           "uri": "https://imply.blis.com",
           "name": "imply.blis.com",
@@ -23152,100 +23019,9 @@
         },
         {
           "type": "website",
-          "target": "https://imply.development.amazon-tacticalplanner.com",
-          "uri": "https://imply.development.amazon-tacticalplanner.com",
-          "name": "imply.development.amazon-tacticalplanner.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.development.atom-lens.com",
-          "uri": "https://imply.development.atom-lens.com",
-          "name": "imply.development.atom-lens.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.development.emaudience.com",
-          "uri": "https://imply.development.emaudience.com",
-          "name": "imply.development.emaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.development.groupmaudience.com",
-          "uri": "https://imply.development.groupmaudience.com",
-          "name": "imply.development.groupmaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.development.msaudience.com",
-          "uri": "https://imply.development.msaudience.com",
-          "name": "imply.development.msaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.development.publicis.blis.com",
-          "uri": "https://imply.development.publicis.blis.com",
-          "name": "imply.development.publicis.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.development.t-ads.blis.com",
-          "uri": "https://imply.development.t-ads.blis.com",
-          "name": "imply.development.t-ads.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.development.telekom.blis.com",
-          "uri": "https://imply.development.telekom.blis.com",
-          "name": "imply.development.telekom.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.development.tpmaudience.com",
-          "uri": "https://imply.development.tpmaudience.com",
-          "name": "imply.development.tpmaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.development.wmaudience.com",
-          "uri": "https://imply.development.wmaudience.com",
-          "name": "imply.development.wmaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.emaudience.com",
-          "uri": "https://imply.emaudience.com",
-          "name": "imply.emaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.groupmaudience.com",
-          "uri": "https://imply.groupmaudience.com",
-          "name": "imply.groupmaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
           "target": "https://imply.internal.platform.blis.com",
           "uri": "https://imply.internal.platform.blis.com",
           "name": "imply.internal.platform.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.msaudience.com",
-          "uri": "https://imply.msaudience.com",
-          "name": "imply.msaudience.com",
           "ipAddress": ""
         },
         {
@@ -23271,107 +23047,9 @@
         },
         {
           "type": "website",
-          "target": "https://imply.publicis.blis.com",
-          "uri": "https://imply.publicis.blis.com",
-          "name": "imply.publicis.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.rc.amazon-tacticalplanner.com",
-          "uri": "https://imply.rc.amazon-tacticalplanner.com",
-          "name": "imply.rc.amazon-tacticalplanner.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.rc.atom-lens.com",
-          "uri": "https://imply.rc.atom-lens.com",
-          "name": "imply.rc.atom-lens.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.rc.emaudience.com",
-          "uri": "https://imply.rc.emaudience.com",
-          "name": "imply.rc.emaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.rc.groupmaudience.com",
-          "uri": "https://imply.rc.groupmaudience.com",
-          "name": "imply.rc.groupmaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.rc.msaudience.com",
-          "uri": "https://imply.rc.msaudience.com",
-          "name": "imply.rc.msaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.rc.publicis.blis.com",
-          "uri": "https://imply.rc.publicis.blis.com",
-          "name": "imply.rc.publicis.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.rc.t-ads.blis.com",
-          "uri": "https://imply.rc.t-ads.blis.com",
-          "name": "https://imply.rc.t-ads.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.rc.telekom.blis.com",
-          "uri": "https://imply.rc.telekom.blis.com",
-          "name": "imply.rc.telekom.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.rc.tpmaudience.com",
-          "uri": "https://imply.rc.tpmaudience.com",
-          "name": "imply.rc.tpmaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.rc.wmaudience.com",
-          "uri": "https://imply.rc.wmaudience.com",
-          "name": "imply.rc.wmaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.t-ads.blis.com",
-          "uri": "https://imply.t-ads.blis.com",
-          "name": "imply.t-ads.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.telekom.blis.com",
-          "uri": "https://imply.telekom.blis.com",
-          "name": "imply.telekom.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
           "target": "https://imply.test.blis.com",
           "uri": "https://imply.test.blis.com",
           "name": "imply.test.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://imply.tpmaudience.com",
-          "uri": "https://imply.tpmaudience.com",
-          "name": "imply.tpmaudience.com",
           "ipAddress": ""
         },
         {
@@ -23393,69 +23071,6 @@
           "target": "https://jenkins-github.gcp.blis.com",
           "uri": "https://jenkins-github.gcp.blis.com",
           "name": "jenkins-github.gcp.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://la.lb.infinity.gcp.blis.com",
-          "uri": "https://la.lb.infinity.gcp.blis.com",
-          "name": "la.lb.infinity.gcp.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://m.blismedia.com",
-          "uri": "https://m.blismedia.com",
-          "name": "m.blismedia.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://msaudience.com",
-          "uri": "https://msaudience.com",
-          "name": "msaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://tpmaudience.com",
-          "uri": "https://tpmaudience.com",
-          "name": "tpmaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://wmaudience.com",
-          "uri": "https://wmaudience.com",
-          "name": "wmaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://www.blis.co.uk",
-          "uri": "https://www.blis.co.uk",
-          "name": "www.blis.co.uk",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://www.blis.com",
-          "uri": "https://www.blis.com",
-          "name": "www.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://www.blis.media",
-          "uri": "https://www.blis.media",
-          "name": "www.blis.media",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://www.blismedia.com",
-          "uri": "https://www.blismedia.com",
-          "name": "www.blismedia.com",
           "ipAddress": ""
         },
         {
@@ -23502,86 +23117,9 @@
         },
         {
           "type": "website",
-          "target": "https://publicis.blis.com",
-          "uri": "https://publicis.blis.com",
-          "name": "publicis.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://rc.amazon-tacticalplanner.com",
-          "uri": "https://rc.amazon-tacticalplanner.com",
-          "name": "rc.amazon-tacticalplanner.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://rc.atom-lens.com",
-          "uri": "https://rc.atom-lens.com",
-          "name": "rc.atom-lens.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://rc.emaudience.com",
-          "uri": "https://rc.emaudience.com",
-          "name": "rc.emaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://rc.groupmaudience.com",
-          "uri": "https://rc.groupmaudience.com",
-          "name": "rc.groupmaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://rc.msaudience.com",
-          "uri": "https://rc.msaudience.com",
-          "name": "rc.msaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://rc.publicis.blis.com",
-          "uri": "https://rc.publicis.blis.com",
-          "name": "rc.publicis.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://rc.t-ads.blis.com",
-          "uri": "https://rc.t-ads.blis.com",
-          "name": "rc.t-ads.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://rc.telekom.blis.com",
-          "uri": "https://rc.telekom.blis.com",
-          "name": "rc.telekom.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://rc.tpmaudience.com",
-          "uri": "https://rc.tpmaudience.com",
-          "name": "rc.tpmaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
           "target": "https://rc.wmaudience.com",
           "uri": "https://rc.wmaudience.com",
           "name": "rc.wmaudience.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://register.blis.com",
-          "uri": "https://register.blis.com",
-          "name": "register.blis.com",
           "ipAddress": ""
         },
         {
@@ -23607,30 +23145,16 @@
         },
         {
           "type": "website",
-          "target": "https://t-ads.blis.com",
-          "uri": "https://t-ads.blis.com",
-          "name": "t-ads.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://telekom.blis.com",
-          "uri": "https://telekom.blis.com",
-          "name": "telekom.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://us.blis.com",
-          "uri": "https://us.blis.com",
-          "name": "us.blis.com",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
           "target": "https://wiki.atom-lens.com",
           "uri": "https://wiki.atom-lens.com",
           "name": "wiki.atom-lens.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://wmaudience.com",
+          "uri": "https://wmaudience.com",
+          "name": "wmaudience.com",
           "ipAddress": ""
         },
         {
