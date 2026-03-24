@@ -3760,13 +3760,6 @@
           "ipAddress": ""
         },
         {
-          "type": "other",
-          "target": "https://github.com/auth0/passport-wsfed-saml2",
-          "uri": "https://github.com/auth0/passport-wsfed-saml2",
-          "name": "Auth0 passport-ws-fed",
-          "ipAddress": ""
-        },
-        {
           "type": "website",
           "target": "auth0.com\t",
           "uri": "",
@@ -3885,6 +3878,13 @@
           "target": "community.auth0.com",
           "uri": "",
           "name": "community.auth0.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "other",
+          "target": "https://github.com/auth0/passport-wsfed-saml2",
+          "uri": "https://github.com/auth0/passport-wsfed-saml2",
+          "name": "Auth0 passport-ws-fed",
           "ipAddress": ""
         }
       ]
