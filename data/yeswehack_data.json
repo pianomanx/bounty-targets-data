@@ -2861,6 +2861,10 @@
         {
           "target": "mail-builder.infomaniak.com/",
           "type": "web-application"
+        },
+        {
+          "target": "newsletter.infomaniak.com",
+          "type": "web-application"
         }
       ],
       "out_of_scope": [

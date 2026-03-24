@@ -20616,13 +20616,6 @@
         },
         {
           "type": "website",
-          "target": "https://bgpview.io",
-          "uri": "https://bgpview.io",
-          "name": "bgpview.io",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
           "target": "https://app.recordedfuture.com",
           "uri": "https://app.recordedfuture.com",
           "name": "app.recordedfuture.com",
@@ -20647,6 +20640,13 @@
           "target": "https://play.google.com/store/apps/details?id=com.recordedfuture.mobile&hl=en_US",
           "uri": "https://play.google.com/store/apps/details?id=com.recordedfuture.mobile&hl=en_US",
           "name": "Recorded Future Android",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://securitytrails.com",
+          "uri": "https://securitytrails.com",
+          "name": "securitytrails.com",
           "ipAddress": ""
         }
       ],

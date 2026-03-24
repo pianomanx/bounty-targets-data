@@ -1477,36 +1477,6 @@
     }
   },
   {
-    "id": "ad9f9711-339c-4519-a193-fea9350cd6db",
-    "name": "Challenge 0326",
-    "company_handle": "intigriti",
-    "handle": "challenge0326",
-    "url": "https://www.intigriti.com/programs/intigriti/challenge0326/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 0,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 0,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "url",
-          "endpoint": "https://challenge-0326.intigriti.io",
-          "description": null,
-          "impact": "Tier 2"
-        }
-      ],
-      "out_of_scope": []
-    }
-  },
-  {
     "id": "96d3f49a-4c5f-4bc8-835a-77f734eefe4e",
     "name": "Citymesh Responsible Vulnerability Disclosure Program",
     "company_handle": "citymesh",
@@ -2417,7 +2387,14 @@
           "impact": "Tier 3"
         }
       ],
-      "out_of_scope": []
+      "out_of_scope": [
+        {
+          "type": "url",
+          "endpoint": "visitors.dpgmedia.be",
+          "description": "Issues related to Zendesk beyond our control are Out of Scope",
+          "impact": "Out of scope"
+        }
+      ]
     }
   },
   {
@@ -10541,8 +10518,86 @@
           "endpoint": "shop.vtm.be",
           "description": null,
           "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "customerservice.vtm.be",
+          "description": "Issues related to Zendesk beyond our control are Out of Scope",
+          "impact": "Out of scope"
         }
       ]
+    }
+  },
+  {
+    "id": "c5a9bbd6-2139-4ec9-bdcc-8e2a5082fd7e",
+    "name": "Venly",
+    "company_handle": "arkane",
+    "handle": "arkanenetwork",
+    "url": "https://www.intigriti.com/programs/arkane/arkanenetwork/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "min_bounty": {
+      "value": 50,
+      "currency": "EUR"
+    },
+    "max_bounty": {
+      "value": 5000,
+      "currency": "EUR"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "url",
+          "endpoint": "api-wallet.venly.io",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "api.arkane.network",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "connect.arkane.network ",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "connect.venly.io",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "login.arkane.network",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "login.venly.io",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "wallet.venly.io",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "api-wallet-sandbox.venly.io",
+          "description": null,
+          "impact": "Tier 3"
+        }
+      ],
+      "out_of_scope": []
     }
   },
   {

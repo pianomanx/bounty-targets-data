@@ -654,9 +654,9 @@ tria.ge
 id.recordedfuture.com
 hatching.io
 geminiadvisory.io
-bgpview.io
 app.recordedfuture.com
 api.recordedfuture.com
+securitytrails.com
 seekcdn.com
 graphql.seek.com
 auth.seek.com
@@ -1075,6 +1075,7 @@ forms-formulaires.alpha.canada.ca
 gciv-dvgc.alpha.canada.ca
 issue-verify.alpha.canada.ca
 talent.canada.ca
+www.sembcorp.com
 bose.xx
 support.bose.xx
 accessto.l3harris.com
@@ -1527,8 +1528,11 @@ e.oppo.com
 gcsm.oppoit.com
 safe.heytap.com
 u.oppomobile.com
+www.coloros.com
 www.oppo.com
 www.opposhop.cn
+zhongbao-ear.heytap.com
+zhongbao.heytap.com
 id.heytap.com
 id.oppo.com
 opposhop.cn
@@ -34958,7 +34962,6 @@ aff.capital.com
 go.capital.com
 register.capital.com
 careers.capital.com
-challenge-0326.intigriti.io
 livechat.citymesh.com
 auth.citymesh.com
 extra.citymesh.com
@@ -35373,6 +35376,13 @@ vrt.be
 myaccount.vtm.be
 vtm.be
 vtmgo.be
+api-wallet.venly.io
+api.arkane.network
+connect.venly.io
+login.arkane.network
+login.venly.io
+wallet.venly.io
+api-wallet-sandbox.venly.io
 accountsettings.connect.identity.stagaws.visma.com
 admin.stage.vismaonline.com
 ai-testing.maventa.com
@@ -35680,6 +35690,7 @@ developer.infomaniak.com
 invitation.infomaniak.com
 academy.infomaniak.com
 mail-builder.infomaniak.com
+newsletter.infomaniak.com
 yeswehack.staging.komoju.com
 api.paymaya.com
 pg.paymaya.com
