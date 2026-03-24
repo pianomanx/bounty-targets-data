@@ -3025,7 +3025,6 @@ munin-*.wordpress.org
 *.digi.ro
 *.dpgmedia.be
 *.dpgmedia.nl
-*.datacamp.com
 *.demorgen.be
 *.volkskrant.nl
 *.digitalocean.com
@@ -3156,6 +3155,8 @@ aqora.naiad.*
 *.personio.tools
 *.personio.de
 *.personiowhistleblowing.com
+*.portofantwerp.com
+*.portofantwerpbruges.com
 *.ripe.net
 *.randstad.*
 *.randstadrisesmart.*
