@@ -1743,7 +1743,6 @@ wlr-cf.*.aws.indriverapp.com
 *.m-pesa.com
 *.daimlertruck.com
 *.mercedes-benz-trucks.com
-*.mitsubishi-fuso.com
 *.setra.de
 *.westernstar.com
 *exceleratorparts.com
