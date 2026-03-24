@@ -34629,8 +34629,6 @@ my.clearme.com
 scan.clearme.com
 web-edge.clearme.com
 www.clearme.com
-moneybird.com
-moneybirdstorage.com
 www.coursera.org
 www.udemy.com
 yourcompany.udemy.com
@@ -34985,8 +34983,6 @@ myaccount.volkskrant.nl
 shop.volkskrant.nl
 webwinkel.volkskrant.nl
 www.volkskrant.nl
-login.oyens.com
-www.delen.bank
 api.digitalocean.com
 cloud.digitalocean.com
 amd.digitalocean.com
