@@ -1114,6 +1114,7 @@ skipper.thorntontomasetti.com
 spectacles.thorntontomasetti.com
 spotlight.thorntontomasetti.com
 stories.thorntontomasetti.com
+sts.thorntontomasetti.us
 support.drumgrange.co.uk
 support.drumgrange.com
 swap.thorntontomasetti.com
@@ -1121,6 +1122,8 @@ taste-test.thorntontomasetti.com
 torrever.thorntontomasetti.com
 ttanywhere.thorntontomasetti.us
 vdp.kahootz.com
+vpn-ca3.thorntontomasetti.us
+vpn-il1.thorntontomasetti.us
 vpn.drakeneurope.network
 vpn.thorntontomasetti.us
 webmail.drumgrange.com
