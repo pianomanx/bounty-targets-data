@@ -16033,6 +16033,55 @@
     }
   },
   {
+    "name": "Safety Bug Bounty",
+    "url": "https://bugcrowd.com/engagements/openai-safety",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 7500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "other",
+          "target": "Agentic Tools",
+          "uri": "",
+          "name": "Agentic Tools",
+          "ipAddress": ""
+        },
+        {
+          "type": "other",
+          "target": "*.openai.com",
+          "uri": "",
+          "name": "*.openai.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://openai.com/",
+          "uri": "https://openai.com/",
+          "name": "openai.com",
+          "ipAddress": null
+        },
+        {
+          "type": "other",
+          "target": "Other",
+          "uri": "",
+          "name": "Other",
+          "ipAddress": ""
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "other",
+          "target": "OpenAI models",
+          "uri": "",
+          "name": "OpenAI models",
+          "ipAddress": ""
+        }
+      ]
+    }
+  },
+  {
     "name": "OpenSea Managed Bug Bounty Program",
     "url": "https://bugcrowd.com/engagements/opensea",
     "allows_disclosure": true,
