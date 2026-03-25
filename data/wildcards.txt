@@ -37,6 +37,8 @@
 *.classdojo.co.uk
 *.doj.io
 *.dojo.me
+*.comcast.com
+*.xcal.tv
 *.sys.comcast.net
 *.dell.com
 *.sandbox.directly.com
@@ -173,8 +175,6 @@ api-*.soundcloud.com
 *.viatorinc.com
 *.viator.com
 *.volkswagen.de
-*.transferwise.com
-*.wise.com
 *-cvr-aws-*.sys.comcast.net
 *signalservice.comcast.net
 *.xfiplatform.com
