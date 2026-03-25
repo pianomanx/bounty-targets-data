@@ -7262,6 +7262,167 @@
     }
   },
   {
+    "name": "Comcast Xfinity Bug Bounty",
+    "url": "https://bugcrowd.com/engagements/comcast-mbb",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 5500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.xfinity.com\t",
+          "uri": null,
+          "name": "*.xfinity.com\t",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "*.comcast.com",
+          "uri": null,
+          "name": "*.comcast.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "*.xcal.tv",
+          "uri": "",
+          "name": "*.xcal.tv",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "Staging, QA, Dev, and Test Environments",
+          "uri": "",
+          "name": "Staging, QA, Dev, and Test Environments",
+          "ipAddress": null
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "*.hfc.comcastbusiness.net",
+          "uri": null,
+          "name": "*.hfc.comcastbusiness.net",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "*.hsd1.*.comcast.net",
+          "uri": null,
+          "name": "*.hsd1.*.comcast.net",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "*business.comcast.com",
+          "uri": "",
+          "name": "*business.comcast.com",
+          "ipAddress": null
+        },
+        {
+          "type": "network",
+          "target": "10.0.0.0/8",
+          "uri": "",
+          "name": "10.0.0.0/8",
+          "ipAddress": ""
+        },
+        {
+          "type": "network",
+          "target": "50.128.0.0/12",
+          "uri": "",
+          "name": "50.128.0.0/12",
+          "ipAddress": ""
+        },
+        {
+          "type": "network",
+          "target": "50.152.0.0/13",
+          "uri": "",
+          "name": "50.152.0.0/13",
+          "ipAddress": ""
+        },
+        {
+          "type": "network",
+          "target": "96.201.0.0/16",
+          "uri": "",
+          "name": "96.201.0.0/16",
+          "ipAddress": ""
+        },
+        {
+          "type": "network",
+          "target": "96.202.128.0/17",
+          "uri": "",
+          "name": "96.202.128.0/17",
+          "ipAddress": ""
+        },
+        {
+          "type": "network",
+          "target": "96.203.0.0/16",
+          "uri": "",
+          "name": "96.203.0.0/16",
+          "ipAddress": ""
+        },
+        {
+          "type": "network",
+          "target": "172.26.128.0/18",
+          "uri": "",
+          "name": "172.26.128.0/18",
+          "ipAddress": ""
+        },
+        {
+          "type": "network",
+          "target": "184.112.0.0/13",
+          "uri": "",
+          "name": "184.112.0.0/13",
+          "ipAddress": ""
+        },
+        {
+          "type": "network",
+          "target": "184.122.0.0/15",
+          "uri": "",
+          "name": "184.122.0.0/15",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "NBC Universal",
+          "uri": "",
+          "name": "NBC Universal",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "Sky",
+          "uri": "",
+          "name": "Sky",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "*.sys.comcast.net",
+          "uri": null,
+          "name": "*.sys.comcast.net",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "admin.selectwifi.xfinity.com",
+          "uri": "",
+          "name": "admin.selectwifi.xfinity.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://harvard.xfinity.com/",
+          "uri": "https://harvard.xfinity.com/",
+          "name": "harvard.xfinity.com",
+          "ipAddress": ""
+        }
+      ]
+    }
+  },
+  {
     "name": " Comcast Xfinity Vulnerability Disclosure Program",
     "url": "https://bugcrowd.com/engagements/comcastvdp",
     "allows_disclosure": false,
@@ -10883,166 +11044,6 @@
           "uri": "https://www.unscreen.com",
           "name": "*.unscreen.com",
           "ipAddress": null
-        }
-      ],
-      "out_of_scope": []
-    }
-  },
-  {
-    "name": "Keeper Security Public Bounty Program",
-    "url": "https://bugcrowd.com/engagements/keepersecurity",
-    "allows_disclosure": true,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "partial",
-    "max_payout": 20000,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "other",
-          "target": "https://www.keepersecurity.com/download.html",
-          "uri": "https://www.keepersecurity.com/download.html",
-          "name": "Keeper Browser Extension (Chrome, Safari, Firefox, Edge)",
-          "ipAddress": null
-        },
-        {
-          "type": "ios",
-          "target": "https://www.keepersecurity.com/download.html",
-          "uri": "https://www.keepersecurity.com/download.html",
-          "name": "Keeper for iOS",
-          "ipAddress": null
-        },
-        {
-          "type": "other",
-          "target": "https://www.microsoft.com/en-us/p/keeperchat/9pdqtcpn4kxn#activetab=pivot:overviewtab",
-          "uri": "https://www.microsoft.com/en-us/p/keeperchat/9pdqtcpn4kxn#activetab=pivot:overviewtab",
-          "name": "KeeperChat for Windows",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://keepersecurity.com",
-          "uri": "https://keepersecurity.com",
-          "name": "Keeper Security Website",
-          "ipAddress": null
-        },
-        {
-          "type": "other",
-          "target": "https://www.keepersecurity.com/download.html",
-          "uri": "https://www.keepersecurity.com/download.html",
-          "name": "Keeper Desktop App for Mac, PC, Linux",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://keepersecurity.com/vault",
-          "uri": "https://keepersecurity.com/vault",
-          "name": "Keeper Web Vault (US, EU, AU, CA, JP, GovCloud)",
-          "ipAddress": null
-        },
-        {
-          "type": "api",
-          "target": "https://docs.keeper.io/keeper-bridge/",
-          "uri": "https://docs.keeper.io/keeper-bridge/",
-          "name": "Keeper AD / LDAP Bridge",
-          "ipAddress": null
-        },
-        {
-          "type": "ios",
-          "target": "https://apps.apple.com/app/id1216446440",
-          "uri": "https://apps.apple.com/app/id1216446440",
-          "name": "KeeperChat for iOS",
-          "ipAddress": null
-        },
-        {
-          "type": "android",
-          "target": "https://play.google.com/store/apps/details?id=com.keepersecurity.chat&hl=en_US&gl=US",
-          "uri": "https://play.google.com/store/apps/details?id=com.keepersecurity.chat&hl=en_US&gl=US",
-          "name": "KeeperChat for Android",
-          "ipAddress": null
-        },
-        {
-          "type": "other",
-          "target": "https://apps.apple.com/us/app/keeperchat/id1273303729?mt=12",
-          "uri": "https://apps.apple.com/us/app/keeperchat/id1273303729?mt=12",
-          "name": "KeeperChat for Mac",
-          "ipAddress": null
-        },
-        {
-          "type": "android",
-          "target": "https://play.google.com/store/apps/details?id=com.callpod.android_apps.keeper&hl=en_US&gl=US",
-          "uri": "https://play.google.com/store/apps/details?id=com.callpod.android_apps.keeper&hl=en_US&gl=US",
-          "name": "Keeper for Android",
-          "ipAddress": null
-        },
-        {
-          "type": "other",
-          "target": "https://docs.keeper.io/kcm",
-          "uri": "https://docs.keeper.io/kcm",
-          "name": "Keeper Connection Manager (KCM)",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://keepersecurity.com/console",
-          "uri": "https://keepersecurity.com/console",
-          "name": "Keeper Admin Console (US, EU, AU, CA, JP, GovCloud)",
-          "ipAddress": null
-        },
-        {
-          "type": "api",
-          "target": "https://docs.keeper.io/en/keeperpam/commander-cli/overview",
-          "uri": "https://docs.keeper.io/en/keeperpam/commander-cli/overview",
-          "name": "Keeper Commander CLI/SDK",
-          "ipAddress": null
-        },
-        {
-          "type": "api",
-          "target": "https://docs.keeper.io/sso-connect-guide/",
-          "uri": "https://docs.keeper.io/sso-connect-guide/",
-          "name": "SSO Connect On-Prem",
-          "ipAddress": null
-        },
-        {
-          "type": "api",
-          "target": "https://docs.keeper.io/sso-connect-cloud/",
-          "uri": "https://docs.keeper.io/sso-connect-cloud/",
-          "name": "SSO Connect Cloud and Automator Service",
-          "ipAddress": null
-        },
-        {
-          "type": "api",
-          "target": "https://keepersecurity.com/console",
-          "uri": "https://keepersecurity.com/console",
-          "name": "Keeper Endpoint Privilege Manager",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://keepersecurity.com/password-manager-free-trial.html",
-          "uri": "https://keepersecurity.com/password-manager-free-trial.html",
-          "name": "Keeper Enterprise",
-          "ipAddress": null
-        },
-        {
-          "type": "api",
-          "target": "https://docs.keeper.io/en/keeperpam/privileged-access-manager/getting-started/gateways",
-          "uri": "https://docs.keeper.io/en/keeperpam/privileged-access-manager/getting-started/gateways",
-          "name": "Keeper Gateway",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://docs.keeper.io/en/keeperpam",
-          "uri": "https://docs.keeper.io/en/keeperpam",
-          "name": "KeeperPAM Privileged Access Manager",
-          "ipAddress": ""
-        },
-        {
-          "type": "api",
-          "target": "https://docs.keeper.io/en/keeperpam/secrets-manager/overview",
-          "uri": "https://docs.keeper.io/en/keeperpam/secrets-manager/overview",
-          "name": "Keeper Secrets Manager SDK",
-          "ipAddress": ""
         }
       ],
       "out_of_scope": []
@@ -16774,132 +16775,6 @@
           "target": "Any internal or development services.",
           "uri": null,
           "name": "Any internal or development services.",
-          "ipAddress": null
-        }
-      ]
-    }
-  },
-  {
-    "name": "Optimizely",
-    "url": "https://bugcrowd.com/engagements/optimizely",
-    "allows_disclosure": true,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "partial",
-    "max_payout": 2500,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "https://app.optimizely.com/",
-          "uri": "https://app.optimizely.com/",
-          "name": "https://app.optimizely.com/",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://cdn.optimizely.com/",
-          "uri": "https://cdn.optimizely.com/",
-          "name": "https://cdn.optimizely.com/",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://cdn-pci.optimizely.com/",
-          "uri": "https://cdn-pci.optimizely.com/",
-          "name": "https://cdn-pci.optimizely.com/",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://optimizely-edge.com",
-          "uri": "https://optimizely-edge.com",
-          "name": "https://optimizely-edge.com",
-          "ipAddress": null
-        },
-        {
-          "type": "api",
-          "target": "https://api.optimizely.com/",
-          "uri": "https://api.optimizely.com/",
-          "name": "https://api.optimizely.com/",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://dxc.episerver.net/ ",
-          "uri": "https://dxc.episerver.net/ ",
-          "name": "https://dxc.episerver.net/ ",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://paasportal.episerver.net/",
-          "uri": "https://paasportal.episerver.net/",
-          "name": "https://paasportal.episerver.net/",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://paasportal.episerver.net/api/v1.0/",
-          "uri": "https://paasportal.episerver.net/api/v1.0/",
-          "name": "https://paasportal.episerver.net/api/v1.0/",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://app.welcomesoftware.com/",
-          "uri": "https://app.welcomesoftware.com/",
-          "name": "https://app.welcomesoftware.com/",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://accounts.welcomesoftware.com/",
-          "uri": "https://accounts.welcomesoftware.com/",
-          "name": "https://accounts.welcomesoftware.com/",
-          "ipAddress": null
-        },
-        {
-          "type": "api",
-          "target": "https://api.welcomesoftware.com/",
-          "uri": "https://api.welcomesoftware.com/",
-          "name": "https://api.welcomesoftware.com/ ",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://cdn-app.welcomesoftware.com/",
-          "uri": "https://cdn-app.welcomesoftware.com/",
-          "name": "https://cdn-app.welcomesoftware.com/",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://analytics.welcomesoftware.com/",
-          "uri": "https://analytics.welcomesoftware.com/",
-          "name": "https://analytics.welcomesoftware.com/",
-          "ipAddress": null
-        },
-        {
-          "type": "api",
-          "target": "https://flags.expeng.optimizely.com",
-          "uri": "https://flags.expeng.optimizely.com",
-          "name": "https://flags.expeng.optimizely.com",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://accounts.cmp.optimizely.com/",
-          "uri": "https://accounts.cmp.optimizely.com/",
-          "name": "https://accounts.cmp.optimizely.com/",
-          "ipAddress": null
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "website",
-          "target": "https://www.optimizely.com/",
-          "uri": "https://www.optimizely.com/",
-          "name": "https://www.optimizely.com/",
           "ipAddress": null
         }
       ]
@@ -27218,6 +27093,230 @@
           "target": "app.web.com",
           "uri": "",
           "name": "app.web.com",
+          "ipAddress": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Wise (ex-TransferWise)",
+    "url": "https://bugcrowd.com/engagements/wise",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 4000,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://transferwise.com",
+          "uri": "https://transferwise.com",
+          "name": "transferwise.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "*.transferwise.com",
+          "uri": null,
+          "name": "*.transferwise.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://wise.com",
+          "uri": "https://wise.com",
+          "name": "wise.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "*.wise.com",
+          "uri": "",
+          "name": "*.wise.com",
+          "ipAddress": null
+        },
+        {
+          "type": "ios",
+          "target": "https://apps.apple.com/us/app/wise-ex-transferwise/id612261027",
+          "uri": "https://apps.apple.com/us/app/wise-ex-transferwise/id612261027",
+          "name": "Latest version of Wise iOS App",
+          "ipAddress": null
+        },
+        {
+          "type": "android",
+          "target": "https://play.google.com/store/apps/details?id=com.transferwise.android&hl=en_US&gl=US",
+          "uri": "https://play.google.com/store/apps/details?id=com.transferwise.android&hl=en_US&gl=US",
+          "name": "Latest version of Wise Android App",
+          "ipAddress": null
+        },
+        {
+          "type": "other",
+          "target": "AWS infrastructure and services in use by Wise (eg: S3 buckets)",
+          "uri": null,
+          "name": "AWS infrastructure and services in use by Wise (eg: S3 buckets)",
+          "ipAddress": null
+        },
+        {
+          "type": "other",
+          "target": "https://github.com/transferwise/*",
+          "uri": "https://github.com/transferwise/*",
+          "name": "github.com/transferwise/*",
+          "ipAddress": null
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "Wise Affiliate Program",
+          "uri": null,
+          "name": "Wise Affiliate Program",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "Third party services not hosted by Wise",
+          "uri": null,
+          "name": "Third party services not hosted by Wise",
+          "ipAddress": null
+        },
+        {
+          "type": "other",
+          "target": "Any Github asset not under the “transferwise” organization",
+          "uri": null,
+          "name": "Any Github asset not under the “transferwise” organization",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "Third party authentication services (eg: Facebook and Google)",
+          "uri": null,
+          "name": "Third party authentication services (eg: Facebook and Google)",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://transferwise.com/help/contact",
+          "uri": null,
+          "name": "https://transferwise.com/help/contact",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://wise.com/help/contact",
+          "uri": "",
+          "name": "https://wise.com/help/contact",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "*.tw.com",
+          "uri": null,
+          "name": "*.tw.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "*.tw.ee",
+          "uri": null,
+          "name": "*.tw.ee",
+          "ipAddress": null
+        },
+        {
+          "type": "android",
+          "target": "Non-current version of the Android app",
+          "uri": null,
+          "name": "Non-current version of the Android app",
+          "ipAddress": null
+        },
+        {
+          "type": "ios",
+          "target": "Non-current version of the iOS app",
+          "uri": null,
+          "name": "Non-current version of the iOS app",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "*.transferwise.tech",
+          "uri": null,
+          "name": "*.transferwise.tech",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "brand.wise.com",
+          "uri": "",
+          "name": "brand.wise.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "links.wise.com",
+          "uri": "",
+          "name": "links.wise.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "widgets.transferwise.com",
+          "uri": "",
+          "name": "widgets.transferwise.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "brand.transferwise.com",
+          "uri": "",
+          "name": "brand.transferwise.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "bootstrap.transferwise.com",
+          "uri": "",
+          "name": "bootstrap.transferwise.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "links.transferwise.com",
+          "uri": "",
+          "name": "links.transferwise.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "status.wise.com",
+          "uri": "",
+          "name": "status.wise.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "status.transferwise.com",
+          "uri": "",
+          "name": "status.transferwise.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "tech.transferwise.com",
+          "uri": "",
+          "name": "tech.transferwise.com",
+          "ipAddress": null
+        },
+        {
+          "type": "other",
+          "target": "docs.wise.com ",
+          "uri": null,
+          "name": "docs.wise.com ",
+          "ipAddress": "https://docs.wise.com "
+        },
+        {
+          "type": "other",
+          "target": "https://github.com/transferwise/pipelinewise",
+          "uri": "https://github.com/transferwise/pipelinewise",
+          "name": "github.com/transferwise/pipelinewise",
           "ipAddress": ""
         }
       ]

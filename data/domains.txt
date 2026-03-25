@@ -985,6 +985,8 @@ www.magicplanetmena.com
 www.networksolutions.com
 www.bluehost.com
 www.hostgator.com
+transferwise.com
+wise.com
 auth.wyze.com
 my.wyze.com
 api.wyzecam.com
