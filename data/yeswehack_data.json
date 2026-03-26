@@ -2098,10 +2098,6 @@
         {
           "target": "https://cdn.unicdn.net/apk/UnibetCasino.apk",
           "type": "mobile-application-android"
-        },
-        {
-          "target": "www.unibet.fr",
-          "type": "web-application"
         }
       ],
       "out_of_scope": [
