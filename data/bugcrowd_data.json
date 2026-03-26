@@ -8782,6 +8782,33 @@
     }
   },
   {
+    "name": "Felix Health Managed Bug Bounty Engagement",
+    "url": "https://bugcrowd.com/engagements/felix-health-mbb-og",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 4500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://bugcrowd.charm.felixforus.ca/home",
+          "uri": "https://bugcrowd.charm.felixforus.ca/home",
+          "name": "bugcrowd.charm.felixforus.ca",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://bugcrowd.lucky.felixforus.ca",
+          "uri": "https://bugcrowd.lucky.felixforus.ca",
+          "name": "bugcrowd.lucky.felixforus.ca",
+          "ipAddress": ""
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
     "name": "Certinia (formerly FinancialForce)",
     "url": "https://bugcrowd.com/engagements/financialforce",
     "allows_disclosure": false,
@@ -10784,6 +10811,82 @@
           "target": "https://answers.irobot.com",
           "uri": "https://answers.irobot.com",
           "name": "https://answers.irobot.com",
+          "ipAddress": ""
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
+    "name": "Izymes",
+    "url": "https://bugcrowd.com/engagements/izymes",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 2500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "other",
+          "target": "https://marketplace.atlassian.com/apps/1211303/workzone-pullrequest-workflow?hosting=datacenter",
+          "uri": "https://marketplace.atlassian.com/apps/1211303/workzone-pullrequest-workflow?hosting=datacenter",
+          "name": "https://marketplace.atlassian.com/apps/1211303/workzone-pullrequest-workflow?hosting=datacenter",
+          "ipAddress": null
+        },
+        {
+          "type": "other",
+          "target": "https://marketplace.atlassian.com/apps/1211303/workzone-pullrequest-workflow?hosting=server",
+          "uri": "https://marketplace.atlassian.com/apps/1211303/workzone-pullrequest-workflow?hosting=server",
+          "name": "https://marketplace.atlassian.com/apps/1211303/workzone-pullrequest-workflow?hosting=server",
+          "ipAddress": null
+        },
+        {
+          "type": "other",
+          "target": "https://marketplace.atlassian.com/apps/1215843/global-pull-request-organizr?hosting=datacenter",
+          "uri": "https://marketplace.atlassian.com/apps/1215843/global-pull-request-organizr?hosting=datacenter",
+          "name": "https://marketplace.atlassian.com/apps/1215843/global-pull-request-organizr?hosting=datacenter",
+          "ipAddress": null
+        },
+        {
+          "type": "other",
+          "target": "https://marketplace.atlassian.com/apps/1215843/global-pull-request-organizr?hosting=server",
+          "uri": "https://marketplace.atlassian.com/apps/1215843/global-pull-request-organizr?hosting=server",
+          "name": "https://marketplace.atlassian.com/apps/1215843/global-pull-request-organizr?hosting=server",
+          "ipAddress": null
+        },
+        {
+          "type": "other",
+          "target": "https://marketplace.atlassian.com/apps/1224025/ai-insights-for-jira-service-management?hosting=cloud",
+          "uri": "https://marketplace.atlassian.com/apps/1224025/ai-insights-for-jira-service-management?hosting=cloud",
+          "name": "https://marketplace.atlassian.com/apps/1224025/ai-insights-for-jira-service-management?hosting=cloud",
+          "ipAddress": null
+        },
+        {
+          "type": "other",
+          "target": "https://marketplace.atlassian.com/apps/1211303/workzone-pullrequest-workflow?hosting=cloud",
+          "uri": "https://marketplace.atlassian.com/apps/1211303/workzone-pullrequest-workflow?hosting=cloud",
+          "name": "https://marketplace.atlassian.com/apps/1211303/workzone-pullrequest-workflow?hosting=cloud",
+          "ipAddress": null
+        },
+        {
+          "type": "other",
+          "target": "https://marketplace.atlassian.com/apps/1212840/reminders-for-bitbucket?hosting=server&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1212840/reminders-for-bitbucket?hosting=server&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1212840/reminders-for-bitbucket?hosting=server",
+          "ipAddress": ""
+        },
+        {
+          "type": "other",
+          "target": "https://marketplace.atlassian.com/apps/1212840/reminders-for-bitbucket?hosting=datacenter",
+          "uri": "https://marketplace.atlassian.com/apps/1212840/reminders-for-bitbucket?hosting=datacenter",
+          "name": "https://marketplace.atlassian.com/apps/1212840/reminders-for-bitbucket?hosting=datacenter",
+          "ipAddress": ""
+        },
+        {
+          "type": "other",
+          "target": "https://marketplace.atlassian.com/apps/1236742/advanced-content-status-labels-for-confluence",
+          "uri": "https://marketplace.atlassian.com/apps/1236742/advanced-content-status-labels-for-confluence",
+          "name": "https://marketplace.atlassian.com/apps/1236742/advanced-content-status-labels-for-confluence",
           "ipAddress": ""
         }
       ],

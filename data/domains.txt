@@ -225,6 +225,8 @@ blog.etsy.com
 careers.etsy.com
 help.etsy.com
 community.etsy.com
+bugcrowd.charm.felixforus.ca
+bugcrowd.lucky.felixforus.ca
 financialforce.com
 sb-console-api.fireblocks.io
 sb-mobile-api.fireblocks.io
@@ -1103,6 +1105,7 @@ undoze.com
 delight.im
 app.eqtble.com
 okteto.com
+clearstreet.io
 partner-public.getyourguide.com
 partner.getyourguide.com
 widget.getyourguide.com
@@ -10340,6 +10343,7 @@ bassettsvitamins.co.uk
 bee.harmony.info
 beldent.com.ar
 belvita.life
+belvitaoffer.com
 belvitasnacks.com
 bigwinwin.cadbury.co.uk
 bis.com.br
@@ -10355,6 +10359,7 @@ cadbury.ie
 cadburydessertscorner.com
 cadburyfindtheticket.com.au
 cadburyhuntstartshere.com.au
+cadburylollyrewards.com
 cadburypakistan.com
 cadburyperksmartunlocks.com
 cadburytrytime.co.nz
@@ -10370,10 +10375,12 @@ clorets.jp
 clubsocial.com.br
 cocoalife.org
 coffeecallsforbelvita.com
+concorsocoop.philadelphia.it
 contactus.mdlzapps.com
 cotedor.com
 culinaryinspoguide.com
 dairylea.co.uk
+derbicatalunyaconmdlz.com
 destroyvalentinesday.com
 dqflavorcollision.com
 duekingincampo.fonzies.it
@@ -10396,6 +10403,7 @@ fingerscrossed.cadbury.ie
 fonzies.it
 freia.no
 freiafotballtur.no
+fruehling-knacken.milka.de
 fun.cadbury.co.uk
 fundraising.com.au
 game.milka.bg
@@ -10431,6 +10439,7 @@ id.snacksandmeals.app
 insights.mondelezinternationalfoodservice.com
 instoreeggucation.com
 ir.mondelezinternational.com
+jeumondelez26.fr
 jocca.it
 juegayganaconmdlz.com
 klubbkakan.marabou.se
@@ -10450,19 +10459,23 @@ loteriamilka.pl
 loteriaoreo.pl
 lubakery.co.uk
 lubiscuits.eu
+lusingingpacks.nl
 madetoshare.cadbury.co.uk
 makeaimediocreagain.com
 makemicromarketsales.com
 makevendingsales.com
 marabou.com
+matt-pokora.milka.com
 mdlzcollaboration.com
 mdlzcusthelp.ca
 mdlzcusthelp.com
 mdlznutritionscience.com
 meddigjatek.hu
+merendadanumeriuno.it
 merendinamusic.com
 mezclaydisfruta.com.ar
 miamicfsweepstakes.com
+milka-husvet.hu
 milka-pasakyklabas.lt
 milka-promo.bg
 milka.cl
@@ -10474,6 +10487,7 @@ milkamaxpromo.ba
 milkamaxpromo.rs
 milkamozi.hu
 milkapromo.hu
+milkapromo.me
 milkaszaloncukor.hu
 miracelwhip.de
 mitiendamondelez.com.ar
@@ -10483,6 +10497,7 @@ mmmax.milka.de
 momentosnack.com
 mondelez-afh.co.uk
 mondelez-professional.de
+mondelezawayfromhome.com
 mondelezcanadafoodservice.ca
 mondelezinternational.com
 mondelezinternationalnutritionscience.com
@@ -10491,6 +10506,7 @@ mondelezvending.com
 moreni.bg
 mwtr.com
 my.rssl.com
+mysales.mdlz.com
 nabiscobacktoschool.com
 nabiscobiggame.th12ty.com
 nyerjakedvenceiddel.hu
@@ -10505,6 +10521,7 @@ oreo.com
 oreo.com.ar
 oreo.com.au
 oreo.eu
+oreo.in
 oreo.mx
 oreo.ru
 oreoberbagiseru.com
@@ -10529,6 +10546,8 @@ philadelphia-professional.it
 philadelphia.com.mx
 philadelphia.eu
 philly.com.au
+phonejeeto.com
+pranktheroutine.com
 premiumcrackers.jp
 prepararoyal.com
 princepolo.pl
@@ -10537,6 +10556,7 @@ promo.7days.com
 promo.milka.com
 promo.royalcontigo.com
 promocaoondadepremios.com.br
+promocja7days.pl
 promocjamilka.pl
 promocjaoreo.pl
 promoritz.com
@@ -10557,6 +10577,7 @@ servicesalimentairesmondelezcanada.ca
 sharecadbury.ca
 shop.oreo.com
 sjokoladehus.no
+skaperglede.freia.no
 sklepoweszukajki.pl
 smagenafguld.marabou.dk
 smartlabel.mondelez.info
@@ -10571,12 +10592,15 @@ snackworks.ca
 snackworks.com
 snackworks.th12ty.com
 solucionesmondelez.com
+somosvipconmdlz.com
 sottilette.it
 soutenezvotreassociation.be
 soutez-opavia.cz
 spar.nyerjakedvenceiddel.hu
+spkwatermelonslurpee.th12ty.com
 sportaranypromo.hu
 sportszelet.hu
+sportszeletjoenergiak.hu
 steunjouwvereniging.be
 stimorolflavourthemoment.co.za
 suchard.es
@@ -10605,6 +10629,7 @@ twistandmake.com
 vincialexdelpiero.it
 vinciconfonzies.it
 vinciconmilka.it
+vincicoppaitalia.it
 vindmedgrenade.dk
 virtualhiringassistant.mondelezinternational.com
 vyhrajschuti.cz
@@ -10612,6 +10637,7 @@ vyhrajschutou.sk
 webform.philadelphia.com.mx
 wielkanocneszukajki.pl
 win.cadbury.co.uk
+win.milka.nl
 winwithphilly.com
 winwithphilly.dk
 www.cadbury.com.au
@@ -10621,7 +10647,9 @@ www.clifbar.ca
 www.clifbar.com.au
 www.concorsomikadokiss.it
 www.enjoylifefoods.com
+www.lusingingpacks.be
 www.milka-sakisveiks.lv
+www.opaviahokej.cz
 www.oreo.com
 www.oreofun.no
 www.oreofun.se
@@ -10634,6 +10662,7 @@ www.winwithphilly.no
 www.winwithphilly.se
 xn--80abwto.xn--p1ai
 xn--90aiefdldtba7bg.xn--p1ai
+xn--glcksrad-75a.milka.at
 ygeiaspavlides.gr
 api.stg.inspectorio.com
 app.stg.inspectorio.com
@@ -35431,6 +35460,19 @@ campagne.iciparisxl.lu
 campagne.iciparisxl.be
 servicenl.iciparisxl.be
 www.pourvous.nl
+www.gamma.nl
+www.gamma.be
+www.karwei.nl
+kassa.gamma.nl
+kassa.gamma.be
+kassa.karwei.nl
+mijn.gamma.nl
+mijn.gamma.be
+mijn.karwei.nl
+irmg.nl
+gammacademy.be
+karwei-promotiepunt.nl
+gammalokaal.nl
 www.kruidvat.nl
 www.kruidvat.be
 www.kruidvatkids.nl
