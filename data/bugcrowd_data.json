@@ -8527,13 +8527,6 @@
         },
         {
           "type": "website",
-          "target": "https://helpers.bullsheet.me",
-          "uri": "https://helpers.bullsheet.me",
-          "name": "helpers.bullsheet.me",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
           "target": "https://etoropartners.com",
           "uri": "https://etoropartners.com",
           "name": "etoropartners.com",
@@ -8600,13 +8593,6 @@
           "target": "https://candle-src.etoro.com",
           "uri": "https://candle-src.etoro.com",
           "name": "candle-src.etoro.com",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://bullsheet.me",
-          "uri": "https://bullsheet.me",
-          "name": "bullsheet.me",
           "ipAddress": null
         },
         {
