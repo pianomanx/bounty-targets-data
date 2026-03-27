@@ -3205,6 +3205,8 @@ aqora.naiad.*
 *.sbb.ch
 *.speakap.com
 *.speakap.io
+*.sqills.com
+*.sqills.team
 *.sppfonder.se
 *.storebrandrealestate.se
 *.storebrandfunds.com
@@ -3298,8 +3300,6 @@ aqora.naiad.*
 *news.vinted.com
 *company.vinted.com
 *.vlerick.com
-*.voi.com
-*.voiscooters.com
 *.deliciousbrains.com
 *.studiopress.com
 *.wpengine.io
