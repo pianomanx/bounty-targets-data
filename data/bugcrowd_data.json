@@ -549,34 +549,6 @@
       "in_scope": [
         {
           "type": "api",
-          "target": "https://api.anytask.com/",
-          "uri": "https://api.anytask.com/",
-          "name": "https://api.anytask.com/",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://www.anytask.com/",
-          "uri": "https://www.anytask.com/",
-          "name": "https://www.anytask.com/",
-          "ipAddress": null
-        },
-        {
-          "type": "android",
-          "target": "https://play.google.com/store/apps/details?id=com.anytask.mobile&hl=en_US",
-          "uri": "https://play.google.com/store/apps/details?id=com.anytask.mobile&hl=en_US",
-          "name": "AnyTask Android app",
-          "ipAddress": ""
-        },
-        {
-          "type": "ios",
-          "target": "https://apps.apple.com/us/app/anytask-com/id6741158899",
-          "uri": "https://apps.apple.com/us/app/anytask-com/id6741158899",
-          "name": "AnyTask iOS app",
-          "ipAddress": ""
-        },
-        {
-          "type": "api",
           "target": "https://api.anytask.thesecurityteam.rocks",
           "uri": "https://api.anytask.thesecurityteam.rocks",
           "name": "api.anytask.thesecurityteam.rocks",
@@ -10884,9 +10856,9 @@
         },
         {
           "type": "other",
-          "target": "https://marketplace.atlassian.com/apps/1236742/advanced-content-status-labels-for-confluence",
-          "uri": "https://marketplace.atlassian.com/apps/1236742/advanced-content-status-labels-for-confluence",
-          "name": "https://marketplace.atlassian.com/apps/1236742/advanced-content-status-labels-for-confluence",
+          "target": "https://marketplace.atlassian.com/apps/1236742/advanced-content-status-labels-for-confluence?hosting=cloud",
+          "uri": "https://marketplace.atlassian.com/apps/1236742/advanced-content-status-labels-for-confluence?hosting=cloud",
+          "name": "https://marketplace.atlassian.com/apps/1236742/advanced-content-status-labels-for-confluence?hosting=cloud",
           "ipAddress": ""
         }
       ],

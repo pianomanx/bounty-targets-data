@@ -22,8 +22,6 @@ regatta.aiven.io
 console.aiven.io
 api.aiven.io
 falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com
-api.anytask.com
-www.anytask.com
 api.anytask.thesecurityteam.rocks
 anytask.thesecurityteam.rocks
 beta.arlo.com
@@ -35730,6 +35728,11 @@ myaccount.trouw.nl
 shop.trouw.nl
 webwinkel.trouw.nl
 www.trouw.nl
+onboarding-api.truelayer.com
+users-api.truelayer.com
+sftp.reports.truelayer.com
+shopify-admin.truelayer.com
+shop-pay-app-api.truelayer.com
 autodiscover.uzleuven.be
 ecrf.uzleuven.be
 extranet-asa.uzleuven.be
