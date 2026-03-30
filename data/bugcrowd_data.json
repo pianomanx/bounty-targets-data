@@ -16627,23 +16627,9 @@
         },
         {
           "type": "android",
-          "target": "https://play.google.com/store/apps/details?id=com.opera.browser",
-          "uri": "https://play.google.com/store/apps/details?id=com.opera.browser",
-          "name": "Opera for Android ",
-          "ipAddress": null
-        },
-        {
-          "type": "android",
           "target": "https://play.google.com/store/apps/details?id=com.opera.app.news",
           "uri": "https://play.google.com/store/apps/details?id=com.opera.app.news",
           "name": "Opera News",
-          "ipAddress": null
-        },
-        {
-          "type": "android",
-          "target": "https://play.google.com/store/apps/details?id=com.opera.gx",
-          "uri": "https://play.google.com/store/apps/details?id=com.opera.gx",
-          "name": "Opera GX for Android",
           "ipAddress": null
         },
         {
@@ -16659,6 +16645,34 @@
           "uri": "https://play.google.com/store/apps/details?id=com.opera.app.sports",
           "name": "Apex Football",
           "ipAddress": null
+        },
+        {
+          "type": "android",
+          "target": "https://play.google.com/store/apps/details?id=com.opera.browser",
+          "uri": "https://play.google.com/store/apps/details?id=com.opera.browser",
+          "name": "Opera for Android ",
+          "ipAddress": null
+        },
+        {
+          "type": "android",
+          "target": "https://play.google.com/store/apps/details?id=com.opera.gx",
+          "uri": "https://play.google.com/store/apps/details?id=com.opera.gx",
+          "name": "Opera GX for Android",
+          "ipAddress": null
+        },
+        {
+          "type": "ios",
+          "target": "https://apps.apple.com/us/app/opera-ai-browser-with-vpn/id1411869974",
+          "uri": "https://apps.apple.com/us/app/opera-ai-browser-with-vpn/id1411869974",
+          "name": "Opera for iOS",
+          "ipAddress": ""
+        },
+        {
+          "type": "ios",
+          "target": "https://apps.apple.com/pl/app/opera-gx/id1559740799",
+          "uri": "https://apps.apple.com/pl/app/opera-gx/id1559740799",
+          "name": "Opera GX for iOS",
+          "ipAddress": ""
         },
         {
           "type": "api",
@@ -16980,6 +16994,83 @@
           "target": "api.gx.games/session",
           "uri": "",
           "name": "api.gx.games/session",
+          "ipAddress": ""
+        },
+        {
+          "type": "api",
+          "target": "*.apexscores.io",
+          "uri": "",
+          "name": "*.apexscores.io",
+          "ipAddress": ""
+        },
+        {
+          "type": "api",
+          "target": "*.opr.news",
+          "uri": "",
+          "name": "*.opr.news",
+          "ipAddress": ""
+        },
+        {
+          "type": "api",
+          "target": "*.osite99.com",
+          "uri": "",
+          "name": "*.osite99.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "api",
+          "target": "*.savi.xyz",
+          "uri": "",
+          "name": "*.savi.xyz",
+          "ipAddress": ""
+        },
+        {
+          "type": "api",
+          "target": "*.rtbscale.com",
+          "uri": "",
+          "name": "*.rtbscale.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://ofp.adx.opera.com",
+          "uri": "https://ofp.adx.opera.com",
+          "name": "ofp.adx.opera.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://ofa.adx.opera.com",
+          "uri": "https://ofa.adx.opera.com",
+          "name": "ofa.adx.opera.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://cms.adx.opera.com",
+          "uri": "https://cms.adx.opera.com",
+          "name": "cms.adx.opera.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://auth-adx.op-mobile.opera.com",
+          "uri": "https://auth-adx.op-mobile.opera.com",
+          "name": "auth-adx.op-mobile.opera.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "api",
+          "target": "*.adx.opera.com",
+          "uri": "",
+          "name": "*.adx.opera.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://operaneon.com",
+          "uri": "https://operaneon.com",
+          "name": "operaneon.com",
           "ipAddress": ""
         }
       ],
@@ -25970,13 +26061,6 @@
         },
         {
           "type": "other",
-          "target": "3.230.219.249",
-          "uri": "",
-          "name": "3.230.219.249",
-          "ipAddress": null
-        },
-        {
-          "type": "other",
           "target": "34.237.130.2",
           "uri": "",
           "name": "34.237.130.2",
@@ -26022,13 +26106,6 @@
           "target": "54.83.32.16",
           "uri": "",
           "name": "54.83.32.16",
-          "ipAddress": null
-        },
-        {
-          "type": "other",
-          "target": "13.58.121.166",
-          "uri": "",
-          "name": "13.58.121.166",
           "ipAddress": null
         },
         {
