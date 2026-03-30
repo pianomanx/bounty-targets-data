@@ -35359,6 +35359,7 @@ platform.cloudways.com
 unified.cloudways.com
 www.cloudways.com
 css-tricks.com
+justonweb.be
 annualreport.cybersecuritycoalition.be
 award.cybersecuritycoalition.be
 blog.cybersecuritycoalition.be
@@ -35464,6 +35465,19 @@ campagne.iciparisxl.lu
 campagne.iciparisxl.be
 servicenl.iciparisxl.be
 www.pourvous.nl
+www.gamma.nl
+www.gamma.be
+www.karwei.nl
+kassa.gamma.nl
+kassa.gamma.be
+kassa.karwei.nl
+mijn.gamma.nl
+mijn.gamma.be
+mijn.karwei.nl
+irmg.nl
+gammacademy.be
+karwei-promotiepunt.nl
+gammalokaal.nl
 booking.mjrtheatres.com
 extras.landmarkcinemas.com
 identityserver.landmarkcinemas.com
@@ -35607,6 +35621,8 @@ vikingco.be
 vikingdeals.be
 vikinglab.be
 forms.mobilevikings.be
+www.monzo.com
+monzo.com
 mynexuz.be
 liquidfiles.nexuzhealth.com
 analytics.ninjakiwi.com
