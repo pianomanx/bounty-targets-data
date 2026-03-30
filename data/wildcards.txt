@@ -1345,6 +1345,7 @@ nova-gateway.*.svc.singlestore.com
 *.valic.com
 *.bancointer.com.br
 *.bmggranito.com.br
+*.duogourmet.com.br
 *.enviouchegou.com
 *.granito.xyz
 *.granitopagamentos.com.br
@@ -3082,13 +3083,6 @@ munin-*.wordpress.org
 *.helloworks.com
 *.hellosign.com
 *.dash.ai
-*.das.eu
-*.dns.eu
-*.eurid.eu
-*.nic.eu
-*.registry.eu
-*.whois.eu
-*.yadifa.eu
 *.itscope.com
 *.itscope.de
 *.gripp.com
