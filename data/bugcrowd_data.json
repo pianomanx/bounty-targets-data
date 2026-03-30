@@ -18935,13 +18935,6 @@
         },
         {
           "type": "website",
-          "target": "signup.myconnect.com.au",
-          "uri": "",
-          "name": "signup.myconnect.com.au",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
           "target": "portal.myconnect.com.au",
           "uri": "",
           "name": "portal.myconnect.com.au",
@@ -18963,16 +18956,16 @@
         },
         {
           "type": "website",
-          "target": "ssu.myconnect.com.au/signup/get-connected ",
+          "target": "hub.myconnect.com.au",
           "uri": "",
-          "name": "ssu.myconnect.com.au/signup/get-connected ",
+          "name": "hub.myconnect.com.au",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "hub.myconnect.com.au",
-          "uri": "",
-          "name": "hub.myconnect.com.au",
+          "target": "https://ssu.staging.myconnect.com.au/get-connected",
+          "uri": "https://ssu.staging.myconnect.com.au/get-connected",
+          "name": "ssu.staging.myconnect.com.au",
           "ipAddress": ""
         },
         {
@@ -19046,6 +19039,13 @@
           "uri": "",
           "name": "https://origin-energy.formstack.com/**",
           "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://ssu.myconnect.com.au/**",
+          "uri": "https://ssu.myconnect.com.au/**",
+          "name": "https://ssu.myconnect.com.au/",
+          "ipAddress": ""
         },
         {
           "type": "website",

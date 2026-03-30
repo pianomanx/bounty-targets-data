@@ -3061,6 +3061,7 @@ munin-*.wordpress.org
 *.digi.ro
 *.dpgmedia.be
 *.dpgmedia.nl
+*.datacamp.com
 *.demorgen.be
 *.volkskrant.nl
 *.digitalocean.com
@@ -3075,6 +3076,13 @@ munin-*.wordpress.org
 *.helloworks.com
 *.hellosign.com
 *.dash.ai
+*.das.eu
+*.dns.eu
+*.eurid.eu
+*.nic.eu
+*.registry.eu
+*.whois.eu
+*.yadifa.eu
 *.itscope.com
 *.itscope.de
 *.gripp.com
@@ -3102,6 +3110,15 @@ www.fing.com*
 *.iciparisxl.nl
 *.iciparisxl.be
 *.pourvous.nl
+*.klubcinema.fr
+*.kinepolis.be
+*.kinepolis.ch
+*.kinepolis.com
+*.kinepolis.fr
+*.kinepolis.lu
+*.kinepolis.nl
+*.landmarkcinemas.com
+*.mjrtheatres.com
 *.kiwa.com
 *.kiwa.info
 *.kiwa.nl
@@ -3112,6 +3129,7 @@ www.fing.com*
 *.kruidvat.be
 *.trekpleister.nl
 *.prijsmepper.nl
+*.lansweeper.com
 *.libelle.nl
 *.liferay.com
 *.marionnaud.fr
@@ -3145,6 +3163,9 @@ www.fing.com*
 *.usemoralis.com
 *.nestle.com
 *.nexuzhealth.*
+*.ninjakiwi.me
+*.nkstatic.com
+*.souparea.com
 *.alphagary.com
 *.alphagarycompuestos.com
 *.amanco.com
