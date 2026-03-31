@@ -1,5 +1,60 @@
 [
   {
+    "id": "e67941f1-2087-4681-8718-3e3f4dc51798",
+    "name": "AMD Product Security Bug Bounty Program",
+    "company_handle": "amd",
+    "handle": "amd",
+    "url": "https://www.intigriti.com/programs/amd/amd/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "min_bounty": {
+      "value": 500,
+      "currency": "USD"
+    },
+    "max_bounty": {
+      "value": 30000,
+      "currency": "USD"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "other",
+          "endpoint": "Hardware",
+          "description": "Vulnerabilities in the physical hardware of **in scope** products and technologies",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "other",
+          "endpoint": "Firmware",
+          "description": "Vulnerabilities in the firmware of **in scope** products and technologies",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "other",
+          "endpoint": "Software",
+          "description": "Vulnerabilities in drivers or other software required to operate **in scope** products and technologies",
+          "impact": "Tier 3"
+        },
+        {
+          "type": "other",
+          "endpoint": "No Bounty",
+          "description": "* Optional tools\n* Installer issues\n* Product-independent software\n* Software for out-of-scope products and technologies\n* *see below for a comprehensive list and descriptions*",
+          "impact": "No Bounty"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "other",
+          "endpoint": "Out of Scope",
+          "description": "•\tWeb/IT Infrastructure \n•\t3rd Party Component Bugs\n•\tPhysical Attacks\n•\t*see below for a comprehensive list and descriptions*",
+          "impact": "Out of scope"
+        }
+      ]
+    }
+  },
+  {
     "id": "30f445f7-ca4c-4130-9434-49add5c6ac74",
     "name": "Algemeen Dagblad",
     "company_handle": "dpgm",
@@ -648,85 +703,6 @@
         }
       ],
       "out_of_scope": []
-    }
-  },
-  {
-    "id": "61e0e37c-19cc-4abe-af51-108a78bee995",
-    "name": "BMW Group",
-    "company_handle": "bmw",
-    "handle": "bmwgroup",
-    "url": "https://www.intigriti.com/programs/bmw/bmwgroup/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 150,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 6000,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "url",
-          "endpoint": "www.bmw-motorrad.de",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.bmw.de",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.mini.de",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "configure.bmw.de",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "configure.mini.de",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "konfigurator.bmw-motorrad.de",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "other",
-          "endpoint": "Other BMW Domains",
-          "description": "Please select this asset to report vulnerabilities affecting BMW assets but not matching any of the assets stated above.\n\n**Important:** Note our policy regarding \"No Bounty Domains\" and a potentially deviating application of the **safe harbor clause**.\nWe may award a small bonus for these assets, but only valid high, critical and exceptional severity findings - this is however, at the discretion of the BMW Group team.",
-          "impact": "No Bounty"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "other",
-          "endpoint": "Automotive Security",
-          "description": "Please submit valid findings regarding Automotive assets in our public [BMW Group - Automotive program](https://app.intigriti.com/programs/bmw/bmwgroup-automotive).",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "other",
-          "endpoint": "Domains from independent BMW Dealers, Resellers or Fanclubs",
-          "description": "These domains belong to legally independent entities. We can only inform these entities. However, we have no influence on the mitigation process of the vulnerabilities in these assets.",
-          "impact": "Out of scope"
-        }
-      ]
     }
   },
   {
@@ -7382,145 +7358,6 @@
         }
       ],
       "out_of_scope": []
-    }
-  },
-  {
-    "id": "0fd1d85b-2d33-4966-b5a0-caabfda5108e",
-    "name": "Ninja Kiwi Games Bug Bounty program",
-    "company_handle": "ninjakiwigames",
-    "handle": "ninjakiwigames",
-    "url": "https://www.intigriti.com/programs/ninjakiwigames/ninjakiwigames/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 75,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 4125,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "url",
-          "endpoint": "analytics.ninjakiwi.com",
-          "description": "This domain hosts the API that consumed analytics events from our game clients",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "api.ninjakiwi.com",
-          "description": "This domain hosts the API for our mobile and PC games. Monitoring traffic through one of our game clients is the easiest method to investigate our main API. Most of our applications are available for free on [Steam](https://store.steampowered.com/developer/ninjakiwigames/#browse). Please carefully read the in-scope section regarding what sorts of exploits will be considering in-scope for this domain.",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "guts.ninjakiwi.com",
-          "description": "This is the backend services for certain BTD6 in-game features such as Contested Territories and the Map Creator.",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.ninjakiwi.me",
-          "description": "ninjakiwi.me is a domain which hosts many of Ninja Kiwi's employtee only services. Any subdomain is eligible for the program.",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.nkstatic.com",
-          "description": "This domain hosts static content for Ninja Kiwi games and website.",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "battles.tv",
-          "description": "Battles.tv is used to share replays from our Bloons TD Battles game.",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "data.ninjakiwi.com",
-          "description": "This domain hosts our **public** data API which grants open access to in-game data from our biggest games. For example player profiles, leaderboards and event information is available through this domain.",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "ninja.kiwi",
-          "description": "This domain is used by Ninja Kiwi for our URL shortener service, ie https://ninja.kiwi/intigriti.",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "ninjakiwi.com",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "alerts.ninjakiwi.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "boomer2.ninjakiwi.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "ct.ninjakiwi.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "mynk-dash.ninjakiwi.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "mynk.ninjakiwi.com",
-          "description": "This is a legacy domain which powers our Flash games. Uses Flash AMF.",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.souparea.com",
-          "description": "This domain will be considered out of scope unless it can be shown to allow an exploit on one of our Tier 1-3 domains.",
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "rancher.ninjakiwi.com",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "rancher.ninjakiwi.me",
-          "description": null,
-          "impact": "No Bounty"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "url",
-          "endpoint": "store.ninjakiwi.com",
-          "description": "If you've found an issue with this domain you can contact Shopify here - https://www.shopify.com/bugbounty",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "support.ninjakiwi.com",
-          "description": "If you've found an issue with this domain you can contact Zendesk here - https://support.zendesk.com/hc/en-us/articles/4409154830874-Zendesk-Bug-Bounty-Program",
-          "impact": "Out of scope"
-        }
-      ]
     }
   },
   {
