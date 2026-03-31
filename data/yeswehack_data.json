@@ -4697,10 +4697,6 @@
           "type": "web-application"
         },
         {
-          "target": "https://ecohesion.aufbaubank.de",
-          "type": "web-application"
-        },
-        {
           "target": "https://login.aufbaubank.de",
           "type": "web-application"
         }
@@ -5221,7 +5217,7 @@
   },
   {
     "id": "yes-we-hack",
-    "name": "Yes We Hack",
+    "name": "YesWeHack",
     "public": true,
     "disabled": false,
     "managed": null,

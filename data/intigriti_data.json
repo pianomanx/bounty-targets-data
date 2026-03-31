@@ -1,103 +1,5 @@
 [
   {
-    "id": "e67941f1-2087-4681-8718-3e3f4dc51798",
-    "name": "AMD Product Security Bug Bounty Program",
-    "company_handle": "amd",
-    "handle": "amd",
-    "url": "https://www.intigriti.com/programs/amd/amd/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 500,
-      "currency": "USD"
-    },
-    "max_bounty": {
-      "value": 30000,
-      "currency": "USD"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "other",
-          "endpoint": "Hardware",
-          "description": "Vulnerabilities in the physical hardware of **in scope** products and technologies",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "other",
-          "endpoint": "Firmware",
-          "description": "Vulnerabilities in the firmware of **in scope** products and technologies",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "other",
-          "endpoint": "Software",
-          "description": "Vulnerabilities in drivers or other software required to operate **in scope** products and technologies",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "other",
-          "endpoint": "No Bounty",
-          "description": "* Optional tools\n* Installer issues\n* Product-independent software\n* Software for out-of-scope products and technologies\n* *see below for a comprehensive list and descriptions*",
-          "impact": "No Bounty"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "other",
-          "endpoint": "Out of Scope",
-          "description": "•\tWeb/IT Infrastructure \n•\t3rd Party Component Bugs\n•\tPhysical Attacks\n•\t*see below for a comprehensive list and descriptions*",
-          "impact": "Out of scope"
-        }
-      ]
-    }
-  },
-  {
-    "id": "554fc6c5-4ffa-4682-a3ba-7e86696e9b17",
-    "name": "Aikido Security: Bug Bounty Program",
-    "company_handle": "aikido",
-    "handle": "aikido",
-    "url": "https://www.intigriti.com/programs/aikido/aikido/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 50,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 2500,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "other",
-          "endpoint": "https://marketplace.visualstudio.com/items?itemName=AikidoSecurity.aikido",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "app.aikido.dev",
-          "description": "This is our main application, which hosts the API as well as the front-end application.\n\nOur public API is also accessible via this host. Documentation is available here: https://apidocs.aikido.dev/.",
-          "impact": "Tier 2"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "wildcard",
-          "endpoint": "*.aikido.dev",
-          "description": null,
-          "impact": "Out of scope"
-        }
-      ]
-    }
-  },
-  {
     "id": "30f445f7-ca4c-4130-9434-49add5c6ac74",
     "name": "Algemeen Dagblad",
     "company_handle": "dpgm",
@@ -222,6 +124,60 @@
           "impact": "Out of scope"
         }
       ]
+    }
+  },
+  {
+    "id": "611efbaa-333e-4b7c-a3c0-89665abd3fe3",
+    "name": "Altera",
+    "company_handle": "altera",
+    "handle": "altera",
+    "url": "https://www.intigriti.com/programs/altera/altera/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "min_bounty": {
+      "value": 500,
+      "currency": "USD"
+    },
+    "max_bounty": {
+      "value": 30000,
+      "currency": "USD"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "device",
+          "endpoint": "Firmware",
+          "description": "Firmware developed by Altera that executes within our FPGA products regardless of the storage media.   Excludes any software that executes the Hard Processor Subsystem, or any software that executes on an embedded processor instantiated in soft-logic within the FPGA by a customer.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "device",
+          "endpoint": "Hardware",
+          "description": "FPGA Integrated Circuit hardware.   This may includes both a base FPGA and any associated co-packaged integrated circuits. ",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "other",
+          "endpoint": "FPGA Solution Development Tools and Utilities",
+          "description": "Tools developed by Altera such as the Quartus Tool Suite used by customers to develop a solution that may comprise software, soft-logic that is hosted within an Altera FPGA device.   Also includes various Altera authored supporting utilities used to manage deployment of customer designs to Altera FPGAs.",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "other",
+          "endpoint": "Software",
+          "description": "Altera Developed Device Drivers that execute on a host computer that is connected to an Altera FPGA, used to manage or control the FPGA or any functions implemented by the customer within the FPGA.",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "other",
+          "endpoint": "Non Altera Products",
+          "description": "Any elements of a complete customer solution developed by entities other than Altera that may be included in a final customer solution.   Reports relating to such entities may be reported via the Altera Bug Bounty Program, but are not eligible for bounty payments. ",
+          "impact": "No Bounty"
+        }
+      ],
+      "out_of_scope": []
     }
   },
   {
@@ -5374,6 +5330,397 @@
     }
   },
   {
+    "id": "768ad323-335b-4710-9370-6b81925c122f",
+    "name": "Kinepolis Group",
+    "company_handle": "kinepolis",
+    "handle": "website",
+    "url": "https://www.intigriti.com/programs/kinepolis/website/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "min_bounty": {
+      "value": 0,
+      "currency": "EUR"
+    },
+    "max_bounty": {
+      "value": 5000,
+      "currency": "EUR"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "wildcard",
+          "endpoint": "*.klubcinema.fr",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.megatix.be  ",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "booking.mjrtheatres.com",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "extras.landmarkcinemas.com",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "identityserver.landmarkcinemas.com",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "kinepolis.megatix.be",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "luxfilmfestfilms.megatix.be",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "luxfilmfestproducts.megatix.be",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "luxfilmfesttickets.megatix.be",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "movieapi.kinepolis.megatix.be",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "tickets.kinepolis.be",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "tickets.kinepolis.ch",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "tickets.kinepolis.es",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "tickets.kinepolis.fr",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "tickets.kinepolis.lu",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "tickets.kinepolis.nl",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "userprofile-ui.landmarkcinemas.com",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "www.kinepolis.be ",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "www.kinepolis.ch ",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "www.kinepolis.com ",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "www.kinepolis.es ",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "www.kinepolis.fr ",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "www.kinepolis.lu ",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "www.kinepolis.nl ",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "www.landmarkcinemas.com",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "www.mjrtheatres.com",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "business.kinepolis.be",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "business.kinepolis.lu",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "business.kinepolis.nl",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "android",
+          "endpoint": "com.inthepocket.kinepolis",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "extras-acc.landmarkcinemas.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://movieclub-int.kinepolis.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://movienow-int.kinepolis.be/admin",
+          "description": "We are planning on using a new way to authenticate our INT/UAT testers, and it's active on this URL. Are there weaknesses on this page?",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://shop-acc.kinepolis.be/",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "identityserver-acc.landmarkcinemas.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "kinepolis-studio.be",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "ios",
+          "endpoint": "kinepolis/id368204284",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "android",
+          "endpoint": "nz.co.vista.android.movie.mjrtheatres",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "stage.landmarkcinemas.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "userprofile-acc.landmarkcinemas.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "www.kinepolis.biz",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.kinepolis.be",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.kinepolis.ch",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.kinepolis.com",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.kinepolis.fr",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.kinepolis.lu",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.kinepolis.nl",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.landmarkcinemas.com",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.mjrtheatres.com",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "ios",
+          "endpoint": "522089287",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "url",
+          "endpoint": "egaming.kinepolis.es",
+          "description": null,
+          "impact": "No Bounty"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "wildcard",
+          "endpoint": "*.cineramabios.nl",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "dev.kinepolis.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "helpdesk.landmarkcinemas.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "jobs.kinepolis.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "l.kinepolis.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "openx.kinepolis.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "shop.kinepolis.be ",
+          "description": "We'll be limiting testing for our eshop to the testing environment (shop-acc.kinepolis.be) for the time being.",
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "shop.kinepolis.es",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "shop.kinepolis.fr ",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "shop.kinepolis.lu",
+          "description": null,
+          "impact": "Out of scope"
+        }
+      ]
+    }
+  },
+  {
     "id": "b98261a6-2339-4325-b00b-008e24b28e88",
     "name": "Kiwa Vulnerability Disclosure Program",
     "company_handle": "kiwa",
@@ -7749,6 +8096,403 @@
         {
           "type": "url",
           "endpoint": "www.personio.es",
+          "description": null,
+          "impact": "Out of scope"
+        }
+      ]
+    }
+  },
+  {
+    "id": "0f05f9cd-03e1-4f90-a449-2f43cdaf879a",
+    "name": "Port of Antwerp-Bruges",
+    "company_handle": "portofantwerp",
+    "handle": "portofantwerp",
+    "url": "https://www.intigriti.com/programs/portofantwerp/portofantwerp/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "min_bounty": {
+      "value": 50,
+      "currency": "EUR"
+    },
+    "max_bounty": {
+      "value": 4500,
+      "currency": "EUR"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "iprange",
+          "endpoint": "188.118.8.0/25",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "iprange",
+          "endpoint": "94.107.237.192/26",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": " login-test.portofantwerpbruges.com/",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "api-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "api-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "api.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "api.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "apps-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "apps-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "apps.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "apps.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "as2-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "as2-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "as2.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "as2.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "digitalspecs.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "login-accpt.portofantwerpbruges.com",
+          "description": "NEW login page",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "maximo-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "maximo-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "maximo.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "maximo.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "maximo.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "my-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "my-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "my.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "my.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "notula-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "oprc.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "register-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "register-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "servicedesk-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "servicedesk-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "servicedesk.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "servicedesk.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "share-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "share-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "share.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "share.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "webapps-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "webapps-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "webapps-test.portofantwerpbruges.com/xui",
+          "description": "The NEW login page can currently only be accessed in the TEST environment",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "webapps.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "webapps.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "wiki-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "wiki-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "wiki.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "wiki.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "www.oursustainableport.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "www.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "erpx.unit4cloud.com/u4erx_pab_acp1",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "url",
+          "endpoint": "erpx.unit4cloud.com/u4erx_pab_prev",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "url",
+          "endpoint": "erpx.unit4cloud.com/u4erx_pab_prod",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.portofantwerp.com",
+          "description": null,
+          "impact": "No Bounty"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.portofantwerpbruges.com",
+          "description": null,
+          "impact": "No Bounty"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "url",
+          "endpoint": "future.portofantwerp.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "future.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "jobs.portofantwerp.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "jobs.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "media.portofantwerp.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "media.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "register.portofantwerp.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "register.portofantwerpbruges.com",
           "description": null,
           "impact": "Out of scope"
         }
@@ -10776,7 +11520,7 @@
         {
           "type": "url",
           "endpoint": "app.workbox.dk",
-          "description": "**Dinero**\nDinero is an accounting software for sole traders and micro businesses based out of Denmark. Our only target group is danish companies and therefore the interface is in danish only. The application is a SaaS application hosted in the cloud and consists of a main application and a number of supportive microservices.\n\nSee the getting started document here: https://vismabugbountyprod.z16.web.core.windows.net/VismaDinero-37UeRwujIXh7r9n3Wol6-getting-started.pdf\n\n**Out of scope:**\n* Issues related to login /user creation / forgot-password and /profile page\n* The Cookie \".AspNet.Cookies\" is not set with HttpOnly which is a known vulnerability - please do not report it.\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n* Getting access to Pro features as Free user.\n* Rate-limiting issues (accepted risk)\n* cvrservice.workbox.dk, this endpoint is used for searches of publicly available data",
+          "description": "**Dinero**\nDinero is an accounting software for sole traders and micro businesses based out of Denmark. Our only target group is danish companies and therefore the interface is in danish only. The application is a SaaS application hosted in the cloud and consists of a main application and a number of supportive microservices.\n\nSee the getting started document here: https://vismabugbountyprod.z16.web.core.windows.net/VismaDinero-37UeRwujIXh7r9n3Wol6-getting-started.pdf\n\n**Out of scope:**\n* Issues related to login /user creation / forgot-password and /profile page\n* The Cookie \".AspNet.Cookies\" is not set with HttpOnly which is a known vulnerability - please do not report it.\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n* Getting access to Pro features as Free user\n* Rate-limiting issues (accepted risk)\n* cvrservice.workbox.dk, this endpoint is used for searches of publicly available data\n* [2026-03-31] Unauthenticated access to invoice, trade offer, or voucher mailout links — these are intentionally publicly accessible",
           "impact": "Tier 2"
         },
         {
