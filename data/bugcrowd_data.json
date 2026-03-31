@@ -19219,6 +19219,55 @@
     }
   },
   {
+    "name": "OSL Managed Public Bug Bounty Engagement ",
+    "url": "https://bugcrowd.com/engagements/osl-mbb-og1",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://www.osl.com/hk-en",
+          "uri": "https://www.osl.com/hk-en",
+          "name": "www.osl.com/hk-en",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://www.osl.com/en",
+          "uri": "https://www.osl.com/en",
+          "name": "www.osl.com/en",
+          "ipAddress": ""
+        },
+        {
+          "type": "android",
+          "target": "https://play.google.com/store/apps/details?id=com.oslmobile.global",
+          "uri": "https://play.google.com/store/apps/details?id=com.oslmobile.global",
+          "name": "OSL Android app",
+          "ipAddress": ""
+        },
+        {
+          "type": "ios",
+          "target": "https://apps.apple.com/es/app/osl-buy-bitcoin-crypto/id6743699672",
+          "uri": "https://apps.apple.com/es/app/osl-buy-bitcoin-crypto/id6743699672",
+          "name": "OSL iOS app",
+          "ipAddress": ""
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "https://www.osl.com/id-id ",
+          "uri": "",
+          "name": "https://www.osl.com/id-id ",
+          "ipAddress": ""
+        }
+      ]
+    }
+  },
+  {
     "name": "Pantheon",
     "url": "https://bugcrowd.com/engagements/pantheon",
     "allows_disclosure": true,

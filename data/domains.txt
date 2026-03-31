@@ -653,6 +653,7 @@ api-portal.originzero.com.au
 sign.originzero.com.au
 businessportal.origin.com.au
 api-businessportal.origin.com.au
+www.osl.com
 dashboard.pantheon.io
 devstaging.pcapcloud.com
 www.pexels.com
@@ -1142,7 +1143,6 @@ fileshare.thorntontomasetti.com
 filex.thorntontomasetti.com
 fimportal.thorntontomasetti.com
 ftp.drumgrange.com
-healthyreentry.thorntontomasetti.com
 api-drop.thorntontomasetti.com
 core.thorntontomasetti.com
 coredev.thorntontomasetti.com
@@ -35397,6 +35397,7 @@ replay.dropbox.com
 hellofax.com
 docsend.com
 app.reclaim.ai
+my.eurid.eu
 www.itscope.com
 www.itscope.de
 www.gripp.com
