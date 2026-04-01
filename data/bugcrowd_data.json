@@ -20472,7 +20472,7 @@
   {
     "name": "REA Group | realestate.com.au, realcommercial.com.au, property.com.au",
     "url": "https://bugcrowd.com/engagements/rea-mbb-og",
-    "allows_disclosure": false,
+    "allows_disclosure": true,
     "managed_by_bugcrowd": true,
     "safe_harbor": "full",
     "max_payout": 4500,
