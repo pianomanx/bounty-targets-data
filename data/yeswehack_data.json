@@ -292,69 +292,6 @@
     }
   },
   {
-    "id": "log4j-bug-bounty-program",
-    "name": "Apache Log4j - Bug Bounty Program",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 100,
-    "max_bounty": 10000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "Log4j 2.x",
-          "type": "open-source"
-        },
-        {
-          "target": "Log4j API for Kotlin",
-          "type": "open-source"
-        },
-        {
-          "target": "Log4j API for Scala",
-          "type": "open-source"
-        },
-        {
-          "target": "Log4cxx",
-          "type": "open-source"
-        },
-        {
-          "target": "Log4net",
-          "type": "open-source"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "https://logging.apache.org",
-          "type": "other"
-        },
-        {
-          "target": "Anything related to mailing lists or other ASF infrastructure topics.",
-          "type": "other"
-        },
-        {
-          "target": "Cassandra Appender",
-          "type": "other"
-        },
-        {
-          "target": "Kafka Appender",
-          "type": "other"
-        },
-        {
-          "target": "CouchDB components",
-          "type": "other"
-        },
-        {
-          "target": "JSP Tag library",
-          "type": "other"
-        },
-        {
-          "target": "Everything which is excluded on this page is also out-of-scope: https://logging.apache.org/security.html",
-          "type": "other"
-        }
-      ]
-    }
-  },
-  {
     "id": "bind-bug-bounty-program",
     "name": "BIND 9 Bug Bounty Program",
     "public": true,
@@ -407,13 +344,13 @@
     "public": true,
     "disabled": false,
     "managed": null,
-    "min_bounty": 50,
+    "min_bounty": 5,
     "max_bounty": 2000,
     "targets": {
       "in_scope": [
         {
           "target": "*.bitoasis.net",
-          "type": "web-application"
+          "type": "wildcard"
         },
         {
           "target": "https://play.google.com/store/apps/details?id=com.bitoasis&hl=en",
@@ -661,7 +598,7 @@
       "in_scope": [
         {
           "target": "*.coindcx.com",
-          "type": "web-application"
+          "type": "wildcard"
         },
         {
           "target": "api.coindcx.com",
@@ -2180,6 +2117,33 @@
     }
   },
   {
+    "id": "grw-trading-fze-bug-bounty-program",
+    "name": "GRW Trading FZE - Open Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": null,
+    "min_bounty": 50,
+    "max_bounty": 3000,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "https://*.grwtrading.com",
+          "type": "other"
+        },
+        {
+          "target": "https://*.dropxl.com",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        }
+      ]
+    }
+  },
+  {
     "id": "goto-financial-public-bounty-program",
     "name": "GoTo Financial - Public Bounty Program",
     "public": true,
@@ -3542,45 +3506,6 @@
     }
   },
   {
-    "id": "openpgp-js-bug-bounty-program",
-    "name": "OpenPGP.js Bug Bounty Program",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 250,
-    "max_bounty": 10000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "Security Vulnerability in OpenPGP.js's high-level API",
-          "type": "open-source"
-        },
-        {
-          "target": "Security Vulnerability in the OpenPGP Standard",
-          "type": "open-source"
-        },
-        {
-          "target": "Interoperability Issue in OpenPGP.js",
-          "type": "open-source"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "Security Vulnerabilities that can only be caused by using OpenPGP.js's low-level API, or by using OpenPGP.js's high-level API in an incorrect or unintended way",
-          "type": "other"
-        },
-        {
-          "target": "Security Vulnerabilities in the OpenPGP Standard that are not possible to fix or work around in OpenPGP.js (without causing interoperability issues)",
-          "type": "other"
-        },
-        {
-          "target": "Interoperability Issues that are caused by other OpenPGP implementations' non-compliance with the OpenPGP Standard",
-          "type": "other"
-        }
-      ]
-    }
-  },
-  {
     "id": "paddle-com-public-bug-bounty-program",
     "name": "Paddle.com Public Bug Bounty Program",
     "public": true,
@@ -3666,7 +3591,7 @@
     "targets": {
       "in_scope": [
         {
-          "target": "https://billingserver.pinelabs.com/",
+          "target": "https://billingserver.pinelabs.com",
           "type": "web-application"
         },
         {
@@ -3686,7 +3611,7 @@
           "type": "web-application"
         },
         {
-          "target": "https://myplutus.pinelabs.my/",
+          "target": "https://myplutus.pinelabs.my",
           "type": "web-application"
         },
         {
@@ -3698,11 +3623,7 @@
           "type": "web-application"
         },
         {
-          "target": "https://www.pinelabs.ae/",
-          "type": "web-application"
-        },
-        {
-          "target": "https://www.letspaylater.ph/",
+          "target": "https://www.letspaylater.ph",
           "type": "web-application"
         },
         {
@@ -3710,7 +3631,7 @@
           "type": "web-application"
         },
         {
-          "target": "https://plmcixt.pinelabs.com/",
+          "target": "https://plmcixt.pinelabs.com",
           "type": "web-application"
         },
         {
@@ -3718,31 +3639,31 @@
           "type": "mobile-application-android"
         },
         {
-          "target": "https://emistores.pinelabs.com/",
+          "target": "https://emistores.pinelabs.com",
           "type": "web-application"
         },
         {
-          "target": "https://www.pinelabs.com/",
+          "target": "https://www.pinelabs.com",
           "type": "web-application"
         },
         {
-          "target": "https://www.pinelabs.my/",
+          "target": "https://www.pinelabs.my",
           "type": "web-application"
         },
         {
-          "target": "https://www.pinelabs.ae/",
+          "target": "https://www.pinelabs.ae",
           "type": "web-application"
         },
         {
-          "target": "https://www.pinelabs.us/",
+          "target": "https://www.pinelabs.us",
           "type": "web-application"
         },
         {
-          "target": "https://board.pinelabs.com/",
+          "target": "https://board.pinelabs.com",
           "type": "web-application"
         },
         {
-          "target": "https://nbs.pinelabs.com/",
+          "target": "https://nbs.pinelabs.com",
           "type": "web-application"
         },
         {
@@ -3754,7 +3675,7 @@
           "type": "api"
         },
         {
-          "target": "https://pinepg.in/",
+          "target": "https://pinepg.in",
           "type": "api"
         },
         {
@@ -4078,113 +3999,6 @@
       "out_of_scope": [
         {
           "target": "Domains not listed in scope are by default all out of scope",
-          "type": "other"
-        }
-      ]
-    }
-  },
-  {
-    "id": "sequoia-pgp-bug-bounty-program",
-    "name": "Sequoia PGP Bug Bounty Program",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 500,
-    "max_bounty": 10000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "buffered-reader",
-          "type": "open-source"
-        },
-        {
-          "target": "nettle-sys",
-          "type": "open-source"
-        },
-        {
-          "target": "nettle-rs",
-          "type": "open-source"
-        },
-        {
-          "target": "SHA1-CD",
-          "type": "open-source"
-        },
-        {
-          "target": "sequoia-openpgp",
-          "type": "open-source"
-        },
-        {
-          "target": "sequoia-autocrypt",
-          "type": "open-source"
-        },
-        {
-          "target": "sequoia-ipc",
-          "type": "open-source"
-        },
-        {
-          "target": "sequoia-net",
-          "type": "open-source"
-        },
-        {
-          "target": "Shared OpenPGP Certificate Directory",
-          "type": "open-source"
-        },
-        {
-          "target": "sequoia-cert-store",
-          "type": "open-source"
-        },
-        {
-          "target": "sequoia-wot",
-          "type": "open-source"
-        },
-        {
-          "target": "sequoia-policy-config",
-          "type": "open-source"
-        },
-        {
-          "target": "rpm-sequoia",
-          "type": "open-source"
-        },
-        {
-          "target": "sqv",
-          "type": "open-source"
-        },
-        {
-          "target": "sq",
-          "type": "open-source"
-        },
-        {
-          "target": "sqop",
-          "type": "open-source"
-        },
-        {
-          "target": "octopus",
-          "type": "open-source"
-        },
-        {
-          "target": "sequoia-git",
-          "type": "open-source"
-        },
-        {
-          "target": "OpenPGP Cert Directory Specification",
-          "type": "open-source"
-        },
-        {
-          "target": "Web of Trust Specification",
-          "type": "open-source"
-        },
-        {
-          "target": "Sequoia git Specification",
-          "type": "open-source"
-        },
-        {
-          "target": "chameleon",
-          "type": "open-source"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "Anything related to https://sequoia-pgp.org",
           "type": "other"
         }
       ]
@@ -4859,6 +4673,10 @@
         {
           "target": "evisa.gov.mz",
           "type": "web-application"
+        },
+        {
+          "target": "https://vfsforms.mioot.com/forms/EIAT/",
+          "type": "web-application"
         }
       ],
       "out_of_scope": [
@@ -5526,101 +5344,6 @@
         },
         {
           "target": "*.owncloud.com",
-          "type": "other"
-        }
-      ]
-    }
-  },
-  {
-    "id": "systemd-bug-bounty-program",
-    "name": "systemd Bug Bounty Program",
-    "public": true,
-    "disabled": false,
-    "managed": null,
-    "min_bounty": 150,
-    "max_bounty": 10000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "systemd (the manager itself)",
-          "type": "open-source"
-        },
-        {
-          "target": "systemd-boot",
-          "type": "open-source"
-        },
-        {
-          "target": "systemd-stub",
-          "type": "open-source"
-        },
-        {
-          "target": "systemd-udev",
-          "type": "open-source"
-        },
-        {
-          "target": "systemd-journald",
-          "type": "open-source"
-        },
-        {
-          "target": "systemd-logind",
-          "type": "open-source"
-        },
-        {
-          "target": "libsystemd",
-          "type": "open-source"
-        },
-        {
-          "target": "systemd-timesyncd",
-          "type": "open-source"
-        },
-        {
-          "target": "systemd-hostnamed",
-          "type": "open-source"
-        },
-        {
-          "target": "systemd-resolved",
-          "type": "open-source"
-        },
-        {
-          "target": "systemd-cryptenroll",
-          "type": "open-source"
-        },
-        {
-          "target": "systemd-cryptsetup",
-          "type": "open-source"
-        },
-        {
-          "target": "systemd-veritysetup",
-          "type": "open-source"
-        },
-        {
-          "target": "systemd-fstab-generator",
-          "type": "open-source"
-        },
-        {
-          "target": "systemd-gpt-auto-generator",
-          "type": "open-source"
-        },
-        {
-          "target": "systemd-ask-password",
-          "type": "open-source"
-        },
-        {
-          "target": "Others",
-          "type": "open-source"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "target": "journal sealing in systemd-journald: there are known issue that need to be solved first, before this feature can be included in the program",
-          "type": "other"
-        },
-        {
-          "target": "Anything related to https://systemd.io",
-          "type": "other"
-        },
-        {
-          "target": "systemd-networkd",
           "type": "other"
         }
       ]

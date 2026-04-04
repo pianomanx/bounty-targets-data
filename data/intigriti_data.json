@@ -2268,6 +2268,36 @@
     }
   },
   {
+    "id": "4981522f-5675-4f46-b7b7-e065d30c8d79",
+    "name": "Cross Border Fines",
+    "company_handle": "bpost",
+    "handle": "crossborderfines",
+    "url": "https://www.intigriti.com/programs/bpost/crossborderfines/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "min_bounty": {
+      "value": 0,
+      "currency": "EUR"
+    },
+    "max_bounty": {
+      "value": 0,
+      "currency": "EUR"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "url",
+          "endpoint": "https://justonweb.be/fines/",
+          "description": null,
+          "impact": "No Bounty"
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
     "id": "13cfc6fe-92b2-4a56-8577-855ff0bc2f1c",
     "name": "Cyber Security Coalition",
     "company_handle": "cybersecuritycoalition",
@@ -2504,199 +2534,6 @@
     }
   },
   {
-    "id": "bd22f48d-633e-4b26-bf71-e4778d41b247",
-    "name": "DataCamp",
-    "company_handle": "datacamp",
-    "handle": "datacamp",
-    "url": "https://www.intigriti.com/programs/datacamp/datacamp/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 25,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 1500,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "url",
-          "endpoint": "profiles-api.datacamp.com",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "app.datacamp.com/certification",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "app.datacamp.com/groups",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "app.datacamp.com/learn",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "assessment-api.datacamp.com",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "assessment-v2.datacamp.com ",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "assessment.datacamp.com",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "campus.datacamp.com",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "android",
-          "endpoint": "com.datacamp",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "ios",
-          "endpoint": "https://apps.apple.com/au/app/datacamp-learn-data-science/id1263413087",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "practice.datacamp.com",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "projects.datacamp.com",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.datacamp.com",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.datacamp.com/datalab",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.datacamp.com",
-          "description": null,
-          "impact": "Tier 3"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "wildcard",
-          "endpoint": "*.it.datacamp.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "app.datacamp.com/recruit",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "ast-viewer.datacamp.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "confluence.datacamp.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "dccertified.datacamp.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "intranet.datacamp.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "jira.datacamp.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "links.datacamp.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "rdocumentation.datacamp.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "signature.datacamp.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "status.datacamp.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "support.datacamp.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "talent-jobs-api.datacamp.com",
-          "description": null,
-          "impact": "Out of scope"
-        }
-      ]
-    }
-  },
-  {
     "id": "8bf1f259-cac9-4114-9b84-3b950897b1ec",
     "name": "De Morgen",
     "company_handle": "dpgm",
@@ -2836,144 +2673,6 @@
           "endpoint": "*.volkskrant.nl",
           "description": "excluding abonnement.volkskrant.nl",
           "impact": "Tier 3"
-        }
-      ],
-      "out_of_scope": []
-    }
-  },
-  {
-    "id": "d14eedce-607d-4233-995d-30dbc7de8f23",
-    "name": "Delen Private Bank",
-    "company_handle": "delenprivatebank",
-    "handle": "privatebankdelen",
-    "url": "https://www.intigriti.com/programs/delenprivatebank/privatebankdelen/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 100,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 15000,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "url",
-          "endpoint": "api.digital.delen.be ",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "api.digital.delen.lu ",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "app.delen.be ",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "app.delen.ch ",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "app.delen.lu ",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "auth.digital.delen.be ",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "auth.digital.delen.lu ",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "android",
-          "endpoint": "be.delen.digital",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "ios",
-          "endpoint": "delen/id1064839588",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "login.delen.be ",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "login.delen.ch ",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "login.delen.lu ",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "login.oyens.com",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "status.delen.be ",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "sts.delen.be ",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.cadelam.be ",
-          "description": "🇫🇷🇳🇱",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.cadelux.lu/en ",
-          "description": "🇬🇧🇫🇷🇳🇱",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.delen.bank",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.delen.be/en ",
-          "description": "🇬🇧🇫🇷🇳🇱",
-          "impact": "Tier 2"
         }
       ],
       "out_of_scope": []
@@ -3882,109 +3581,6 @@
         }
       ],
       "out_of_scope": []
-    }
-  },
-  {
-    "id": "4d41a636-c811-4757-8fd9-007d7f18e212",
-    "name": "Exoscale Bug Bounty",
-    "company_handle": "exoscale",
-    "handle": "excoscalebugbounty",
-    "url": "https://www.intigriti.com/programs/exoscale/excoscalebugbounty/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 50,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 5000,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "url",
-          "endpoint": "https://portal.exoscale.com/",
-          "description": "Our web portal. A good place to start to create your test accounts, deploy your first resources and play around with our services.",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": " https://api-*exoscale.com/v2",
-          "description": "Our public API to deploy and interact with our different services. Have a look at [the API documentation](https://openapi-v2.exoscale.com/).\n\nThe API is deployed across multiple zones with different URLs:\n\nhttps://api-ch-gva-2.exoscale.com/v2\nhttps://api-ch-dk-2.exoscale.com/v2\nhttps://api-de-fra-1.exoscale.com/v2\nhttps://api-de-muc-1.exoscale.com/v2\nhttps://api-at-vie-1.exoscale.com/v2\nhttps://api-at-vie-2.exoscale.com/v2\nhttps://api-bg-sof-1.exoscale.com/v2\nhttps://api-hr-zag-1.exoscale.com/v2",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "https://sos-*.exo.io",
-          "description": "sos-*.exo.io are the subdomains related to our S3-compatible Object Storage service (called SOS). Have a look at [the SOS product documentation](https://community.exoscale.com/product/storage/object-storage/). These endpoints implement the S3 protocol. \n\n\nThere is a subdomain for each zone where the service is offered: \n\nhttps://sos-ch-gva-2.exo.io\nhttps://sos-ch-dk-2.exo.io\nhttps://sos-de-fra-1.exo.io\nhttps://sos-de-muc-1.exo.io\nhttps://sos-at-vie-1.exo.io\nhttps://sos-at-vie-2.exo.io\nhttps://sos-bg-sof-1.exo.io\nhttps://sos-hr-zag-1.exo.io\n\nPlease note that there may be resources owned by customers on these domains. Customers' resources are out of scope. ",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "https://sks-*.exo.io",
-          "description": "sks-*.exo.io are the subdomains related to our managed Kubernetes (SKS) clusters. Have a look at [the SKS product documentation](https://community.exoscale.com/product/compute/containers/).\n\n\nThere is a subdomain for each zone where the service is offered: \n\nhttps://sks-ch-gva-2.exo.io\nhttps://sks-ch-dk-2.exo.io\nhttps://sks-de-fra-1.exo.io\nhttps://sks-de-muc-1.exo.io\nhttps://sks-at-vie-1.exo.io\nhttps://sks-at-vie-2.exo.io\nhttps://sks-bg-sof-1.exo.io\nhttps://sks-hr-zag-1.exo.io\n\nPlease note that there may be resources owned by customers on these domains. Customers' resources are out of scope. ",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.internal.exoscale.ch",
-          "description": "Exoscale internal services. Not accessible to the outside world.",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "https://www.exoscale.com/",
-          "description": "Our [public website](https://www.exoscale.com/). A great way to start to familiarise with our products and services and learn more about everything Exoscale has to offer!",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "https://community.exoscale.com/",
-          "description": "Our [public documentation](https://community.exoscale.com/). Another great way familiarise with our products and services and learn more about everything Exoscale has to offer!",
-          "impact": "Tier 3"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "url",
-          "endpoint": "https://changelog.exoscale.com/",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "https://exoscalestatus.com/",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "https://academy.exoscale.com/",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "https://jobs.exoscale.com/",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "other",
-          "endpoint": "CDN service",
-          "description": "Exoscale offers a CDN service in partnership with Ducksify, member of the Akamai NetAlliance Partner network. The CDN service is out of scope of this program. ",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "other",
-          "endpoint": "Marketplace products",
-          "description": "Exoscale offers instant deployments of certain partner solutions through a marketplace. The marketplace products are out of scope of this program. ",
-          "impact": "Out of scope"
-        }
-      ]
     }
   },
   {
@@ -5069,307 +4665,6 @@
     }
   },
   {
-    "id": "ee2612e7-e188-492f-9bb2-ba48651523de",
-    "name": "Intergamma",
-    "company_handle": "intergamma",
-    "handle": "intergamma",
-    "url": "https://www.intigriti.com/programs/intergamma/intergamma/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 50,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 5500,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "wildcard",
-          "endpoint": "www.gamma.nl/*",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "www.gamma.be/*",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "www.karwei.nl/*",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "kassa.gamma.nl/*",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "kassa.gamma.be/*",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "kassa.karwei.nl/*",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "mijn.gamma.nl/*",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "mijn.gamma.be/*",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "mijn.karwei.nl/*",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "ios",
-          "endpoint": "949829216",
-          "description": "iOS app of GAMMA NL",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "ios",
-          "endpoint": "950693949",
-          "description": "iOS app of GAMMA BE",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "ios",
-          "endpoint": "950680989",
-          "description": "iOS app of Karwei",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "ios",
-          "endpoint": "1558129454",
-          "description": "Our brand new iOS app fully dedicated to paint, with nice features to use AR and see how the paint looks on your own wall.\nShares various web views with our website.\n\nTechnically equal to the Android version",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "android",
-          "endpoint": "nl.gamma.app.android",
-          "description": "Android app of GAMMA NL",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "android",
-          "endpoint": "be.gamma.app.android",
-          "description": "Android app of GAMMA BE",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "android",
-          "endpoint": "nl.karwei.app.android",
-          "description": "Android app of Karwei",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.gamma.nl/*",
-          "description": "**Out of scope: mail.gamma.nl**\n\n\nThis covers all subdomains of gamma.nl not listed in Tier 1",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.gamma.be/*",
-          "description": "**Out of scope: mail.gamma.be**\n\nThis covers all subdomains of gamma.be not listed in Tier 1",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.karwei.nl/*",
-          "description": "**Out of scope: mail.karwei.nl**\n\n**api.maakafspraak.karwei.nl and maakafspraak.karwei.nl are listed seperately**\n\nThis covers all subdomains of Karwei.nl not listed in Tier 1",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.intergamma.cloud",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.intergamma.nl/*",
-          "description": "Corporate website",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.restintergamma.nl",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.intergamma-test.nl",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.werkenbijgamma.nl",
-          "description": "Recruiting website",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.werkenbijgamma.be",
-          "description": "Recruiting website",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.werkenbijkarwei.nl",
-          "description": "Recruiting website",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "irmg.nl",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "gammacademy.be",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "karwei-promotiepunt.nl",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "gammalokaal.nl",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.karweioutletstore.nl",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "android",
-          "endpoint": "nl.gamma.verf",
-          "description": "Our brand new Android app fully dedicated to paint, with nice features to use AR and see how the paint looks on your own wall.\nShares various web views with our website.\n\nTechnically equal to the iOS version",
-          "impact": "No Bounty"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "wildcard",
-          "endpoint": "*.configuratoren.nl/*",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "afspraakmaken.gamma.nl",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "api.afspraakmaken.gamma.be",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "api.afspraakmaken.gamma.nl",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "api.maakafspraak.karwei.nl",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "other",
-          "endpoint": "Everything related to configurators, both on primary as other domains",
-          "description": "Temporary catch-all exclusion because of security maintenance and fixing of known issues",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "horrenconfigurator-fr.gamma.be",
-          "description": "Third party hosted application",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "horrenconfigurator-nl.gamma.be",
-          "description": "Third party hosted application",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "horrenconfigurator.karwei.nl",
-          "description": "Third party hosted application",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "karwei-2018.hetmooistegordijn.nl",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "maakafspraak.karwei.nl",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "mail.gamma.be",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "mail.gamma.nl",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "mail.karwei.nl",
-          "description": null,
-          "impact": "Out of scope"
-        }
-      ]
-    }
-  },
-  {
     "id": "3f6b3170-afd4-411c-84fc-24113a562ecf",
     "name": "KU Leuven Responsible Disclosure Program",
     "company_handle": "kuleuven",
@@ -5406,397 +4701,6 @@
         {
           "type": "url",
           "endpoint": "www.trismegistos.org",
-          "description": null,
-          "impact": "Out of scope"
-        }
-      ]
-    }
-  },
-  {
-    "id": "768ad323-335b-4710-9370-6b81925c122f",
-    "name": "Kinepolis Group",
-    "company_handle": "kinepolis",
-    "handle": "website",
-    "url": "https://www.intigriti.com/programs/kinepolis/website/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 0,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 5000,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "wildcard",
-          "endpoint": "*.klubcinema.fr",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.megatix.be  ",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "booking.mjrtheatres.com",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "extras.landmarkcinemas.com",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "identityserver.landmarkcinemas.com",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "kinepolis.megatix.be",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "luxfilmfestfilms.megatix.be",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "luxfilmfestproducts.megatix.be",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "luxfilmfesttickets.megatix.be",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "movieapi.kinepolis.megatix.be",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "tickets.kinepolis.be",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "tickets.kinepolis.ch",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "tickets.kinepolis.es",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "tickets.kinepolis.fr",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "tickets.kinepolis.lu",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "tickets.kinepolis.nl",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "userprofile-ui.landmarkcinemas.com",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.kinepolis.be ",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.kinepolis.ch ",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.kinepolis.com ",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.kinepolis.es ",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.kinepolis.fr ",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.kinepolis.lu ",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.kinepolis.nl ",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.landmarkcinemas.com",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.mjrtheatres.com",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "business.kinepolis.be",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "business.kinepolis.lu",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "business.kinepolis.nl",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "android",
-          "endpoint": "com.inthepocket.kinepolis",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "extras-acc.landmarkcinemas.com",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "https://movieclub-int.kinepolis.com",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "https://movienow-int.kinepolis.be/admin",
-          "description": "We are planning on using a new way to authenticate our INT/UAT testers, and it's active on this URL. Are there weaknesses on this page?",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "https://shop-acc.kinepolis.be/",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "identityserver-acc.landmarkcinemas.com",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "kinepolis-studio.be",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "ios",
-          "endpoint": "kinepolis/id368204284",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "android",
-          "endpoint": "nz.co.vista.android.movie.mjrtheatres",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "stage.landmarkcinemas.com",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "userprofile-acc.landmarkcinemas.com",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.kinepolis.biz",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.kinepolis.be",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.kinepolis.ch",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.kinepolis.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.kinepolis.fr",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.kinepolis.lu",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.kinepolis.nl",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.landmarkcinemas.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.mjrtheatres.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "ios",
-          "endpoint": "522089287",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "egaming.kinepolis.es",
-          "description": null,
-          "impact": "No Bounty"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "wildcard",
-          "endpoint": "*.cineramabios.nl",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "dev.kinepolis.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "helpdesk.landmarkcinemas.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "jobs.kinepolis.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "l.kinepolis.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "openx.kinepolis.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "shop.kinepolis.be ",
-          "description": "We'll be limiting testing for our eshop to the testing environment (shop-acc.kinepolis.be) for the time being.",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "shop.kinepolis.es",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "shop.kinepolis.fr ",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "shop.kinepolis.lu",
           "description": null,
           "impact": "Out of scope"
         }
@@ -7053,109 +5957,6 @@
         }
       ],
       "out_of_scope": []
-    }
-  },
-  {
-    "id": "23f5d877-7948-4740-830c-393e66753fc4",
-    "name": "Monzo Public Bug Bounty Program",
-    "company_handle": "monzobank",
-    "handle": "monzopublicbugbountyprogram",
-    "url": "https://www.intigriti.com/programs/monzobank/monzopublicbugbountyprogram/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 50,
-      "currency": "GBP"
-    },
-    "max_bounty": {
-      "value": 12500,
-      "currency": "GBP"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "wildcard",
-          "endpoint": "*.monzo.com",
-          "description": "The crux of Monzo where the APIs live as well as Monzo Business. Excludes the main website (like `monzo.com`/`www.monzo.com`).",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.prod-ffs.io",
-          "description": "Where our internet-facing services are accessed",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "ios",
-          "endpoint": "1052238659",
-          "description": "The public seed of the Monzo app on iOS",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "android",
-          "endpoint": "co.uk.getmondo",
-          "description": "The public seed of the Monzo app on Android",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.monzo.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "monzo.com",
-          "description": null,
-          "impact": "Tier 3"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "wildcard",
-          "endpoint": "*/p2p/*",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*/contact-discovery/*",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*/inbound-p2p/*",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.monzo.me",
-          "description": "Houses the services for the pay me/request payment feature",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "community.monzo.com",
-          "description": "We use a third-party, Discourse for our community forums. Third-parties are out of scope for our programs.",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "login.internal.monzo.com",
-          "description": "This is our connection to Okta for internal authentication. Third-parties are out of scope for our programs. ",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "monzo.me",
-          "description": "Monzo.me is a service that allows Monzo users to easily receive money from others via a personalised link, even if the sender doesn't have a Monzo account.",
-          "impact": "Out of scope"
-        }
-      ]
     }
   },
   {
@@ -9314,66 +8115,6 @@
     }
   },
   {
-    "id": "152bc833-04a4-40d2-bdaa-0b31f6161449",
-    "name": "Social Deal",
-    "company_handle": "socialdeal",
-    "handle": "socialdeal",
-    "url": "https://www.intigriti.com/programs/socialdeal/socialdeal/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 25,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 750,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "ios",
-          "endpoint": "910898851",
-          "description": "We expect that issued items are including print-screen of the version of the app.  \n\n![Flow to get to version number](https://media.socialdeal.nl/img/flow-about-this-app.png)",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "android",
-          "endpoint": "app.nl.socialdeal",
-          "description": "We expect that issued items are including print-screen of the version of the app.  \n\n![Flow to get to version number](https://media.socialdeal.nl/img/flow-about-this-app.png)",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "http://socialdeal.nl/inspirations/bluemonday/",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "http://www.whynot.com/",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "https://www.socialdeal.nl/orderlist/5e834ae0bed5c/63d772e2ed277/",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.socialdeal.nl",
-          "description": "Our main website. \nwww.socialdeal.be and www.socialdeal.de are the same websites, with different Locale.\n",
-          "impact": "Tier 2"
-        }
-      ],
-      "out_of_scope": []
-    }
-  },
-  {
     "id": "8f6c92dc-1300-4f11-8284-29b6ed743378",
     "name": "Speakap Responsible Disclosure",
     "company_handle": "speakap",
@@ -10971,259 +9712,6 @@
     }
   },
   {
-    "id": "28e0de63-e932-43cf-8a23-5ea24dabd48f",
-    "name": "Uphold",
-    "company_handle": "Uphold",
-    "handle": "upholdcom",
-    "url": "https://www.intigriti.com/programs/Uphold/upholdcom/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 0,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 6000,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "ios",
-          "endpoint": "Uphold: Buy BTC, ETH and 360+",
-          "description": "The Uphold Wallet iOS Application is the primary mobile platform for Uphold users to manage their wallets, providing a full suite of financial services, including account management, real-time price quotes, transactions, and access to account history. Users can deposit, withdraw, exchange assets, and complete KYC verification directly through the app.\n\nThis is currently installable on Jailbroken devices, please read the out-of-scope findings.",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "ios",
-          "endpoint": "UpHODL",
-          "description": "The UpHODL Wallet App is a self-custodial, multichain wallet developed by Uphold Labs, allowing users to securely store, manage, and transact digital assets while maintaining full control over their private keys. The wallet supports Bitcoin (BTC), Ethereum (ETH), XRP, ERC-20 tokens, NFTs, and other blockchain networks, offering seamless DeFi access via WalletConnect and the ability to purchase cryptocurrencies directly using a card.\n\nThis is currently installable on Jailbroken devices, but we don't allow the user to proceed with creating a wallet. Please read the out-of-scope findings.",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "api-sandbox.uphold.com",
-          "description": "The Uphold Wallet REST API (https://api.uphold.com) offers developers comprehensive access to Uphold’s financial platform, enabling the creation of innovative services. This API allows for operations such as retrieving account details, managing user accounts, initiating transactions, accessing transaction history, and obtaining real-time market data. By integrating with this API, developers can seamlessly incorporate Uphold’s multi-asset trading and digital wallet functionalities into their applications.\n\nMore information available [here](https://docs.uphold.com).\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production; if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support their assessment.\n\n",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "api-sandbox.uphold.com/graphql",
-          "description": "The Uphold Wallet GraphQL API (https://api-sandbox.uphold.com/graphql) serves as the API gateway for Uphold’s wallet UIs, facilitating seamless interactions between the front-end interfaces and multiple back-end microservices. Unlike the REST API, which is designed for user automation and third-party integrations, the GraphQL API is primarily responsible for enabling the wallet’s web and mobile applications to fetch and interact with user data, transactions, and account-related functionalities.\n\nMore information available [here](https://docs.uphold.com).\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production; if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support their assessment.",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "api.portal.enterprise.uphold.com ",
-          "description": "The Uphold Enterprise API (https://api.portal.enterprise.uphold.com/) is the backend service supporting the Uphold Enterprise Portal (portal.enterprise.uphold.com), enabling enterprise clients to manage their wallets, user delegations, and integrations with Topper widgets. This API facilitates secure enterprise-level account management, transaction processing, and access control. Security testing should focus on authentication mechanisms, authorization flows, data integrity, and potential vulnerabilities that could impact enterprise account security and operations.\n\nThis is a production environment—please review the program policy to avoid denial of service and other types of unavailability during security testing.",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "android",
-          "endpoint": "UpHODL",
-          "description": "The UpHODL Wallet App is a self-custodial, multichain wallet developed by Uphold Labs, allowing users to securely store, manage, and transact digital assets while maintaining full control over their private keys. The wallet supports Bitcoin (BTC), Ethereum (ETH), XRP, ERC-20 tokens, NFTs, and other blockchain networks, offering seamless DeFi access via WalletConnect and the ability to purchase cryptocurrencies directly using a card.",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "android",
-          "endpoint": "Uphold: Buy BTC, ETH and 300+",
-          "description": "The Uphold Wallet Android Application is the primary mobile platform for Uphold users to manage their wallets, providing a full suite of financial services, including account management, real-time price quotes, transactions, and access to account history. Users can deposit, withdraw, exchange assets, and complete KYC verification directly through the app.",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "portal.enterprise.uphold.com",
-          "description": "The Uphold Enterprise Portal (https://portal.enterprise.uphold.com) is a secure platform for Uphold’s enterprise clients, providing tools to manage enterprise wallets, delegate user roles and permissions, and integrate with Topper widgets. This portal enables businesses to oversee digital asset operations, facilitate transactions, and enforce access control within their organization. Key features include multi-user account management, real-time transaction monitoring, and compliance support, allowing enterprises to securely manage financial operations.\n\nThis is a production environment—please review the program policy to avoid denial of service and other types of unavailability during security testing.",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "wallet-sandbox.uphold.com",
-          "description": "The Uphold Wallet Web Application (https://wallet.uphold.com) is the primary UI platform for Uphold users to manage their wallets, providing a full suite of financial services, including account management, real-time price quotes, transactions, and access to account history. Users can deposit, withdraw, exchange assets, and complete KYC verification directly through the application. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for more extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production, and if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support the assessment.\n",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "url",
-          "endpoint": "api.sandbox.topperpay.com",
-          "description": "The Topper REST API (https://api.topperpay.com) provides a pre-widget integration layer, allowing clients to retrieve essential information before initializing a Topper widget. This API enables businesses to fetch supported countries, assets, and payment methods, as well as generate pricing simulations for specific transaction flows. By leveraging this API, clients can display relevant information to users before engaging with the Topper on-ramp or off-ramp services.\n\nMore information available [here](https://api.topperpay.com/docs/static/index.html).\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for more extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production, and if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support the assessment.",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "app.sandbox.topperpay.com",
-          "description": "The Topper Widget (https://app.topperpay.com) is a live, embeddable component designed for seamless integration into client platforms, enabling end-users to perform cryptocurrency on-ramp and off-ramp transactions. This widget facilitates the conversion between fiat and digital assets directly within the client’s interface, providing a streamlined user experience.\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for more extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production, and if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support the assessment.",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "graphql.sandbox.topperpay.com/graphql",
-          "description": "The Topper GraphQL API (https://graphql.topperpay.com/graphql) serves as the API gateway for app.topperpay.com and all client-integrated Topper widgets, facilitating seamless interaction between external applications and Topper’s internal services. This API routes requests to multiple microservices handling user management, KYC verification, transaction processing, and other core functionalities.\n\nMore information available [here](https://docs.topperpay.com/intro).\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for more extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production, and if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support the assessment.",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "uatcms.optimuscards.com",
-          "description": "Optimus Cards Management Portal (https://uatcms.optimuscards.com) serves as the User Acceptance Testing (UAT) environment for Optimus Cards’ internal management system. This portal is designed for internal use by authorized personnel to manage and oversee various card services and operations. While it mirrors the functionalities of the production environment (https://cms.optimuscards.com), the UAT portal is intended for testing and validation purposes prior to deploying updates to the live system.\n\nBoth the UAT and production portals may be powered by similar back-end services; however, security assessments should focus exclusively on the UAT environment (https://uatcms.optimuscards.com). This approach allows for the identification of potential vulnerabilities without impacting live operations. \n\nSecurity testing should concentrate on identifying vulnerabilities related to authentication mechanisms, access controls, data handling, and potential misconfigurations within the UAT environment. \n\nPlease note that service degradation attacks are not permitted.",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.optimuscards.com",
-          "description": "The wildcard domain *.optimuscards.com includes all subdomains under optimuscards.com, covering various services related to Optimus Cards’ white-label debit and credit card solutions, Banking as a Service (BaaS), and Cards as a Service (CaaS) for financial institutions and corporate clients. These subdomains may encompass customer account management platforms, API access for partners, administrative portals, and other operational services. Given the financial nature of these services, security testing should focus on identifying vulnerabilities that could impact user data, transactions, or system integrity.\n\nWe are willing to give bonuses for any impactful issues found across the rest of our domain, provided we agree on their severity and relevance. ",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.topperpay.com",
-          "description": "The wildcard domain *.topperpay.com covers any **unlisted** subdomains related to Topper, an Uphold brand that provides on-ramp and off-ramp solutions for digital assets, enabling users to seamlessly convert between fiat and cryptocurrency. Security testing should focus on identifying vulnerabilities that could impact user security, transaction integrity, or authentication mechanisms.\n\nWhile we have already listed some subdomains in scope, this wildcard serves to cover any additional subdomains that may be discovered. We are willing to give bonuses for any impactful issues found across the rest of our domain, provided we agree on their severity and relevance. ",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.uphodl.com",
-          "description": "The wildcard domain *.uphodl.com covers all subdomains related to UpHODL, Uphold Labs’ self-custodial multichain crypto wallet, which enables users to securely manage their digital assets. Security testing should focus on identifying vulnerabilities that could impact user security, transaction integrity, or authentication mechanisms.\n\nWhile we have already listed some subdomains in scope, this wildcard serves to cover any additional subdomains that may be discovered. We are willing to give bonuses for any impactful issues found across the rest of our domain, provided we agree on their severity and relevance. ",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.uphold.com",
-          "description": "The wildcard domain *.uphold.com covers any **unlisted** or **undisclosed** subdomains related to Uphold’s financial platform, which provides multi-asset trading, digital wallets, and financial services. While most core assets are explicitly listed in scope, this wildcard serves to cover any additional subdomains that may be discovered. Security testing should focus on identifying vulnerabilities that could impact authentication, transaction integrity, or overall platform security.\n\nWe are willing to give bonuses for any impactful issues found across the rest of our domain, provided we agree on their severity and relevance.",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "docs.api.enterprise.uphold.com",
-          "description": "The Uphold Enterprise API Documentation (https://docs.api.enterprise.uphold.com) provides technical resources for Uphold-as-a-Service, a fully licensed white-label solution that enables financial institutions and business partners to integrate and deploy their own branded digital asset services. This platform offers comprehensive API functionality for managing transactions, compliance, user accounts, and asset trading, while ensuring regulatory compliance and security.\n\nThis is a production environment—please review the program policy to avoid denial of service and other types of unavailability during security testing.",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "docs.optimuscards.com",
-          "description": "Optimus Cards Developer Documentation (https://docs.optimuscards.com) serves as the primary resource for developers integrating with Optimus Cards’ services. This site provides comprehensive API documentation, integration guides, and technical references necessary for implementing Optimus Cards’ payment solutions into applications. While the documentation itself does not process transactions, it acts as a crucial gateway for developers to access sandbox environments, test APIs, and understand the functionalities offered by Optimus Cards.\n\nEach API endpoint and service described in the documentation may be powered by different back-end systems, implying that security assessments should consider varying architectures, data sources, and authentication mechanisms.\n\nSecurity testing should focus on identifying vulnerabilities related to API endpoint security, data exposure, and potential misconfigurations. \n\nPlease note that service degradation attacks are not permitted.",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "docs.topperpay.com",
-          "description": "The Topper Developer Documentation (https://docs.topperpay.com) provides technical guidance for business customers looking to integrate with Topper, a service that facilitates cryptocurrency purchases and payments. It outlines the onboarding process, API authentication, transaction workflows, and integration requirements for businesses leveraging Topper’s platform. This documentation is intended to assist companies in securely and efficiently embedding Topper’s services into their products. \n\nThis is a production environment—please review the program policy to avoid denial of service and other types of unavailability during security testing.",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "docs.uphold.com",
-          "description": "The Uphold API Documentation (https://docs.uphold.com) serves as the official resource for developers integrating with the Uphold Platform. It provides detailed guidance on API authentication, endpoints, request/response structures, and best practices for interacting with Uphold’s financial services. The documentation covers topics such as account management, transactions, currency conversion, and security protocols. Bug bounty participants can review the documentation for misconfigurations, security flaws, or exposed sensitive information that could impact the integrity of the Uphold API ecosystem.\n\nThis is a production environment—please review the program policy to avoid denial of service and other types of unavailability during security testing.",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "github.com/uphold/*",
-          "description": "The wildcard scope github.com/uphold/* covers any public repositories made available by Uphold on GitHub. These repositories may include SDKs, developer tools, open-source projects, documentation, and other publicly accessible codebases that support Uphold’s ecosystem.\n\nSecurity testing should focus on identifying misconfigurations, exposed sensitive information, or vulnerabilities that could impact Uphold’s security posture.\n\nWe are willing to give bonuses for any impactful issues found across our repositories, provided we agree on their severity and relevance. Please note that third-party dependencies are out of scope unless the issue is caused by a misconfiguration or security oversight by Uphold.",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "status.uphold.com",
-          "description": "The Uphold Status Page (https://status.uphold.com/) provides real-time and historical data on the operational status of Uphold’s services, including the Mobile Wallet, Web Wallet, API, and more. It offers transparency regarding system performance, uptime statistics, and incident history, allowing users to monitor the health of Uphold’s platform. \n\nThis is a production environment—please review the program policy to avoid denial of service and other types of unavailability during security testing.",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "support-sandbox.uphold.com",
-          "description": "The Uphold Help Center is a comprehensive support platform designed to assist users with various aspects of their Uphold experience. It offers self-service options for tasks such as resetting passwords, managing two-factor authentication, and downloading transaction histories. The Help Center also provides detailed articles covering account setup, management, deposits, withdrawals, trading features, and security measures. Users can access guidance on updating account information, linking payment methods, understanding fees and limits, and ensuring account security. Additionally, the platform includes resources for reporting suspicious activities and accessing tax-related information. For personalized assistance, users can contact the support team directly through the Help Center.\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for more extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production, and if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support the assessment.",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "support-staging.topperpay.com",
-          "description": "The Topper Support Website (https://support-staging.topperpay.com) serves as the informational and support platform for Topper, providing guidance on account management, verification processes, transaction tracking, and partnership opportunities. Users can access resources to understand Topper’s on-ramp and off-ramp functionalities and submit support requests if needed. \n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for more extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production, and if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support the assessment.",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.optimuscards.com",
-          "description": "Optimus Cards Website (https://www.optimuscards.com) serves as the main informational platform for Optimus Cards, providing an overview of its card issuing and payment solutions. The website primarily offers details on the company’s services, regulatory compliance, and contact information. While it does not facilitate financial transactions or serve as a gateway to customer platforms, it functions as a static informational site for prospective clients and partners.\n\nThe website operates as a standalone informational resource without direct integrations to financial systems or user authentication mechanisms. Security assessments should focus on identifying vulnerabilities related to content integrity, redirections, and potential misconfigurations.\n\nPlease note that service degradation attacks are not permitted.",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.topperpay.com",
-          "description": "The Topper Production Website (https://www.topperpay.com) serves as the informational platform for Topper, an Uphold brand that provides on-ramp and off-ramp solutions for digital assets. The website explains how users can seamlessly convert fiat to crypto (on-ramp) and crypto to fiat (off-ramp) while integrating with various self-custodial wallets. It does not facilitate transactions directly but redirects users to app.topperpay.com for asset exchanges.\n\nThis is a production environment—please review the program policy to avoid denial of service and other types of unavailability during security testing.",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.uphodl.com",
-          "description": "The UpHODL Production Website (https://www.uphodl.com) serves as the institutional website for UpHODL, Uphold Labs’ self-custodial crypto wallet. It provides information about the wallet’s features, supported assets, security model, and integration with decentralized finance (DeFi) platforms. The site is designed for informational and marketing purposes, guiding users on how to download, set up, and use the UpHODL wallet. \n\nThis is a production environment—please review the program policy to avoid denial of service and other types of unavailability during security testing.",
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.uphold.com",
-          "description": "The Uphold Website (https://www.uphold.com) serves as the company’s main informational platform, providing an overview of Uphold’s services, institutional offerings, and financial transparency. It includes key sections such as the Transparency Page (real-time reserves data), Institutional and Enterprise offerings, Market Prices, Blog, and Academy, along with general company updates. While the website itself does not provide transactional functionalities, it acts as a gateway to Uphold’s wallet, trading platform, and other financial services.\n\nTechnical Note: Each menu category (Individuals, Enterprise, Institutional, Market Prices, Blog, Academy, Transparency) may be powered by different back-end services, meaning security assessments should consider the possibility of varying architectures, data sources, and API implementations.\n\nSecurity testing should focus on identifying vulnerabilities related to content integrity, redirections, and potential misconfigurations. Please note that service degradation attacks are not permitted.",
-          "impact": "Tier 3"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "url",
-          "endpoint": "api.topperpay.com",
-          "description": "Topper API (https://api.topperpay.com) serves as the production API for processing transactions and account-related operations. As this is an actively used environment, it is out of scope for security testing.\n",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "api.uphold.com",
-          "description": "Uphold API (https://api.uphold.com) serves as the production API endpoint for Uphold’s platform, facilitating financial transactions, account management, and other core functionalities. As this is an actively used environment, it is out of scope for security testing.",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "api.uphold.com/graphql",
-          "description": "Uphold GraphQL API (https://api.uphold.com/graphql) is the production GraphQL endpoint supporting data retrieval and transactional interactions within the Uphold ecosystem. As this is an actively used environment, it is out of scope for security testing.",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "app.topperpay.com",
-          "description": "Topper App (https://app.topperpay.com) is the production web application for users to manage their Topper accounts and perform financial operations. As this is an actively used environment, it is out of scope for security testing.\n",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "cms.optimuscards.com",
-          "description": "Optimus Cards Management Portal (https://cms.optimuscards.com) serves as the production version of the internal management system used for overseeing various card services and operations. As this is an actively used environment, it is out of scope for security testing.\n\nPlease note that security testing against the production system (https://cms.optimuscards.com) is strictly prohibited, and service degradation attacks are not permitted.",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "graphql.topperpay.com/graphql",
-          "description": "Topper GraphQL API (https://graphql.topperpay.com/graphql) serves as the production GraphQL endpoint for data retrieval and financial interactions within the Topper platform. As this is an actively used environment, it is out of scope for security testing.",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "support.topperpay.com",
-          "description": "Topper Support (https://support.topperpay.com) provides customer support and documentation for Topper users. As this is an actively used environment, it is out of scope for security testing.",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "support.uphold.com",
-          "description": "Uphold Support (https://support.uphold.com) provides customer support and knowledge base resources for Uphold users. As this is an actively used environment, it is out of scope for security testing.\n",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "wallet.uphold.com",
-          "description": "Uphold Wallet (https://wallet.uphold.com) serves as the production interface for users to access their Uphold accounts, manage assets, and perform transactions. As this is an actively used environment, it is out of scope for security testing.\n",
-          "impact": "Out of scope"
-        }
-      ]
-    }
-  },
-  {
     "id": "0083c917-80ac-4943-90b7-ee60dc1bdb17",
     "name": "VDP",
     "company_handle": "showpad",
@@ -11505,157 +9993,6 @@
         }
       ],
       "out_of_scope": []
-    }
-  },
-  {
-    "id": "30a91ad4-fb06-4f0c-ae96-7f5167a840db",
-    "name": "Vinted - Bug Bounty Program",
-    "company_handle": "vinted",
-    "handle": "vinted-bugbountyprogram",
-    "url": "https://www.intigriti.com/programs/vinted/vinted-bugbountyprogram/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 5,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 2300,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "wildcard",
-          "endpoint": "*.vinted.net",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.vinted.com",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.vinted.fr",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.vintedgo.com",
-          "description": "Vinted shipping website",
-          "impact": "Tier 1"
-        },
-        {
-          "type": "ios",
-          "endpoint": "Vinted: Shop & sell pre-loved",
-          "description": "iOS application for Vinted",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "android",
-          "endpoint": "Vinted: Shop & sell pre-loved",
-          "description": "Android application for Vinted",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*sandbox*.vintedgo.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*sandbox*.vinted.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*old.vinted.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*test-escalations.vintedgo.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*badger.it.vinted.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*careers.vinted.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*news.vinted.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*company.vinted.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "other",
-          "endpoint": "Scam",
-          "description": "Non-public source code of any automated tool made for Vinted. Failing that: detailed analysis of the tool with identifiable results of its action (such as servers, users or items impacted and time of impact, preferably in a video format)\n\nInside knowledge of any groups working on Vinted (related to scams, fraud, counterfeits, dropshipping, shipment abuse, or any other type of abuse) that would lead to actionable results (tutorials, methods, patterns of operation, infrastructure, indicators of vulnerabilities)\n\nWe are interested in compromised Vinted employees.",
-          "impact": null
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "url",
-          "endpoint": "api.prod.svc.vintedpay.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "callbacks.prod.svc.vintedpay.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.homerr.com",
-          "description": "One of our sister company for shipping",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*vintedpay.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.vinted.ca ",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.people.vinted.*",
-          "description": null,
-          "impact": "Out of scope"
-        }
-      ]
     }
   },
   {
@@ -11961,6 +10298,145 @@
           "type": "other",
           "endpoint": "Third-party systems or domains referencing Voi",
           "description": "Before testing or reporting a vulnerability, confirm that the target asset is owned or managed by Voi. When in doubt, we strongly encourage you to verify the asset's ownership through the program team to avoid unintentional testing of third-party systems.",
+          "impact": "Out of scope"
+        }
+      ]
+    }
+  },
+  {
+    "id": "afc4415d-c004-4cf8-9a12-e0f18cde6db5",
+    "name": "WP Engine Bug Bounty",
+    "company_handle": "wpengine",
+    "handle": "wpenginebugbounty",
+    "url": "https://www.intigriti.com/programs/wpengine/wpenginebugbounty/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "min_bounty": {
+      "value": 0,
+      "currency": "EUR"
+    },
+    "max_bounty": {
+      "value": 2500,
+      "currency": "EUR"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "url",
+          "endpoint": "https://app.getflywheel.com",
+          "description": "This is the primary site for researchers to register and test both the Flywheel App as well as the Flywheel Platform. We will not provide credentials or bypass verification controls (i.e, a researcher will need to either provide a valid phone number or credit card to have a live site), but a researcher may register a demo site that matches the platform's functionality without verification. **Please use your Intigriti credentials to register.** Please note that any issues regarding an individual WordPress installation on the Flywheel platform, outside of plugins owned by WP Engine/Flywheel, will be considered out of scope as we do not monitor or manage customer content. We are, however, very interested in issues that may compromise customer isolation on the platform or cause data to be leaked from either a host or an unrelated customer site.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://getflywheel.com",
+          "description": "This site is the landing page for Flywheel-branded services. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality or https://getflywheel.com/schedule-a-demo/. No testing should be done against these targets or any 3rd party services. Please do not contact our Support or Sales teams as part of your testing.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://my.wpengine.com",
+          "description": "The User Portal for WP Engine. Customers manage their WordPress sites, addons, and billing details through this portal. **No credentials will be provided**. Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application.\n\nResearchers may sign up for a free trial of our Headless Platform which provides full access to the User Portal and WP Engine platform for testing.  The trial signup page can be found at https://wpengine.com/headless-wordpress/ .  Please use your Intigriti researcher email address when signing up.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://payments.wpengine.com",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://wpengine.com",
+          "description": "This the landing page for the main WP Engine website. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and Live Chat are out-of-scope - specifically, the Sales Questions functionality and https://wpengine.com/contact/. No testing should be done against these targets or any 3rd party services.\n\n**Please Note:** All customer sites on subdomains of wpengine.com, unless explicitly listed as in scope, are out of scope.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*. advancedcustomfields.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*. bettersearchreplace.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.deliciousbrains.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.localwp.com",
+          "description": "Local is the #1 local WordPress development tool.",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.nitropack.io",
+          "description": "With NitroPack, you get everything you need for a fast website, in one place. Features like caching, image optimization, and a CDN are ready to go out of the box.",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.studiopress.com",
+          "description": "The studiopress.com, demo.studiopress.com, and my.studiopress.com sites are public facing marketing and WordPress theme e-commerce sites. **No credentials will be provided.** Researchers are free to test functionally that requires authentication with their own accounts.",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.wpengine.io",
+          "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible.",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.wpesvc.net",
+          "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible.",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "other",
+          "endpoint": "WP Engine-developed WordPress Plugins and Themes",
+          "description": "We accept any reports of vulnerabilities in plugins or themes managed or developed by WP Engine, with the exception of any application-level vulnerabilities in the Out of Scope section below.  These free versions closely mirror their paid counterparts, so any vulnerabilities discovered should be applicable to both the paid or free plugins.\n\nWe also accept reports for the following plugins:\nAdvanced Custom Fields\nBetter Search Replace \nWP Migrate\nWP Offload Media for Amazon S3, DigitalOcean Spaces, and Google Cloud Storage\nWP Offload SES",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://makeshift.film",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://studiopress.blog",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://torquemag.io",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://velocitize.com",
+          "description": null,
+          "impact": "Tier 3"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "url",
+          "endpoint": "marketing.nitropack.io",
+          "description": "This asset is hosted at a third-party vendor and is not eligible for bounties.",
           "impact": "Out of scope"
         }
       ]
