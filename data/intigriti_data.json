@@ -2624,9 +2624,63 @@
           "endpoint": "paperspace.com",
           "description": "We do not currently offer bounty rewards for findings related to the `paperspace.com` domain or associated sub-domains.",
           "impact": "No Bounty"
+        },
+        {
+          "type": null,
+          "endpoint": "https://github.com/digitalocean/do-agent",
+          "description": "A daemon that helps collect system metrics from droplets",
+          "impact": "No Bounty"
+        },
+        {
+          "type": null,
+          "endpoint": "https://github.com/digitalocean/droplet-agent",
+          "description": "A daemon that enables web console access on droplets",
+          "impact": "No Bounty"
+        },
+        {
+          "type": null,
+          "endpoint": "https://github.com/digitalocean/doctl",
+          "description": "The official command line interface for the DigitalOcean API",
+          "impact": "No Bounty"
         }
       ],
       "out_of_scope": [
+        {
+          "type": null,
+          "endpoint": "https://github.com/digitalocean/action-doctl",
+          "description": "GitHub Actions for DigitalOcean - doctl",
+          "impact": "Out of scope"
+        },
+        {
+          "type": null,
+          "endpoint": "https://github.com/digitalocean/godo",
+          "description": "DigitalOcean's Go API client",
+          "impact": "Out of scope"
+        },
+        {
+          "type": null,
+          "endpoint": "https://github.com/digitalocean/pydo",
+          "description": "DigitalOcean's Python API client",
+          "impact": "Out of scope"
+        },
+        {
+          "type": null,
+          "endpoint": "https://github.com/digitalocean/terraform-provider-digitalocean",
+          "description": "DigitalOcean's official Terraform provider",
+          "impact": "Out of scope"
+        },
+        {
+          "type": null,
+          "endpoint": "https://github.com/digitalocean/go-nbd",
+          "description": "Golang-only network block device client",
+          "impact": "Out of scope"
+        },
+        {
+          "type": null,
+          "endpoint": "https://github.com/digitalocean/do-markdownit",
+          "description": "Markdown plugin run against all user-submitted content on https://digitalocean.com/community",
+          "impact": "Out of scope"
+        },
         {
           "type": "url",
           "endpoint": "anchor.digitalocean.com",
@@ -2745,60 +2799,6 @@
           "type": "url",
           "endpoint": "waves.digitalocean.com",
           "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": null,
-          "endpoint": "https://github.com/digitalocean/do-agent",
-          "description": "A daemon that helps collect system metrics from droplets",
-          "impact": "Out of scope"
-        },
-        {
-          "type": null,
-          "endpoint": "https://github.com/digitalocean/droplet-agent",
-          "description": "A daemon that enables web console access on droplets",
-          "impact": "Out of scope"
-        },
-        {
-          "type": null,
-          "endpoint": "https://github.com/digitalocean/doctl",
-          "description": "The official command line interface for the DigitalOcean API",
-          "impact": "Out of scope"
-        },
-        {
-          "type": null,
-          "endpoint": "https://github.com/digitalocean/action-doctl",
-          "description": "GitHub Actions for DigitalOcean - doctl",
-          "impact": "Out of scope"
-        },
-        {
-          "type": null,
-          "endpoint": "https://github.com/digitalocean/godo",
-          "description": "DigitalOcean's Go API client",
-          "impact": "Out of scope"
-        },
-        {
-          "type": null,
-          "endpoint": "https://github.com/digitalocean/pydo",
-          "description": "DigitalOcean's Python API client",
-          "impact": "Out of scope"
-        },
-        {
-          "type": null,
-          "endpoint": "https://github.com/digitalocean/terraform-provider-digitalocean",
-          "description": "DigitalOcean's official Terraform provider",
-          "impact": "Out of scope"
-        },
-        {
-          "type": null,
-          "endpoint": "https://github.com/digitalocean/go-nbd",
-          "description": "Golang-only network block device client",
-          "impact": "Out of scope"
-        },
-        {
-          "type": null,
-          "endpoint": "https://github.com/digitalocean/do-markdownit",
-          "description": "Markdown plugin run against all user-submitted content on https://digitalocean.com/community",
           "impact": "Out of scope"
         },
         {
