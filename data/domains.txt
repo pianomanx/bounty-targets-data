@@ -22801,6 +22801,7 @@ service.monosem.es
 servicecenter.deere.com
 servicecrm.wirtgenindia.com
 servicedocs.applications.wirtgen-group.com
+servicegard.deere.com
 serviceportal-cons.services.wirtgen-group.com
 serviceportal-dev.services.wirtgen-group.com
 serviceportal.services.wirtgen-group.com
