@@ -22433,6 +22433,7 @@ lyncdiscover.wirtgen.dk
 lyncdiscover.wirtgenankara.com.tr
 m.surefireag.com
 machine-analyzer.deere.com
+machinefindertest.deere.com
 machinereports.deere.com
 machines-cons.services.wirtgen-group.com
 machines.services.wirtgen-group.com
