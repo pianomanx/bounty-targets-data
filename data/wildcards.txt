@@ -2991,11 +2991,6 @@ munin-*.wordpress.org
 *.wissen-sie-mehr.de
 *.axelspringer.com
 *.bmc.nl
-*.acbpost.be
-*.bpost.be
-*.bpost.cloud
-*.landmarkglobal-group.com
-*.stbpost.be
 *.buhlergroup.com
 *.pk-buhler.ch
 *.buhler-datascience.ch
@@ -3093,6 +3088,9 @@ munin-*.wordpress.org
 *.bouw7.nl
 *.horeko.com
 *.weclapp.com
+sos-*.exo.io
+sks-*.exo.io
+*.internal.exoscale.ch
 www.fing.com*
 *.account.api.here.com
 *.account.here.com

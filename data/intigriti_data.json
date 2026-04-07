@@ -988,150 +988,6 @@
     }
   },
   {
-    "id": "5f29e1eb-85e8-4d99-9b52-b809f06de633",
-    "name": "Bpost",
-    "company_handle": "bpost",
-    "handle": "dummy",
-    "url": "https://www.intigriti.com/programs/bpost/dummy/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 0,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 1500,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "url",
-          "endpoint": "www.bpost2.be",
-          "description": "Some of the entry points :\n\nac2 versions of bpi & bpostinternational T&T\thttps://www.bpost2.be/ac2/bpi/track_trace/find.php\nInternational T&T\thttps://www.bpost2.be/bpi/track_trace/find.php \nInternational T&T\thttp://www.bpost2.be/bpostinternational/track_trace/find.php?lng=en & http://www.bpost2.be/bpostinternational/track_trace/find.php?search=s&lng=en&trackcode=1000\n\tCollect & stamp demo's\thttps://www.bpost2.be/collectandstamp/demo/nl/story_html5.html?lms=1\n\tStatic html library of Drupal components\thttp://bpost2.be/components/\n\tPOS locator - Still active : POS by ID & MP/HMP centres\thttps://www.bpost2.be/locations/etr/nl/map_id.php?id=002500 & https://www.bpost2.be/locations/business/nl/both.php\n\tOnline version of MP guide\thttps://www.bpost2.be/masspost/guide/nl/",
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "imove.bpost.cloud",
-          "description": "Coorporate application :\nMake your reservation to save a spot at the office",
-          "impact": "No Bounty"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.acbpost.be",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.bpost.be",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.bpost.cloud",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.landmarkglobal-group.com",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.stbpost.be",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "android",
-          "endpoint": "be.bpost.mobilecard",
-          "description": "With Mobile Postcard you can send real personalized postcards based on photos and videos on your smartphone or tablet. We print them for you and ship them anywhere in the world.",
-          "impact": "No Bounty"
-        },
-        {
-          "type": "android",
-          "endpoint": "be.bpost.mybpost",
-          "description": "Track, receive, send. With the My bpost app you can arrange all your parcels in 1 app.",
-          "impact": "No Bounty"
-        },
-        {
-          "type": "device",
-          "endpoint": "bpost Parcel Lockers",
-          "description": "More info about these lockers on https://www.bpost.be/en/parcel-locker\n\nWhe have parcel lockers with screen and  screenless.\nYou need the mybpost app to open a screenless locker.",
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "career.bpost.be",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "dmm.bpost.be",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "eshop.bpost.be",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "maxiresponse.bpost.be",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "my.bpost.be",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "procuration.bpost.be",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "quickstamp-gb.bpost.be",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "register.bpost.be",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "validationlist.bpost.be",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.bpost.be",
-          "description": null,
-          "impact": "No Bounty"
-        }
-      ],
-      "out_of_scope": []
-    }
-  },
-  {
     "id": "4afd6f0f-40a3-4f6d-a332-56b5970d12a0",
     "name": "Bühler Group VDP",
     "company_handle": "buhlergroup",
@@ -3624,6 +3480,109 @@
         }
       ],
       "out_of_scope": []
+    }
+  },
+  {
+    "id": "4d41a636-c811-4757-8fd9-007d7f18e212",
+    "name": "Exoscale Bug Bounty",
+    "company_handle": "exoscale",
+    "handle": "excoscalebugbounty",
+    "url": "https://www.intigriti.com/programs/exoscale/excoscalebugbounty/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "min_bounty": {
+      "value": 50,
+      "currency": "EUR"
+    },
+    "max_bounty": {
+      "value": 5000,
+      "currency": "EUR"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "url",
+          "endpoint": "https://portal.exoscale.com/",
+          "description": "Our web portal. A good place to start to create your test accounts, deploy your first resources and play around with our services.",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": " https://api-*exoscale.com/v2",
+          "description": "Our public API to deploy and interact with our different services. Have a look at [the API documentation](https://openapi-v2.exoscale.com/).\n\nThe API is deployed across multiple zones with different URLs:\n\nhttps://api-ch-gva-2.exoscale.com/v2\nhttps://api-ch-dk-2.exoscale.com/v2\nhttps://api-de-fra-1.exoscale.com/v2\nhttps://api-de-muc-1.exoscale.com/v2\nhttps://api-at-vie-1.exoscale.com/v2\nhttps://api-at-vie-2.exoscale.com/v2\nhttps://api-bg-sof-1.exoscale.com/v2\nhttps://api-hr-zag-1.exoscale.com/v2",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "https://sos-*.exo.io",
+          "description": "sos-*.exo.io are the subdomains related to our S3-compatible Object Storage service (called SOS). Have a look at [the SOS product documentation](https://community.exoscale.com/product/storage/object-storage/). These endpoints implement the S3 protocol. \n\n\nThere is a subdomain for each zone where the service is offered: \n\nhttps://sos-ch-gva-2.exo.io\nhttps://sos-ch-dk-2.exo.io\nhttps://sos-de-fra-1.exo.io\nhttps://sos-de-muc-1.exo.io\nhttps://sos-at-vie-1.exo.io\nhttps://sos-at-vie-2.exo.io\nhttps://sos-bg-sof-1.exo.io\nhttps://sos-hr-zag-1.exo.io\n\nPlease note that there may be resources owned by customers on these domains. Customers' resources are out of scope. ",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "https://sks-*.exo.io",
+          "description": "sks-*.exo.io are the subdomains related to our managed Kubernetes (SKS) clusters. Have a look at [the SKS product documentation](https://community.exoscale.com/product/compute/containers/).\n\n\nThere is a subdomain for each zone where the service is offered: \n\nhttps://sks-ch-gva-2.exo.io\nhttps://sks-ch-dk-2.exo.io\nhttps://sks-de-fra-1.exo.io\nhttps://sks-de-muc-1.exo.io\nhttps://sks-at-vie-1.exo.io\nhttps://sks-at-vie-2.exo.io\nhttps://sks-bg-sof-1.exo.io\nhttps://sks-hr-zag-1.exo.io\n\nPlease note that there may be resources owned by customers on these domains. Customers' resources are out of scope. ",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.internal.exoscale.ch",
+          "description": "Exoscale internal services. Not accessible to the outside world.",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://www.exoscale.com/",
+          "description": "Our [public website](https://www.exoscale.com/). A great way to start to familiarise with our products and services and learn more about everything Exoscale has to offer!",
+          "impact": "Tier 3"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://community.exoscale.com/",
+          "description": "Our [public documentation](https://community.exoscale.com/). Another great way familiarise with our products and services and learn more about everything Exoscale has to offer!",
+          "impact": "Tier 3"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "url",
+          "endpoint": "https://changelog.exoscale.com/",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://exoscalestatus.com/",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://academy.exoscale.com/",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "https://jobs.exoscale.com/",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "other",
+          "endpoint": "CDN service",
+          "description": "Exoscale offers a CDN service in partnership with Ducksify, member of the Akamai NetAlliance Partner network. The CDN service is out of scope of this program. ",
+          "impact": "Out of scope"
+        },
+        {
+          "type": "other",
+          "endpoint": "Marketplace products",
+          "description": "Exoscale offers instant deployments of certain partner solutions through a marketplace. The marketplace products are out of scope of this program. ",
+          "impact": "Out of scope"
+        }
+      ]
     }
   },
   {
