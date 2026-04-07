@@ -1377,6 +1377,10 @@
           "type": "web-application"
         },
         {
+          "target": "dailymotionadvertising.com",
+          "type": "web-application"
+        },
+        {
           "target": "https://apps.apple.com/fr/app/dailymotion/id336978041",
           "type": "mobile-application-ios"
         },
