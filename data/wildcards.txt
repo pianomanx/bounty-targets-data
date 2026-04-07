@@ -2991,6 +2991,11 @@ munin-*.wordpress.org
 *.wissen-sie-mehr.de
 *.axelspringer.com
 *.bmc.nl
+*.acbpost.be
+*.bpost.be
+*.bpost.cloud
+*.landmarkglobal-group.com
+*.stbpost.be
 *.buhlergroup.com
 *.pk-buhler.ch
 *.buhler-datascience.ch
