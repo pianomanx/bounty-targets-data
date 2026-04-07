@@ -3057,6 +3057,8 @@ protectionfraudeparcheques.com
 rdgw-1.aws3.ezshield.ws
 sandboxdb.drivershistory.com
 service.transunion.com
+sipas-ca-west.ccid.neustar.biz
+sipvs-ca.ccid.neustar.biz
 smtp-test.truoptik.com
 solutions.transunion.co.uk
 sompoh-crivoapi.crivo.com.br
