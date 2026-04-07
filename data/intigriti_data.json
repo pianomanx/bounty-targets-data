@@ -97,6 +97,79 @@
     }
   },
   {
+    "id": "badcb3b0-34be-4bd1-9186-7678aa5b5d17",
+    "name": "Allegro",
+    "company_handle": "allegro",
+    "handle": "allegrobugbounty",
+    "url": "https://www.intigriti.com/programs/allegro/allegrobugbounty/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "min_bounty": {
+      "value": 100,
+      "currency": "EUR"
+    },
+    "max_bounty": {
+      "value": 4000,
+      "currency": "EUR"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "wildcard",
+          "endpoint": "*.allegro.cz.allegrosandbox.pl",
+          "description": "Allegro sandbox environment for the Czech Republic.",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.allegro.pl.allegrosandbox.pl",
+          "description": "The main sandbox environment that replicates Allegro production. For more information please visit [developer website](https://developer.allegro.pl/tutorials/basic-information-VL6YelvVKTn#test-environment).",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.allegro.sk.allegrosandbox.pl",
+          "description": "Allegro sandbox environment for Slovakia.",
+          "impact": "Tier 2"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "wildcard",
+          "endpoint": "*.allegro.cz",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.allegro.pl",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.allegro.sk",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.allegrogroup.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "other",
+          "endpoint": "Any production website owned by Allegro not listed in Domains",
+          "description": null,
+          "impact": "Out of scope"
+        }
+      ]
+    }
+  },
+  {
     "id": "e2a235f3-6a95-4134-a165-aa48e9632f47",
     "name": "Anaconda Vulnerability Disclosure Program",
     "company_handle": "anacondainc",
@@ -1411,6 +1484,145 @@
         }
       ],
       "out_of_scope": []
+    }
+  },
+  {
+    "id": "48853273-690a-4555-8ac5-821a1c464312",
+    "name": "Capital.com",
+    "company_handle": "capitalcom",
+    "handle": "capitalcom",
+    "url": "https://www.intigriti.com/programs/capitalcom/capitalcom/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "min_bounty": {
+      "value": 0,
+      "currency": "EUR"
+    },
+    "max_bounty": {
+      "value": 15000,
+      "currency": "EUR"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "url",
+          "endpoint": "payment.backend-capital.com",
+          "description": null,
+          "impact": "Tier 1"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.backend-capital.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "capital.com/*",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "ios",
+          "endpoint": "com.capital.trading",
+          "description": "https://apps.apple.com/BY/app/id1230088754?mt=8",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "android",
+          "endpoint": "com.capital.trading",
+          "description": "https://play.google.com/store/apps/details?id=com.capital.trading&hl=en",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "open-api.capital.com",
+          "description": "The Capital.com API allows direct access to the latest version of our trading engine.",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.capital.com",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.itcapital.io",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "url",
+          "endpoint": "aff.capital.com",
+          "description": null,
+          "impact": "No Bounty"
+        },
+        {
+          "type": "url",
+          "endpoint": "go.capital.com",
+          "description": null,
+          "impact": "No Bounty"
+        },
+        {
+          "type": "url",
+          "endpoint": "register.capital.com",
+          "description": null,
+          "impact": "No Bounty"
+        },
+        {
+          "type": "url",
+          "endpoint": "careers.capital.com",
+          "description": null,
+          "impact": "No Bounty"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "wildcard",
+          "endpoint": "*affiliates.backend-capital.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*eduapp.backend-capital.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*education.backend-capital.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "help.capital.com",
+          "description": "CNAME to Zendesk",
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "relocate-with-us.capital.com",
+          "description": "CNAME to Webflow",
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "3cxby.itcapital.io",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "texis.itcapital.io",
+          "description": null,
+          "impact": "Out of scope"
+        }
+      ]
     }
   },
   {
@@ -6672,6 +6884,403 @@
         {
           "type": "url",
           "endpoint": "www.personio.es",
+          "description": null,
+          "impact": "Out of scope"
+        }
+      ]
+    }
+  },
+  {
+    "id": "0f05f9cd-03e1-4f90-a449-2f43cdaf879a",
+    "name": "Port of Antwerp-Bruges",
+    "company_handle": "portofantwerp",
+    "handle": "portofantwerp",
+    "url": "https://www.intigriti.com/programs/portofantwerp/portofantwerp/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "min_bounty": {
+      "value": 50,
+      "currency": "EUR"
+    },
+    "max_bounty": {
+      "value": 4500,
+      "currency": "EUR"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "iprange",
+          "endpoint": "188.118.8.0/25",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "iprange",
+          "endpoint": "94.107.237.192/26",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": " login-test.portofantwerpbruges.com/",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "api-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "api-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "api.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "api.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "apps-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "apps-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "apps.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "apps.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "as2-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "as2-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "as2.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "as2.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "digitalspecs.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "login-accpt.portofantwerpbruges.com",
+          "description": "NEW login page",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "maximo-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "maximo-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "maximo.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "maximo.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "maximo.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "my-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "my-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "my.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "my.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "notula-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "oprc.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "register-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "register-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "servicedesk-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "servicedesk-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "servicedesk.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "servicedesk.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "share-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "share-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "share.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "share.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "webapps-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "webapps-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "webapps-test.portofantwerpbruges.com/xui",
+          "description": "The NEW login page can currently only be accessed in the TEST environment",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "webapps.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "webapps.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "wiki-accpt.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "wiki-accpt.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "wiki.portofantwerp.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "wiki.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "www.oursustainableport.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "www.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "erpx.unit4cloud.com/u4erx_pab_acp1",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "url",
+          "endpoint": "erpx.unit4cloud.com/u4erx_pab_prev",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "url",
+          "endpoint": "erpx.unit4cloud.com/u4erx_pab_prod",
+          "description": null,
+          "impact": "Tier 3"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.portofantwerp.com",
+          "description": null,
+          "impact": "No Bounty"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.portofantwerpbruges.com",
+          "description": null,
+          "impact": "No Bounty"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "url",
+          "endpoint": "future.portofantwerp.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "future.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "jobs.portofantwerp.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "jobs.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "media.portofantwerp.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "media.portofantwerpbruges.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "register.portofantwerp.com",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "register.portofantwerpbruges.com",
           "description": null,
           "impact": "Out of scope"
         }
