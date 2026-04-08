@@ -21269,9 +21269,9 @@
       "in_scope": [
         {
           "type": "website",
-          "target": "SAP SuccessFactors",
+          "target": "SAP SuccessFactors Employee Central",
           "uri": "",
-          "name": "SAP SuccessFactors",
+          "name": "SAP SuccessFactors Employee Central",
           "ipAddress": ""
         },
         {
@@ -21332,13 +21332,6 @@
         },
         {
           "type": "website",
-          "target": "SAP Order Management for Sourcing and Availability",
-          "uri": "",
-          "name": "SAP Order Management for Sourcing and Availability",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
           "target": "SAP Continuous Integration and Delivery",
           "uri": "",
           "name": "SAP Continuous Integration and Delivery",
@@ -21356,20 +21349,6 @@
           "target": "SAP Business Network for Logistics\t",
           "uri": "",
           "name": "SAP Business Network for Logistics\t",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "SAP Signavio",
-          "uri": "",
-          "name": "SAP Signavio",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "SAP Omnichannel Promotion Pricing",
-          "uri": "",
-          "name": "SAP Omnichannel Promotion Pricing",
           "ipAddress": ""
         },
         {
@@ -21409,20 +21388,6 @@
         },
         {
           "type": "website",
-          "target": "SAP Concur TMC Clarity",
-          "uri": "",
-          "name": "SAP Concur TMC Clarity",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "SAP HANA Cloud",
-          "uri": "",
-          "name": "SAP HANA Cloud",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
           "target": "SAP BusinessObjects Business Intelligence platform",
           "uri": "",
           "name": "SAP BusinessObjects Business Intelligence platform",
@@ -21437,10 +21402,38 @@
         },
         {
           "type": "website",
+          "target": "SAP WalkMe",
+          "uri": "",
+          "name": "SAP WalkMe",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "SAP Signavio Process Intelligence",
+          "uri": "",
+          "name": "SAP Signavio Process Intelligence",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "SAP Signavio Process Management",
+          "uri": "",
+          "name": "SAP Signavio Process Management",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
           "target": "SAP BusinessOne",
           "uri": "",
           "name": "SAP BusinessOne",
           "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "SAP SuccessFactors Recruiting Marketing",
+          "uri": "",
+          "name": "SAP SuccessFactors Recruiting Marketing",
+          "ipAddress": null
         }
       ],
       "out_of_scope": []
