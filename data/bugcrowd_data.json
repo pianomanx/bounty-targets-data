@@ -970,7 +970,7 @@
     "allows_disclosure": false,
     "managed_by_bugcrowd": true,
     "safe_harbor": "full",
-    "max_payout": 10000,
+    "max_payout": 12000,
     "targets": {
       "in_scope": [
         {
@@ -1425,7 +1425,7 @@
     "allows_disclosure": false,
     "managed_by_bugcrowd": true,
     "safe_harbor": null,
-    "max_payout": 3000,
+    "max_payout": 4000,
     "targets": {
       "in_scope": [
         {
@@ -12518,8 +12518,8 @@
       "in_scope": [
         {
           "type": "website",
-          "target": "https://manager.trial.lsk.lightspeed.app/\t",
-          "uri": "https://manager.trial.lsk.lightspeed.app/\t",
+          "target": "https://manager.trial.lsk.lightspeed.app/",
+          "uri": "https://manager.trial.lsk.lightspeed.app/",
           "name": "https://manager.trial.lsk.lightspeed.app/",
           "ipAddress": null
         },
@@ -21434,6 +21434,13 @@
           "uri": "",
           "name": "SAP AI Core",
           "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "SAP BusinessOne",
+          "uri": "",
+          "name": "SAP BusinessOne",
+          "ipAddress": ""
         }
       ],
       "out_of_scope": []
@@ -24956,7 +24963,7 @@
     "allows_disclosure": false,
     "managed_by_bugcrowd": true,
     "safe_harbor": null,
-    "max_payout": 10000,
+    "max_payout": 12000,
     "targets": {
       "in_scope": [
         {

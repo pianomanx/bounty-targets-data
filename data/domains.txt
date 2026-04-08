@@ -392,6 +392,7 @@ umiloans.com.au
 images.latitudepayapps.com
 app.latitudepayapps.com
 legacy-blockexplorer.electroneum.com
+manager.trial.lsk.lightspeed.app
 hq.breadcrumb.com
 secure.vendhq.com
 developers.vendhq.com
@@ -10772,6 +10773,7 @@ app.smtp2go.com
 smtp2go.com
 accounts.jetblue.com
 api.jetblue.com
+api.paisly.jetblue.com
 azrest.jetblue.com
 book.jetblue.com
 checkin.jetblue.com
@@ -10780,6 +10782,7 @@ help.jetblue.com
 magnolia.jetblue.com
 mobile.jetblue.com
 movil.jetblue.com
+paisly.jetblue.com
 www.jetblue.com
 api.zillin.io
 artifactory-us.zebra.com
@@ -35295,7 +35298,6 @@ profile-photos.hackerone-user-content.com
 reviewer.pullrequest.com
 www.hackerone.com
 www.wearehackerone.com
-app.aikido.dev
 myaccount.ad.nl
 webwinkel.ad.nl
 www.ad.nl
