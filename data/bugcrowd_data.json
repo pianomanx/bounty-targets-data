@@ -9084,7 +9084,7 @@
           "type": "website",
           "target": "https://staging.gearset.com/",
           "uri": "https://staging.gearset.com/",
-          "name": "staging.gearset.com",
+          "name": "*.staging.gearset.com",
           "ipAddress": null
         },
         {
@@ -9099,6 +9099,20 @@
           "target": "https://hipaa.staging.gearset.com/",
           "uri": "https://hipaa.staging.gearset.com/",
           "name": "hipaa.staging.gearset.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://staging.claytonapp.com",
+          "uri": "https://staging.claytonapp.com",
+          "name": "staging.claytonapp.com",
+          "ipAddress": null
+        },
+        {
+          "type": "api",
+          "target": "https://staging.claytonapp.com/api",
+          "uri": "https://staging.claytonapp.com/api",
+          "name": "staging.claytonapp.com/api",
           "ipAddress": ""
         }
       ],
@@ -9143,6 +9157,27 @@
           "target": "gearset.com",
           "uri": "",
           "name": "gearset.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "app.clayton.io",
+          "uri": "",
+          "name": "app.clayton.io",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "getclayton.com",
+          "uri": "",
+          "name": "getclayton.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "api",
+          "target": "api.clayton.io",
+          "uri": "",
+          "name": "api.clayton.io",
           "ipAddress": ""
         }
       ]
