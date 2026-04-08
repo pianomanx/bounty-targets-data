@@ -35412,6 +35412,14 @@ annualreport.cybersecuritycoalition.be
 award.cybersecuritycoalition.be
 blog.cybersecuritycoalition.be
 www.cybersecuritycoalition.be
+profiles-api.datacamp.com
+app.datacamp.com
+assessment-api.datacamp.com
+assessment.datacamp.com
+campus.datacamp.com
+practice.datacamp.com
+projects.datacamp.com
+www.datacamp.com
 myaccount.demorgen.be
 shop.demorgen.be
 www.demorgen.be
@@ -35443,6 +35451,7 @@ replay.dropbox.com
 hellofax.com
 docsend.com
 app.reclaim.ai
+my.eurid.eu
 www.itscope.com
 www.itscope.de
 www.gripp.com
