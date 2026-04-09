@@ -544,24 +544,9 @@
     "allows_disclosure": false,
     "managed_by_bugcrowd": true,
     "safe_harbor": "full",
-    "max_payout": 5000,
+    "max_payout": null,
     "targets": {
-      "in_scope": [
-        {
-          "type": "api",
-          "target": "https://api.anytask.thesecurityteam.rocks",
-          "uri": "https://api.anytask.thesecurityteam.rocks",
-          "name": "api.anytask.thesecurityteam.rocks",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://anytask.thesecurityteam.rocks",
-          "uri": "https://anytask.thesecurityteam.rocks",
-          "name": "anytask.thesecurityteam.rocks",
-          "ipAddress": null
-        }
-      ],
+      "in_scope": [],
       "out_of_scope": []
     }
   },
