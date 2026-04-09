@@ -428,7 +428,6 @@ static*.twilio.com
 *.platacard.mx
 *.365command.com
 *.auditforit.com
-*.authanvil.com
 *.autotask.net
 *.backup.net
 *.backupify.com
@@ -449,7 +448,6 @@ static*.twilio.com
 *.kaseyacloud.com
 *.liveconnect.me
 *.openmesh.com
-*.passly.com
 *.pulseway.com
 *.rapidfiretools.com
 *.rocketcyber.com
