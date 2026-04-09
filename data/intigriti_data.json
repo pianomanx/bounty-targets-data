@@ -225,6 +225,60 @@
     }
   },
   {
+    "id": "611efbaa-333e-4b7c-a3c0-89665abd3fe3",
+    "name": "Altera",
+    "company_handle": "altera",
+    "handle": "altera",
+    "url": "https://www.intigriti.com/programs/altera/altera/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "min_bounty": {
+      "value": 500,
+      "currency": "USD"
+    },
+    "max_bounty": {
+      "value": 30000,
+      "currency": "USD"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "device",
+          "endpoint": "Firmware",
+          "description": "Firmware developed by Altera that executes within our FPGA products regardless of the storage media.   Excludes any software that executes the Hard Processor Subsystem, or any software that executes on an embedded processor instantiated in soft-logic within the FPGA by a customer.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "device",
+          "endpoint": "Hardware",
+          "description": "FPGA Integrated Circuit hardware.   This may includes both a base FPGA and any associated co-packaged integrated circuits. ",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "other",
+          "endpoint": "FPGA Solution Development Tools and Utilities",
+          "description": "Tools developed by Altera such as the Quartus Tool Suite used by customers to develop a solution that may comprise software, soft-logic that is hosted within an Altera FPGA device.   Also includes various Altera authored supporting utilities used to manage deployment of customer designs to Altera FPGAs.",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "other",
+          "endpoint": "Software",
+          "description": "Altera Developed Device Drivers that execute on a host computer that is connected to an Altera FPGA, used to manage or control the FPGA or any functions implemented by the customer within the FPGA.",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "other",
+          "endpoint": "Non Altera Products",
+          "description": "Any elements of a complete customer solution developed by entities other than Altera that may be included in a final customer solution.   Reports relating to such entities may be reported via the Altera Bug Bounty Program, but are not eligible for bounty payments. ",
+          "impact": "No Bounty"
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
     "id": "e2a235f3-6a95-4134-a165-aa48e9632f47",
     "name": "Anaconda Vulnerability Disclosure Program",
     "company_handle": "anacondainc",
@@ -12887,7 +12941,7 @@
         {
           "type": "url",
           "endpoint": "drive.wolt.com",
-          "description": "#### Keywords: admin\n- Used by: Wolt employees, delivery partners.\n- Admin portal for Wolt's last-mile delivery partners.\n- Your JWT as a regular wolt.com user should grant you limited access.\n",
+          "description": "#### Keywords: admin\n- Used by: Wolt employees, delivery partners.\n- Admin portal for Wolt's last-mile delivery partners.\n- Your JWT as a regular wolt.com user should grant you limited access.",
           "impact": "Tier 1"
         },
         {
@@ -12905,7 +12959,7 @@
         {
           "type": "url",
           "endpoint": "restaurant-api.wolt.com",
-          "description": "- Used by: Regular wolt.com users, Wolt employees, corporate customers, delivery partners, store managers.\n- Notable use-cases: Creating and editing users, placing orders, tracking orders, setting prices.\n- Your JWT as a regular wolt.com user should grant you access to most functionality for your user type.\n",
+          "description": "- Used by: Regular wolt.com users, Wolt employees, corporate customers, delivery partners, store managers.\n- Notable use-cases: Creating and editing users, placing orders, tracking orders, setting prices.\n- Your JWT as a regular wolt.com user should grant you access to most functionality for your user type.",
           "impact": "Tier 1"
         },
         {
@@ -12922,25 +12976,25 @@
         },
         {
           "type": "ios",
-          "endpoint": "1477299281",
+          "endpoint": "Wolt Courier Partner",
           "description": "#### Keywords: iOS\n- Used by: Wolt couriers.\n- Notable use-cases: Receiving delivery requests, tracking orders, completing deliveries, modifying your profile info.\n- For the time being we don't provide accounts of the `courier` type.\n- It would be *very* interesting if you can interact with the courier APIs without actually having a courier account.",
           "impact": "Tier 2"
         },
         {
           "type": "ios",
-          "endpoint": "943905271",
+          "endpoint": "Wolt Delivery: Food and more",
           "description": "#### Keywords: iOS\n- Used by: Wolt customers.\n- Notable use-cases: Regular wolt.com account creation, placing orders, tracking your orders, modifying your profile info.",
           "impact": "Tier 2"
         },
         {
           "type": "android",
-          "endpoint": "com.wolt.android",
+          "endpoint": "Wolt Delivery: Food and more",
           "description": "#### Keywords: Android\n- Used by: Wolt customers.\n- Notable use-cases: Regular wolt.com account creation, placing orders, tracking your orders, modifying your profile info.",
           "impact": "Tier 2"
         },
         {
           "type": "android",
-          "endpoint": "com.wolt.courierapp",
+          "endpoint": "Wolt Courier Partner",
           "description": "#### Keywords: Android\n- Used by: Wolt couriers.\n- Notable use-cases: Receiving delivery requests, tracking orders, completing deliveries, modifying your profile info.\n- For the time being we don't provide accounts of the `courier` type.\n- It would be *very* interesting if you can interact with the courier APIs without actually having a courier account.",
           "impact": "Tier 2"
         }
@@ -12948,19 +13002,7 @@
       "out_of_scope": [
         {
           "type": "url",
-          "endpoint": "blog.wolt.com",
-          "description": "#### Keywords: Third-party SaaS, WordPress\n- Used by: Wolt employees.\n- WordPress blog hosted by wpengine.com.\n- wpengine.com owns the infrastructure, but we maintain the WordPress installation.\n- **Note:** Only WordPress-level probes are allowed.",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "gettest.wolt.com",
-          "description": "Low severity issues affecting gettest.wolt.com",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "links.wolt.com",
+          "endpoint": "wolt.atlassian.net",
           "description": null,
           "impact": "Out of scope"
         },
@@ -12972,8 +13014,20 @@
         },
         {
           "type": "url",
-          "endpoint": "wolt.atlassian.net",
+          "endpoint": "links.wolt.com",
           "description": null,
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "gettest.wolt.com",
+          "description": "Low severity issues affecting gettest.wolt.com",
+          "impact": "Out of scope"
+        },
+        {
+          "type": "url",
+          "endpoint": "blog.wolt.com",
+          "description": "#### Keywords: Third-party SaaS, WordPress\n- Used by: Wolt employees.\n- WordPress blog hosted by wpengine.com.\n- wpengine.com owns the infrastructure, but we maintain the WordPress installation.\n- **Note:** Only WordPress-level probes are allowed.",
           "impact": "Out of scope"
         }
       ]
