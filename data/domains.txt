@@ -3697,6 +3697,7 @@ superbet.ro
 superbet.rs
 superbet.bet.br
 www.buut.com
+api.dicey.com
 dicey.com
 magiceden.io
 kronor.io

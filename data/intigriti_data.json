@@ -4156,31 +4156,31 @@
         {
           "type": "other",
           "endpoint": "Grafana Loki",
-          "description": null,
+          "description": "See scope section for feature toggles.",
           "impact": "Tier 1"
         },
         {
           "type": "other",
           "endpoint": "Grafana Mimir",
-          "description": null,
+          "description": "See scope section for feature toggles.",
           "impact": "Tier 1"
         },
         {
           "type": "other",
           "endpoint": "Grafana OSS",
-          "description": null,
+          "description": "Grafana Enterprise is not in scope. See scope section for feature toggles.",
           "impact": "Tier 1"
         },
         {
           "type": "other",
           "endpoint": "Grafana Pyroscope",
-          "description": null,
+          "description": "See scope section for feature toggles.",
           "impact": "Tier 1"
         },
         {
           "type": "other",
           "endpoint": "Grafana Tempo",
-          "description": null,
+          "description": "See scope section for feature toggles.",
           "impact": "Tier 1"
         },
         {
@@ -4191,8 +4191,20 @@
         },
         {
           "type": "other",
+          "endpoint": "Public Preview feature toggles in Tier 1 products",
+          "description": "If your report for a Tier 1 product uses a Public Preview feature toggle, it will become Tier 2.",
+          "impact": "Tier 2"
+        },
+        {
+          "type": "other",
+          "endpoint": "Reports utilising feature toggles",
+          "description": "If your report uses a Private Preview or Experimental feature toggle, it will be accepted, but is not eligible for a bounty. We may award a small bonus for these reports at the sole discretion of Grafana Labs.",
+          "impact": "No Bounty"
+        },
+        {
+          "type": "other",
           "endpoint": "Non-Core Grafana Plugins",
-          "description": "Grafana Labs developed [plugins](https://grafana.com/grafana/plugins/all-plugins/?signature=grafana) not installed by default are accepted, but not eligible for a bounty. ",
+          "description": "Grafana Labs developed [plugins](https://grafana.com/grafana/plugins/all-plugins/?signature=grafana) not installed by default are accepted, but not eligible for a bounty.",
           "impact": "No Bounty"
         }
       ],
