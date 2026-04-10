@@ -33328,7 +33328,6 @@ mall.aig.com.cn
 services.aig.co.il
 wwip.aig.com
 www-1p.aig.com
-www-264.aig.com
 www.aig.co.il
 www.aig.com.br
 www.aigportal.de
@@ -35514,19 +35513,6 @@ campagne.iciparisxl.lu
 campagne.iciparisxl.be
 servicenl.iciparisxl.be
 www.pourvous.nl
-www.gamma.nl
-www.gamma.be
-www.karwei.nl
-kassa.gamma.nl
-kassa.gamma.be
-kassa.karwei.nl
-mijn.gamma.nl
-mijn.gamma.be
-mijn.karwei.nl
-irmg.nl
-gammacademy.be
-karwei-promotiepunt.nl
-gammalokaal.nl
 www.kruidvat.nl
 www.kruidvat.be
 www.kruidvatkids.nl
