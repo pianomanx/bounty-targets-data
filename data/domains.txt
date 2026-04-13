@@ -34594,6 +34594,7 @@ merchant.crypto.com
 nadex.com
 og.com
 tax.crypto.com
+travel.crypto.com
 web.crypto.com
 www.goodrx.com
 api.ort-one-pingone.com
