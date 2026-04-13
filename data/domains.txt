@@ -96,8 +96,6 @@ gov.bugcrowd.net
 identity.bugcrowd.com
 bullish.com
 investor.bullish.com
-simnext.bullish-test.com
-api.simnext.bullish-test.com
 www.canva.com
 api.canva.com
 www.carrefouruae.com
