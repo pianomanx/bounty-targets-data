@@ -5476,6 +5476,41 @@
     }
   },
   {
+    "name": "Bullish Exchange",
+    "url": "https://bugcrowd.com/engagements/bullish-exchange",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 25000,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://simnext.bullish-test.com",
+          "uri": "https://simnext.bullish-test.com",
+          "name": "https://simnext.bullish-test.com",
+          "ipAddress": null
+        },
+        {
+          "type": "api",
+          "target": "https://api.simnext.bullish-test.com",
+          "uri": "https://api.simnext.bullish-test.com",
+          "name": "https://api.simnext.bullish-test.com",
+          "ipAddress": null
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "*.bullish.com/",
+          "uri": "",
+          "name": "*.bullish.com/",
+          "ipAddress": null
+        }
+      ]
+    }
+  },
+  {
     "name": "Canva",
     "url": "https://bugcrowd.com/engagements/canva",
     "allows_disclosure": false,
@@ -19116,55 +19151,6 @@
         }
       ],
       "out_of_scope": []
-    }
-  },
-  {
-    "name": "Empower Personal Wealth",
-    "url": "https://bugcrowd.com/engagements/personalcapital",
-    "allows_disclosure": true,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "full",
-    "max_payout": 4000,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "██████████████████████████████████",
-          "uri": null,
-          "name": "██████████████████████████████████",
-          "ipAddress": null
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "website",
-          "target": "████████████████████████",
-          "uri": null,
-          "name": "████████████████████████",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "█████████████████████",
-          "uri": null,
-          "name": "█████████████████████",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "█████████████",
-          "uri": null,
-          "name": "█████████████",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "███████████████████████",
-          "uri": null,
-          "name": "███████████████████████",
-          "ipAddress": ""
-        }
-      ]
     }
   },
   {
