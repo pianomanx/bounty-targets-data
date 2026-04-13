@@ -258,6 +258,7 @@ static*.twilio.com
 *.henkel-reiniger.de
 *.henkel-researchers-world.cn
 *.henkel-researchers-world.kr
+*.henkel-system.com
 *.henkel.cn
 *.henkel.com
 *.henkelgroup.cloud
