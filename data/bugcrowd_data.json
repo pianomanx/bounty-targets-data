@@ -16479,13 +16479,6 @@
         },
         {
           "type": "android",
-          "target": "https://play.google.com/store/apps/details?id=com.opera.app.news",
-          "uri": "https://play.google.com/store/apps/details?id=com.opera.app.news",
-          "name": "Opera News",
-          "ipAddress": null
-        },
-        {
-          "type": "android",
           "target": "https://play.google.com/store/apps/details?id=com.opera.mini.native",
           "uri": "https://play.google.com/store/apps/details?id=com.opera.mini.native",
           "name": "Opera Mini",
@@ -16507,6 +16500,13 @@
         },
         {
           "type": "android",
+          "target": "https://play.google.com/store/apps/details?id=com.opera.app.news",
+          "uri": "https://play.google.com/store/apps/details?id=com.opera.app.news",
+          "name": "Opera News",
+          "ipAddress": null
+        },
+        {
+          "type": "android",
           "target": "https://play.google.com/store/apps/details?id=com.opera.gx",
           "uri": "https://play.google.com/store/apps/details?id=com.opera.gx",
           "name": "Opera GX for Android",
@@ -16524,6 +16524,13 @@
           "target": "https://apps.apple.com/pl/app/opera-gx/id1559740799",
           "uri": "https://apps.apple.com/pl/app/opera-gx/id1559740799",
           "name": "Opera GX for iOS",
+          "ipAddress": ""
+        },
+        {
+          "type": "android",
+          "target": "https://play.google.com/store/apps/details?id=com.opera.minipay",
+          "uri": "https://play.google.com/store/apps/details?id=com.opera.minipay",
+          "name": "MiniPay",
           "ipAddress": ""
         },
         {
@@ -16846,6 +16853,13 @@
           "target": "api.gx.games/session",
           "uri": "",
           "name": "api.gx.games/session",
+          "ipAddress": ""
+        },
+        {
+          "type": "api",
+          "target": "*.apexnews.com",
+          "uri": "",
+          "name": "*.apexnews.com",
           "ipAddress": ""
         },
         {
