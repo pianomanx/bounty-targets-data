@@ -9466,66 +9466,6 @@
     }
   },
   {
-    "id": "152bc833-04a4-40d2-bdaa-0b31f6161449",
-    "name": "Social Deal",
-    "company_handle": "socialdeal",
-    "handle": "socialdeal",
-    "url": "https://www.intigriti.com/programs/socialdeal/socialdeal/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 25,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 750,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "ios",
-          "endpoint": "910898851",
-          "description": "We expect that issued items are including print-screen of the version of the app.  \n\n![Flow to get to version number](https://media.socialdeal.nl/img/flow-about-this-app.png)",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "android",
-          "endpoint": "app.nl.socialdeal",
-          "description": "We expect that issued items are including print-screen of the version of the app.  \n\n![Flow to get to version number](https://media.socialdeal.nl/img/flow-about-this-app.png)",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "http://socialdeal.nl/inspirations/bluemonday/",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "http://www.whynot.com/",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "https://www.socialdeal.nl/orderlist/5e834ae0bed5c/63d772e2ed277/",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.socialdeal.nl",
-          "description": "Our main website. \nwww.socialdeal.be and www.socialdeal.de are the same websites, with different Locale.\n",
-          "impact": "Tier 2"
-        }
-      ],
-      "out_of_scope": []
-    }
-  },
-  {
     "id": "18058413-5255-4f5c-a9db-c6ac027bb5d6",
     "name": "Soundtrack Your Brand",
     "company_handle": "syb",
@@ -12054,6 +11994,115 @@
         }
       ],
       "out_of_scope": []
+    }
+  },
+  {
+    "id": "acb142c1-ffeb-41c3-a9e7-1624054f42e4",
+    "name": "Veriff Bug Bounty",
+    "company_handle": "veriff",
+    "handle": "veriffbugbounty",
+    "url": "https://www.intigriti.com/programs/veriff/veriffbugbounty/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "min_bounty": {
+      "value": 5,
+      "currency": "EUR"
+    },
+    "max_bounty": {
+      "value": 6000,
+      "currency": "EUR"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "ios",
+          "endpoint": "1467907532",
+          "description": "An iOS application for demoing our product.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "alchemy.veriff.com",
+          "description": "This is an end user (internal) API endpoint.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "api.flamingo-eu.veriff.com",
+          "description": "This is a public API endpoint.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "api.us.veriff.me",
+          "description": "This is a public API endpoint.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "api.veriff.me",
+          "description": "This is a public API endpoint.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "android",
+          "endpoint": "com.veriff.demo",
+          "description": "An Android application for demoing our product.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "louvre.veriff.me",
+          "description": "This is an end user (internal) API endpoint.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "magic.veriff.me",
+          "description": "This is an end user (internal) API endpoint.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "station.veriff.com",
+          "description": "Here you can find our Veriff Station application.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "url",
+          "endpoint": "stationapi.veriff.com",
+          "description": "This is the backend for our Station application.",
+          "impact": "Tier 1"
+        },
+        {
+          "type": "wildcard",
+          "endpoint": "*.veriff.com",
+          "description": "Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Veriff.",
+          "impact": "Tier 3"
+        },
+        {
+          "type": "url",
+          "endpoint": "developers.veriff.me",
+          "description": "You can find our developers documentation here.",
+          "impact": "Tier 3"
+        },
+        {
+          "type": "url",
+          "endpoint": "www.veriff.com",
+          "description": "This is our marketing website.",
+          "impact": "Tier 3"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "url",
+          "endpoint": "https://station.veriff.com/config/",
+          "description": "Configuration includes public keys what are needed for frontend working properly.",
+          "impact": "Out of scope"
+        }
+      ]
     }
   },
   {
