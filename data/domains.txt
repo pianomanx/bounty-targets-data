@@ -1292,6 +1292,7 @@ www.bankunited.com
 www.bridgefundinggroupinc.com
 www.pinnaclepublicfinance.com
 www.doordash.com
+adhub.henkel-system.com
 aigc.henkel.cn
 aigc.magic-mirror.cn
 aliportal-dev.henkel.cn
@@ -1300,6 +1301,7 @@ aliyunportal-dev.henkel.cn
 aliyunportal.henkel.cn
 alternahaircare.cn
 alternahaircare.com.cn
+ami.henkel-system.com
 api.ar.magic-mirror.cn
 api.mini.magic-mirror.cn
 auth.eshop-henkel-adhesives.cn
@@ -1315,6 +1317,7 @@ k2r-products.cn
 md.rebate-henkel-adhesives.cn
 mrosolution.henkel-system.com
 pattex.com.cn
+pattex.query.henkel-system.com
 scrm-csr.schwarzkopfclub.com.cn
 scrm-sreadmin.schwarzkopfclub.com.cn
 scrm-weconnect-api.schwarzkopfclub.com.cn
@@ -35303,6 +35306,7 @@ profile-photos.hackerone-user-content.com
 reviewer.pullrequest.com
 www.hackerone.com
 www.wearehackerone.com
+app.aikido.dev
 myaccount.ad.nl
 webwinkel.ad.nl
 www.ad.nl
@@ -35448,6 +35452,7 @@ replay.dropbox.com
 hellofax.com
 docsend.com
 app.reclaim.ai
+my.eurid.eu
 www.itscope.com
 www.itscope.de
 www.gripp.com
@@ -35624,6 +35629,20 @@ www.monzo.com
 monzo.com
 mynexuz.be
 liquidfiles.nexuzhealth.com
+analytics.ninjakiwi.com
+api.ninjakiwi.com
+guts.ninjakiwi.com
+battles.tv
+data.ninjakiwi.com
+ninja.kiwi
+ninjakiwi.com
+alerts.ninjakiwi.com
+boomer2.ninjakiwi.com
+ct.ninjakiwi.com
+mynk-dash.ninjakiwi.com
+mynk.ninjakiwi.com
+rancher.ninjakiwi.com
+rancher.ninjakiwi.me
 associatie.kuleuven.be
 webwsp.aps.kuleuven.be
 app.pdq.com

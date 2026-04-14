@@ -1641,6 +1641,10 @@
         {
           "target": "Everything that is not directly related to the application or source-code in scope (e.g. GitHub, domain settings)",
           "type": "other"
+        },
+        {
+          "target": "Bugs that require filesystem level access to modify content to cause data corruption or path traversal issues as out of scope.",
+          "type": "other"
         }
       ]
     }

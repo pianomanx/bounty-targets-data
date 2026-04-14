@@ -3083,6 +3083,12 @@ munin-*.wordpress.org
 *.helloworks.com
 *.hellosign.com
 *.dash.ai
+*.das.eu
+*.dns.eu
+*.eurid.eu
+*.nic.eu
+*.registry.eu
+*.whois.eu
 *.itscope.com
 *.itscope.de
 *.gripp.com
@@ -3156,6 +3162,9 @@ www.fing.com*
 *.usemoralis.com
 *.nestle.com
 *.nexuzhealth.*
+*.ninjakiwi.me
+*.nkstatic.com
+*.souparea.com
 *.alphagary.com
 *.alphagarycompuestos.com
 *.amanco.com
