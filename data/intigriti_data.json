@@ -9183,66 +9183,6 @@
     }
   },
   {
-    "id": "152bc833-04a4-40d2-bdaa-0b31f6161449",
-    "name": "Social Deal",
-    "company_handle": "socialdeal",
-    "handle": "socialdeal",
-    "url": "https://www.intigriti.com/programs/socialdeal/socialdeal/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 25,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 750,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "ios",
-          "endpoint": "910898851",
-          "description": "We expect that issued items are including print-screen of the version of the app.  \n\n![Flow to get to version number](https://media.socialdeal.nl/img/flow-about-this-app.png)",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "android",
-          "endpoint": "app.nl.socialdeal",
-          "description": "We expect that issued items are including print-screen of the version of the app.  \n\n![Flow to get to version number](https://media.socialdeal.nl/img/flow-about-this-app.png)",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "http://socialdeal.nl/inspirations/bluemonday/",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "http://www.whynot.com/",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "https://www.socialdeal.nl/orderlist/5e834ae0bed5c/63d772e2ed277/",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "www.socialdeal.nl",
-          "description": "Our main website. \nwww.socialdeal.be and www.socialdeal.de are the same websites, with different Locale.\n",
-          "impact": "Tier 2"
-        }
-      ],
-      "out_of_scope": []
-    }
-  },
-  {
     "id": "8f6c92dc-1300-4f11-8284-29b6ed743378",
     "name": "Speakap Responsible Disclosure",
     "company_handle": "speakap",

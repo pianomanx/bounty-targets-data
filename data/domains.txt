@@ -35764,9 +35764,6 @@ www.sbb.ch
 www.elvetino.ch
 www.sbbcargo.com
 www.transsicura.ch
-socialdeal.nl
-www.whynot.com
-www.socialdeal.nl
 www.superdrug.com
 api.superdrug.com
 media.superdrug.com
