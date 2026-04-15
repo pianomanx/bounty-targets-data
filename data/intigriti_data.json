@@ -55,6 +55,49 @@
     }
   },
   {
+    "id": "554fc6c5-4ffa-4682-a3ba-7e86696e9b17",
+    "name": "Aikido Security: Bug Bounty Program",
+    "company_handle": "aikido",
+    "handle": "aikido",
+    "url": "https://www.intigriti.com/programs/aikido/aikido/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "min_bounty": {
+      "value": 50,
+      "currency": "EUR"
+    },
+    "max_bounty": {
+      "value": 2500,
+      "currency": "EUR"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "other",
+          "endpoint": "https://marketplace.visualstudio.com/items?itemName=AikidoSecurity.aikido",
+          "description": null,
+          "impact": "Tier 2"
+        },
+        {
+          "type": "url",
+          "endpoint": "app.aikido.dev",
+          "description": "This is our main application, which hosts the API as well as the front-end application.\n\nOur public API is also accessible via this host. Documentation is available here: https://apidocs.aikido.dev/.",
+          "impact": "Tier 2"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "wildcard",
+          "endpoint": "*.aikido.dev",
+          "description": null,
+          "impact": "Out of scope"
+        }
+      ]
+    }
+  },
+  {
     "id": "30f445f7-ca4c-4130-9434-49add5c6ac74",
     "name": "Algemeen Dagblad",
     "company_handle": "dpgm",
@@ -1477,145 +1520,6 @@
         }
       ],
       "out_of_scope": []
-    }
-  },
-  {
-    "id": "48853273-690a-4555-8ac5-821a1c464312",
-    "name": "Capital.com",
-    "company_handle": "capitalcom",
-    "handle": "capitalcom",
-    "url": "https://www.intigriti.com/programs/capitalcom/capitalcom/detail",
-    "status": "open",
-    "confidentiality_level": "public",
-    "tacRequired": false,
-    "twoFactorRequired": false,
-    "min_bounty": {
-      "value": 0,
-      "currency": "EUR"
-    },
-    "max_bounty": {
-      "value": 15000,
-      "currency": "EUR"
-    },
-    "targets": {
-      "in_scope": [
-        {
-          "type": "url",
-          "endpoint": "payment.backend-capital.com",
-          "description": null,
-          "impact": "Tier 1"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.backend-capital.com",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "capital.com/*",
-          "description": null,
-          "impact": "Tier 2"
-        },
-        {
-          "type": "ios",
-          "endpoint": "com.capital.trading",
-          "description": "https://apps.apple.com/BY/app/id1230088754?mt=8",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "android",
-          "endpoint": "com.capital.trading",
-          "description": "https://play.google.com/store/apps/details?id=com.capital.trading&hl=en",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "url",
-          "endpoint": "open-api.capital.com",
-          "description": "The Capital.com API allows direct access to the latest version of our trading engine.",
-          "impact": "Tier 2"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.capital.com",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*.itcapital.io",
-          "description": null,
-          "impact": "Tier 3"
-        },
-        {
-          "type": "url",
-          "endpoint": "aff.capital.com",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "go.capital.com",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "register.capital.com",
-          "description": null,
-          "impact": "No Bounty"
-        },
-        {
-          "type": "url",
-          "endpoint": "careers.capital.com",
-          "description": null,
-          "impact": "No Bounty"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "wildcard",
-          "endpoint": "*affiliates.backend-capital.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*eduapp.backend-capital.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "wildcard",
-          "endpoint": "*education.backend-capital.com",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "help.capital.com",
-          "description": "CNAME to Zendesk",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "relocate-with-us.capital.com",
-          "description": "CNAME to Webflow",
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "3cxby.itcapital.io",
-          "description": null,
-          "impact": "Out of scope"
-        },
-        {
-          "type": "url",
-          "endpoint": "texis.itcapital.io",
-          "description": null,
-          "impact": "Out of scope"
-        }
-      ]
     }
   },
   {
