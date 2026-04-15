@@ -362,10 +362,6 @@ www.remove.bg
 www.designify.com
 www.kaleido.ai
 www.unscreen.com
-www.keepersecurity.com
-www.microsoft.com
-keepersecurity.com
-docs.keeper.io
 www.kohls.com
 kucoin.com
 lastpass.com
@@ -35762,6 +35758,9 @@ www.sbb.ch
 www.elvetino.ch
 www.sbbcargo.com
 www.transsicura.ch
+socialdeal.nl
+www.whynot.com
+www.socialdeal.nl
 www.superdrug.com
 api.superdrug.com
 media.superdrug.com
