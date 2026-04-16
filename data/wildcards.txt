@@ -1979,7 +1979,6 @@ wlr-cf.*.aws.indriverapp.com
 *.jpmc.reflexisinc.com
 *.knlbobs.reflexisinc.com
 *.mcduk.reflexisinc.co.uk
-*.mobicontrolcloud.com
 *.pp.zebra.com
 *.pttpro.zebra.com
 *.reflexisinc.com
@@ -3157,6 +3156,8 @@ www.fing.com*
 *.acc.mobilevikings.be
 *.dev-pub.mobilevikings.be
 *.dev.mobilevikings.be
+*.monzo.com
+*.prod-ffs.io
 *.moralis.com
 *.bigmoralis.com
 *.grandmoralis.com
