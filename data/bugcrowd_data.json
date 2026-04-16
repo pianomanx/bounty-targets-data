@@ -7051,6 +7051,61 @@
     }
   },
   {
+    "name": "Colined",
+    "url": "https://bugcrowd.com/engagements/colined",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "partial",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=cloud&tab=overview",
+          "name": "Pivot Report - Cloud - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=cloud&tab=overview",
+          "name": "Worklogs Report - Cloud - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=datacenter&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=datacenter&tab=overview",
+          "name": "Worklogs Report - Data Center - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=datacenter&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=server&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=server&tab=overview",
+          "name": "Pivot Report - Server - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=server&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=server&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=server&tab=overview",
+          "name": "Worklogs Report - Server - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=server&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=datacenter&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=datacenter&tab=overview",
+          "name": "Pivot Report - Data Center - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=datacenter&tab=overview",
+          "ipAddress": null
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
     "name": "Comcast Xfinity Bug Bounty",
     "url": "https://bugcrowd.com/engagements/comcast-mbb",
     "allows_disclosure": false,

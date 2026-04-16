@@ -35309,6 +35309,7 @@ profile-photos.hackerone-user-content.com
 reviewer.pullrequest.com
 www.hackerone.com
 www.wearehackerone.com
+app.aikido.dev
 myaccount.ad.nl
 webwinkel.ad.nl
 www.ad.nl
@@ -35586,6 +35587,16 @@ ecom-data.trekpleister.nl
 service.trekpleister.nl
 folder.trekpleister.nl
 www.prijsmepper.nl
+app.lansweeper.com
+fb.lansweeper.com
+edge.lansweeper.com
+api.lansweeper.com
+backoffice.lansweeper.com
+lsagentrelay.lansweeper.com
+autoupdateapi.lansweeper.com
+docs.lansweeper.com
+login.lansweeper.com
+www.lansweeper.com
 www.libelle.nl
 www.liferay.com
 liferay.dev
@@ -35752,6 +35763,9 @@ www.sbb.ch
 www.elvetino.ch
 www.sbbcargo.com
 www.transsicura.ch
+socialdeal.nl
+www.whynot.com
+www.socialdeal.nl
 www.superdrug.com
 api.superdrug.com
 media.superdrug.com
