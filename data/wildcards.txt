@@ -3081,12 +3081,6 @@ munin-*.wordpress.org
 *.helloworks.com
 *.hellosign.com
 *.dash.ai
-*.das.eu
-*.dns.eu
-*.eurid.eu
-*.nic.eu
-*.registry.eu
-*.whois.eu
 *.itscope.com
 *.itscope.de
 *.gripp.com
