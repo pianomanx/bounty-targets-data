@@ -27849,6 +27849,13 @@
           "uri": "",
           "name": "Wyze Cam V3",
           "ipAddress": null
+        },
+        {
+          "type": "hardware",
+          "target": "https://www.wyze.com/products/wyze-cam",
+          "uri": "https://www.wyze.com/products/wyze-cam",
+          "name": "Wyze Cam v4",
+          "ipAddress": null
         }
       ],
       "out_of_scope": []

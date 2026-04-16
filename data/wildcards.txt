@@ -3008,6 +3008,9 @@ munin-*.wordpress.org
 *.canadapost-postescanada.ca
 *.infopost.ca
 *.postescanada-canadapost.ca
+*.backend-capital.com
+*.capital.com
+*.itcapital.io
 *.antwerpfreewifi.be
 *.biotechnology-citymesh.com
 *.citymesh.com
@@ -3065,7 +3068,6 @@ munin-*.wordpress.org
 *.digi.ro
 *.dpgmedia.be
 *.dpgmedia.nl
-*.datacamp.com
 *.demorgen.be
 *.volkskrant.nl
 *.digitalocean.com
@@ -3132,7 +3134,6 @@ www.fing.com*
 *.kruidvat.be
 *.trekpleister.nl
 *.prijsmepper.nl
-*.lansweeper.com
 *.libelle.nl
 *.liferay.com
 *.marionnaud.fr
