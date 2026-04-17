@@ -2361,10 +2361,6 @@
           "type": "web-application"
         },
         {
-          "target": "https://multipay-staging.test.komoju.com",
-          "type": "other"
-        },
-        {
           "target": "https://doc.komoju.com/docs/fields-overview",
           "type": "other"
         }
