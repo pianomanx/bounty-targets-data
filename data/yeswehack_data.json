@@ -3986,6 +3986,14 @@
         {
           "target": "*.telenorinpli.se",
           "type": "wildcard"
+        },
+        {
+          "target": "webmail.ownit.nu",
+          "type": "web-application"
+        },
+        {
+          "target": "hosting.ownit.nu",
+          "type": "web-application"
         }
       ],
       "out_of_scope": [
@@ -4014,11 +4022,23 @@
           "type": "other"
         },
         {
+          "target": "*.ownit.nu",
+          "type": "other"
+        },
+        {
+          "target": "tc.ownit.se",
+          "type": "other"
+        },
+        {
+          "target": "faq.vimla.se",
+          "type": "other"
+        },
+        {
           "target": "stage-vimla-se.vimla.io",
           "type": "other"
         },
         {
-          "target": "Any domain that looks like it's owned by a third party or customer due customer's privacy",
+          "target": "Any domain that looks like it's owned by a third party or customer due to customer's privacy",
           "type": "other"
         },
         {
