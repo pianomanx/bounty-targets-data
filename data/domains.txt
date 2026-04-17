@@ -1297,8 +1297,6 @@ aliportal-dev.henkel.cn
 aliportal.henkel.cn
 aliyunportal-dev.henkel.cn
 aliyunportal.henkel.cn
-alternahaircare.cn
-alternahaircare.com.cn
 api.ar.magic-mirror.cn
 api.mini.magic-mirror.cn
 auth.eshop-henkel-adhesives.cn
