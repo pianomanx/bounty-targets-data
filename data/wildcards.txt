@@ -3147,8 +3147,6 @@ www.fing.com*
 *.acc.mobilevikings.be
 *.dev-pub.mobilevikings.be
 *.dev.mobilevikings.be
-*.monzo.com
-*.prod-ffs.io
 *.moralis.com
 *.bigmoralis.com
 *.grandmoralis.com
@@ -3283,18 +3281,6 @@ aqora.naiad.*
 *.uphold.com
 *.vtm.be
 *.vtmgo.be
-*.vinted.net
-*.vinted.com
-*.vinted.fr
-*.vintedgo.com
-*sandbox*.vintedgo.com
-*sandbox*.vinted.com
-*old.vinted.com
-*test-escalations.vintedgo.com
-*badger.it.vinted.com
-*careers.vinted.com
-*news.vinted.com
-*company.vinted.com
 *.vlerick.com
 *.voi.com
 *.voiscooters.com
