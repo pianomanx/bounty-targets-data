@@ -3068,16 +3068,6 @@ munin-*.wordpress.org
 *.volkskrant.nl
 *.digitalocean.com
 *.snapshooter.com
-*.dropbox.com
-*.dropboxer.net
-*.dropboxforum.com
-*.dropboxpartners.com
-*.hellofax.com
-*.docsend.com
-*.reclaim.ai
-*.helloworks.com
-*.hellosign.com
-*.dash.ai
 *.itscope.com
 *.itscope.de
 *.gripp.com
@@ -3147,6 +3137,8 @@ www.fing.com*
 *.acc.mobilevikings.be
 *.dev-pub.mobilevikings.be
 *.dev.mobilevikings.be
+*.monzo.com
+*.prod-ffs.io
 *.moralis.com
 *.bigmoralis.com
 *.grandmoralis.com
