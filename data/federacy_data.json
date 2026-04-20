@@ -891,26 +891,6 @@
     }
   },
   {
-    "id": "f64c1102-f861-4b3d-be99-3f286bd0644b",
-    "name": "biorender",
-    "offers_awards": false,
-    "url": "https://www.federacy.com/biorender",
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "app.biorender.com"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "website",
-          "target": "biorender.com"
-        }
-      ]
-    }
-  },
-  {
     "id": "fb6cc44a-b2da-426b-90e1-18efacfdccc2",
     "name": "cooper",
     "offers_awards": false,
