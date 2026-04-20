@@ -7106,6 +7106,61 @@
     }
   },
   {
+    "name": "Colined",
+    "url": "https://bugcrowd.com/engagements/colined",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "partial",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=cloud&tab=overview",
+          "name": "Pivot Report - Cloud - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=cloud&tab=overview",
+          "name": "Worklogs Report - Cloud - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=datacenter&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=datacenter&tab=overview",
+          "name": "Worklogs Report - Data Center - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=datacenter&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=server&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=server&tab=overview",
+          "name": "Pivot Report - Server - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=server&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=server&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=server&tab=overview",
+          "name": "Worklogs Report - Server - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=server&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=datacenter&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=datacenter&tab=overview",
+          "name": "Pivot Report - Data Center - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=datacenter&tab=overview",
+          "ipAddress": null
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
     "name": "Comcast Xfinity Bug Bounty",
     "url": "https://bugcrowd.com/engagements/comcast-mbb",
     "allows_disclosure": false,
@@ -23753,69 +23808,6 @@
           "uri": "",
           "name": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
           "ipAddress": ""
-        }
-      ]
-    }
-  },
-  {
-    "name": "Tamedia",
-    "url": "https://bugcrowd.com/engagements/tamedia",
-    "allows_disclosure": true,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "full",
-    "max_payout": 2500,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "https://www.tagesanzeiger.ch",
-          "uri": "https://www.tagesanzeiger.ch",
-          "name": "https://www.tagesanzeiger.ch",
-          "ipAddress": null
-        },
-        {
-          "type": "api",
-          "target": "API calls going to disco-api from https://www.tagesanzeiger.ch ",
-          "uri": "",
-          "name": "API calls going to disco-api from https://www.tagesanzeiger.ch ",
-          "ipAddress": ""
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "website",
-          "target": "https://abo.inscopedomain.ch",
-          "uri": "https://abo.inscopedomain.ch",
-          "name": "https://abo.inscopedomain.ch",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://login.inscopedomain.ch/",
-          "uri": "",
-          "name": "https://login.inscopedomain.ch/",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://auth.inscopedomain.ch/",
-          "uri": "",
-          "name": "https://auth.inscopedomain.ch/",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://tgt.inscopedomain.ch/",
-          "uri": "",
-          "name": "https://tgt.inscopedomain.ch/",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://shop.inscopedomain.ch/",
-          "uri": "",
-          "name": "https://shop.inscopedomain.ch/",
-          "ipAddress": null
         }
       ]
     }
