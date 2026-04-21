@@ -37,6 +37,8 @@
 *.classdojo.co.uk
 *.doj.io
 *.dojo.me
+*nsa-idr.cms.gov
+*qpp.cms.gov
 *.comcast.com
 *.xcal.tv
 *.sys.comcast.net

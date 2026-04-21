@@ -6663,62 +6663,84 @@
     }
   },
   {
-    "name": "Centers for Medicare & Medicaid Services - Public Bug Bounty Program 2025",
+    "name": "Centers for Medicare & Medicaid Services - Public Bug Bounty Program 2026",
     "url": "https://bugcrowd.com/engagements/cms-bbpublic",
     "allows_disclosure": false,
     "managed_by_bugcrowd": true,
     "safe_harbor": "full",
-    "max_payout": null,
+    "max_payout": 7000,
     "targets": {
-      "in_scope": [],
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://eua.cms.gov/",
+          "uri": "https://eua.cms.gov/",
+          "name": "https://eua.cms.gov/",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://eua.cms.gov/efi",
+          "uri": "https://eua.cms.gov/efi",
+          "name": "https://eua.cms.gov/efi",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://portal.cms.gov/",
+          "uri": "https://portal.cms.gov/",
+          "name": "https://portal.cms.gov/",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://www.cms.gov/",
+          "uri": "https://www.cms.gov/",
+          "name": "https://www.cms.gov/",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://cmsnationaltrainingprogram.cms.gov/",
+          "uri": "https://cmsnationaltrainingprogram.cms.gov/",
+          "name": "https://cmsnationaltrainingprogram.cms.gov/",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://*nsa-idr.cms.gov",
+          "uri": "https://*nsa-idr.cms.gov",
+          "name": "*nsa-idr.cms.gov",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://*qpp.cms.gov/",
+          "uri": "https://*qpp.cms.gov/",
+          "name": "*qpp.cms.gov/",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://csscoperations.com/",
+          "uri": "https://csscoperations.com/",
+          "name": "https://csscoperations.com/",
+          "ipAddress": ""
+        }
+      ],
       "out_of_scope": [
         {
           "type": "website",
-          "target": "████████████████████████████████████████████████████████████████████████████████████",
-          "uri": null,
-          "name": "████████████████████████████████████████████████████████████████████████████████████",
+          "target": "*https://www.eqrs.cms.gov and all related subdomains, APIs, and supporting services.",
+          "uri": "",
+          "name": "*https://www.eqrs.cms.gov and all related subdomains, APIs, and supporting services.",
           "ipAddress": ""
         },
         {
           "type": "website",
-          "target": "█████████████████████████████████████████████████",
-          "uri": null,
-          "name": "█████████████████████████████████████████████████",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "███████████████████████████",
-          "uri": null,
-          "name": "███████████████████████████",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "██████████████████████████████████",
-          "uri": null,
-          "name": "██████████████████████████████████",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "███████████████████████████████████████████",
-          "uri": null,
-          "name": "███████████████████████████████████████████",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "████████████████████",
-          "uri": null,
-          "name": "████████████████████",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "███████████████████████",
-          "uri": null,
-          "name": "███████████████████████",
+          "target": "*https://eua.cms.gov/euareporting/",
+          "uri": "",
+          "name": "*https://eua.cms.gov/euareporting/",
           "ipAddress": ""
         }
       ]
