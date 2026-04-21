@@ -1113,14 +1113,10 @@ partner.getyourguide.com
 widget.getyourguide.com
 api.signin-connexion.canada.ca
 app.signin-connexion.canada.ca
-articles.alpha.canada.ca
 auth.signin-connexion.canada.ca
 delivrance-verification.alpha.canada.ca
-design-system.alpha.canada.ca
-forms-formulaires.alpha.canada.ca
 gciv-dvgc.alpha.canada.ca
 issue-verify.alpha.canada.ca
-talent.canada.ca
 bose.xx
 support.bose.xx
 accessto.l3harris.com
