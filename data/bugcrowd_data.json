@@ -6788,256 +6788,6 @@
     }
   },
   {
-    "name": "codefortynine",
-    "url": "https://bugcrowd.com/engagements/codefortynine",
-    "allows_disclosure": true,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "partial",
-    "max_payout": 1500,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1218652/deep-clone-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1218652/deep-clone-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1218652/deep-clone-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1219514/merge-agent-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1219514/merge-agent-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1219514/merge-agent-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1220136/quick-filters-for-jira-dashboards?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1220136/quick-filters-for-jira-dashboards?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1220136/quick-filters-for-jira-dashboards?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1219476/comment-custom-fields-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1219476/comment-custom-fields-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1219476/comment-custom-fields-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1221733/external-data-for-confluence?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1221733/external-data-for-confluence?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1221733/external-data-for-confluence?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1219288/comment-history-log-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1219288/comment-history-log-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1219288/comment-history-log-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1215055/slack-for-confluence?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1215055/slack-for-confluence?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1215055/slack-for-confluence?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1219807/version-sync-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1219807/version-sync-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1219807/version-sync-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1220964/snipe-it-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1220964/snipe-it-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1220964/snipe-it-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1218211/secure-google-calendar-for-confluence?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1218211/secure-google-calendar-for-confluence?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1218211/secure-google-calendar-for-confluence?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1219994/external-data-for-jira-fields?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1219994/external-data-for-jira-fields?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1219994/external-data-for-jira-fields?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1232630/external-data-for-jira-fields-extension?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1232630/external-data-for-jira-fields-extension?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1232630/external-data-for-jira-fields-extension?hosting=cloud",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1222978/dynamic-fields-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1222978/dynamic-fields-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1222978/dynamic-fields-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1223455/advanced-bulk-edit-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1223455/advanced-bulk-edit-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1223455/advanced-bulk-edit-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1226627/prime-custom-fields-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1226627/prime-custom-fields-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1226627/prime-custom-fields-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1230689/easy-confluence-gadget-for-jira-dashboards?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1230689/easy-confluence-gadget-for-jira-dashboards?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1230689/easy-confluence-gadget-for-jira-dashboards?hosting=cloud",
-          "ipAddress": ""
-        }
-      ],
-      "out_of_scope": []
-    }
-  },
-  {
-    "name": "codefortynine",
-    "url": "https://bugcrowd.com/engagements/codefortynine",
-    "allows_disclosure": true,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "partial",
-    "max_payout": 1500,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1218652/deep-clone-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1218652/deep-clone-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1218652/deep-clone-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1219514/merge-agent-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1219514/merge-agent-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1219514/merge-agent-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1220136/quick-filters-for-jira-dashboards?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1220136/quick-filters-for-jira-dashboards?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1220136/quick-filters-for-jira-dashboards?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1219476/comment-custom-fields-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1219476/comment-custom-fields-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1219476/comment-custom-fields-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1221733/external-data-for-confluence?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1221733/external-data-for-confluence?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1221733/external-data-for-confluence?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1219288/comment-history-log-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1219288/comment-history-log-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1219288/comment-history-log-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1215055/slack-for-confluence?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1215055/slack-for-confluence?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1215055/slack-for-confluence?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1219807/version-sync-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1219807/version-sync-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1219807/version-sync-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1220964/snipe-it-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1220964/snipe-it-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1220964/snipe-it-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1218211/secure-google-calendar-for-confluence?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1218211/secure-google-calendar-for-confluence?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1218211/secure-google-calendar-for-confluence?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1219994/external-data-for-jira-fields?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1219994/external-data-for-jira-fields?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1219994/external-data-for-jira-fields?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1232630/external-data-for-jira-fields-extension?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1232630/external-data-for-jira-fields-extension?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1232630/external-data-for-jira-fields-extension?hosting=cloud",
-          "ipAddress": ""
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1222978/dynamic-fields-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1222978/dynamic-fields-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1222978/dynamic-fields-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1223455/advanced-bulk-edit-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1223455/advanced-bulk-edit-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1223455/advanced-bulk-edit-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1226627/prime-custom-fields-for-jira?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1226627/prime-custom-fields-for-jira?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1226627/prime-custom-fields-for-jira?hosting=cloud",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://marketplace.atlassian.com/apps/1230689/easy-confluence-gadget-for-jira-dashboards?hosting=cloud",
-          "uri": "https://marketplace.atlassian.com/apps/1230689/easy-confluence-gadget-for-jira-dashboards?hosting=cloud",
-          "name": "https://marketplace.atlassian.com/apps/1230689/easy-confluence-gadget-for-jira-dashboards?hosting=cloud",
-          "ipAddress": ""
-        }
-      ],
-      "out_of_scope": []
-    }
-  },
-  {
     "name": "Code.org",
     "url": "https://bugcrowd.com/engagements/codeorg",
     "allows_disclosure": false,
@@ -7192,6 +6942,116 @@
           "uri": "https://play.google.com/store/apps/details?id=com.coindesk.mobile",
           "name": "Android app - https://play.google.com/store/apps/details?id=com.coindesk.mobile",
           "ipAddress": ""
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
+    "name": "Colined",
+    "url": "https://bugcrowd.com/engagements/colined",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "partial",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=cloud&tab=overview",
+          "name": "Pivot Report - Cloud - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=cloud&tab=overview",
+          "name": "Worklogs Report - Cloud - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=datacenter&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=datacenter&tab=overview",
+          "name": "Worklogs Report - Data Center - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=datacenter&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=server&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=server&tab=overview",
+          "name": "Pivot Report - Server - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=server&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=server&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=server&tab=overview",
+          "name": "Worklogs Report - Server - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=server&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=datacenter&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=datacenter&tab=overview",
+          "name": "Pivot Report - Data Center - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=datacenter&tab=overview",
+          "ipAddress": null
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
+    "name": "Colined",
+    "url": "https://bugcrowd.com/engagements/colined",
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "partial",
+    "max_payout": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=cloud&tab=overview",
+          "name": "Pivot Report - Cloud - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=cloud&tab=overview",
+          "name": "Worklogs Report - Cloud - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=cloud&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=datacenter&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=datacenter&tab=overview",
+          "name": "Worklogs Report - Data Center - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=datacenter&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=server&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=server&tab=overview",
+          "name": "Pivot Report - Server - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=server&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=server&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=server&tab=overview",
+          "name": "Worklogs Report - Server - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=server&tab=overview",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=datacenter&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=datacenter&tab=overview",
+          "name": "Pivot Report - Data Center - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=datacenter&tab=overview",
+          "ipAddress": null
         }
       ],
       "out_of_scope": []
