@@ -9217,7 +9217,7 @@
     }
   },
   {
-    "name": "HPE Aruba Networking Product Public Program",
+    "name": "HPE Networking Product Public Program",
     "url": "https://bugcrowd.com/engagements/hpe-networking-product-public",
     "allows_disclosure": false,
     "managed_by_bugcrowd": true,
