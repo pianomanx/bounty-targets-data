@@ -35396,13 +35396,6 @@ cm.com
 cmcom.atlassian.net
 www.cm.com
 demo.globalticket.com
-payment.backend-capital.com
-capital.com
-open-api.capital.com
-aff.capital.com
-go.capital.com
-register.capital.com
-careers.capital.com
 challenge-0426.intigriti.io
 livechat.citymesh.com
 auth.citymesh.com
@@ -36341,8 +36334,6 @@ billingonline.post.ch
 web.teamviewer.com
 account.teamviewer.com
 login.teamviewer.com
-webmail.ownit.nu
-hosting.ownit.nu
 thueringer-foerderportal.eu
 login.aufbaubank.de
 www.vfsvisaonline.com

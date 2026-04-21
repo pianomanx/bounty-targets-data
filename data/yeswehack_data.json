@@ -4081,14 +4081,6 @@
         {
           "target": "*.telenorinpli.se",
           "type": "wildcard"
-        },
-        {
-          "target": "webmail.ownit.nu",
-          "type": "web-application"
-        },
-        {
-          "target": "hosting.ownit.nu",
-          "type": "web-application"
         }
       ],
       "out_of_scope": [
