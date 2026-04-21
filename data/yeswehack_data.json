@@ -741,6 +741,10 @@
         {
           "target": "invite.contentsquare.com",
           "type": "other"
+        },
+        {
+          "target": "status.contentsquare.com",
+          "type": "other"
         }
       ]
     }
