@@ -1422,19 +1422,15 @@
           "type": "other"
         },
         {
-          "target": "community.doctolib.com|.fr|.de|.it",
+          "target": "community.doctolib.com | .fr | .de | .it",
           "type": "other"
         },
         {
-          "target": "doctocommit.doctolib.fr",
+          "target": "info.doctolib.com | .fr | .de | .it",
           "type": "other"
         },
         {
-          "target": "doctolib.atlassian.net",
-          "type": "other"
-        },
-        {
-          "target": "doctolib.zendesk.com",
+          "target": "status.doctolib.com | .fr | .it",
           "type": "other"
         },
         {
@@ -1442,15 +1438,87 @@
           "type": "other"
         },
         {
+          "target": "media.doctolib.com",
+          "type": "other"
+        },
+        {
+          "target": "fb.doctolib.com | fb-dev.doctolib.fr",
+          "type": "other"
+        },
+        {
+          "target": "pro-app.doctolib.com",
+          "type": "other"
+        },
+        {
+          "target": "developers.doctolib.com",
+          "type": "other"
+        },
+        {
+          "target": "partners.doctolib.fr | partnerportal.doctolib.com | partnerprogram.doctolib.com",
+          "type": "other"
+        },
+        {
+          "target": "dmp.doctolib.fr | dmp-prd-aws-*.doctolib.fr",
+          "type": "other"
+        },
+        {
+          "target": "fm.doctolib.fr | fm.doctolib.it | voip.doctolib.de and other decommissioned / dangling Doctolib sub-domains",
+          "type": "other"
+        },
+        {
+          "target": "doctocommit.doctolib.fr",
+          "type": "other"
+        },
+        {
           "target": "share.doctolib.net",
           "type": "other"
         },
         {
-          "target": "vettore.it (and any related Vettore assets)",
+          "target": "doctolib.atlassian.net and any *.atlassian.net path",
           "type": "other"
         },
         {
-          "target": "Craft CMS on www.siilo.com",
+          "target": "doctolib.zendesk.com | siilo.zendesk.com",
+          "type": "other"
+        },
+        {
+          "target": "api.tanker.io (Accessing the tanker private key is normal functioning of the Tanker protocol)",
+          "type": "other"
+        },
+        {
+          "target": "exceptions.doctolib.fr | .de",
+          "type": "other"
+        },
+        {
+          "target": "billing-client-logs.billing.doctolib.fr | api-external.datascience.doctolibdata.com",
+          "type": "other"
+        },
+        {
+          "target": "doctolib-ps-ehr-downloads.s3.amazonaws.com",
+          "type": "other"
+        },
+        {
+          "target": "vettore.it and any related Vettore assets",
+          "type": "other"
+        },
+        {
+          "target": "Craft CMS on www.siilo.com, plus siilo.com marketing / staging sub-domains (l.siilo.com, l-dev.siilo.com, web.siilo.com, web-dev.siilo.com, www-admin.siilo.com, mjt-dev.siilo.com, att-dev-nl.siilo.com, sandbox-nl.siilo.com, connect.siilo.com, prod-nl-web.siilo.com)",
+          "type": "other"
+        },
+        {
+          "target": "Third-party assets linked from our products (e.g. login.decathlon.net, wallet.esw.esante.gouv.fr, preprod.alaxione.fr, hooks.zapier.com, cron.signitic.app, job-boards.greenhouse.io, docto.digitalstack.it, and any hospital-specific or customer-specific host)",
+          "type": "other"
+        },
+        {
+          "target": "Any *.sslip.io, *.nip.io, AWS ELB / load-balancer hostname, or raw IPv4 / IPv6 address",
+          "type": "other"
+        },
+        {
+          "target": "Look-alike, typo-squatting or expired domains not owned by Doctolib (e.g. www.dioctolib.de, doctolib.fr.evil.com, doctodketest.tk, doctolib-poc.partner-experience.com)",
+          "type": "other"
+        },
+        {
+          "target": "Public GitHub repositories we do not own (such as student projects doing)",
           "type": "other"
         }
       ]
@@ -2930,15 +2998,15 @@
     "targets": {
       "in_scope": [
         {
-          "target": "https://api.moneyboxapp.com/",
+          "target": "https://api.moneyboxapp.com",
           "type": "api"
         },
         {
-          "target": "https://admin.moneyboxapp.org/",
+          "target": "https://admin.moneyboxapp.org",
           "type": "web-application"
         },
         {
-          "target": "https://admin-roundups.moneyboxapp.org/",
+          "target": "https://admin-roundups.moneyboxapp.org",
           "type": "web-application"
         },
         {
@@ -2950,21 +3018,13 @@
           "type": "mobile-application-android"
         },
         {
-          "target": "https://sycamore.moneyboxapp.org/",
+          "target": "https://sycamore.moneyboxapp.org",
           "type": "web-application"
         }
       ],
       "out_of_scope": [
         {
-          "target": "The Moneybox public website https://www.moneyboxapp.com/ and other moneyboxapp.com / moneyboxapp.org domains not listed are out of scope.",
-          "type": "other"
-        },
-        {
-          "target": "Content served by the Cloudflare Access service (https://moneyboxapp.cloudflareaccess.com/*) is out of scope. These pages intentionally do not set a CORS Allow-Origin policy. We have seen this reported several times as a vulnerability, but it is intended behaviour and is considered out of scope.",
-          "type": "other"
-        },
-        {
-          "target": "Security concerns originating from https://moneyboxapp.onelogin.com/ are typically considered out of scope. These pages and their content are served by OneLogin, and any issues should be reported to them directly. However, if an exploit explicitly enables bypassing OneLogin to access Moneybox systems or leaking Moneybox sensitive data, it is crucial to raise the concerns to both OneLogin and Moneybox.",
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
           "type": "other"
         }
       ]
