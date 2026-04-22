@@ -23115,6 +23115,13 @@
           "uri": "https://marketplace.atlassian.com/apps/1214110/courses-and-quizzes-lms-for-confluence?hosting=cloud",
           "name": "https://marketplace.atlassian.com/apps/1214110/courses-and-quizzes-lms-for-confluence?hosting=cloud",
           "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://marketplace.atlassian.com/apps/1899492230/live-tables-from-csv-json-for-confluence?hosting=cloud&tab=overview",
+          "uri": "https://marketplace.atlassian.com/apps/1899492230/live-tables-from-csv-json-for-confluence?hosting=cloud&tab=overview",
+          "name": "https://marketplace.atlassian.com/apps/1899492230/live-tables-from-csv-json-for-confluence?hosting=cloud&tab=overview",
+          "ipAddress": null
         }
       ],
       "out_of_scope": [
