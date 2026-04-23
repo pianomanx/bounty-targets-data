@@ -3121,10 +3121,11 @@ www.fing.com*
 *.iciparisxl.be
 *.pourvous.nl
 *.kiwa.com
+*.kiwaimpact.com
 *.kiwa.info
 *.kiwa.nl
-*.kiwa.no
 *.kiwa.se
+*.kiwa.no
 *.kruidvatkids.nl
 *.kruidvat.nl
 *.kruidvat.be

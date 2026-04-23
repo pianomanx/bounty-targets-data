@@ -24237,13 +24237,6 @@
       "in_scope": [
         {
           "type": "website",
-          "target": "https://manager.thefork.com",
-          "uri": "https://manager.thefork.com",
-          "name": " manager.thefork.com",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
           "target": "https://secure.thefork.com",
           "uri": "https://secure.thefork.com",
           "name": "secure.thefork.com",
@@ -24261,20 +24254,6 @@
           "target": "https://api.thefork.io",
           "uri": "https://api.thefork.io",
           "name": "api.thefork.io",
-          "ipAddress": null
-        },
-        {
-          "type": "ios",
-          "target": "https://apps.apple.com/app/thefork-manager-neo/id1295795281",
-          "uri": "https://apps.apple.com/app/thefork-manager-neo/id1295795281",
-          "name": "TheFork Manager iOS App",
-          "ipAddress": null
-        },
-        {
-          "type": "android",
-          "target": "https://play.google.com/store/apps/details?id=com.lafourchette.tfm3",
-          "uri": "https://play.google.com/store/apps/details?id=com.lafourchette.tfm3",
-          "name": "TheFork Manager Android App",
           "ipAddress": null
         },
         {
@@ -24389,6 +24368,27 @@
           "target": "developer.thefork.io",
           "uri": "",
           "name": "developer.thefork.io",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://manager.thefork.com",
+          "uri": "https://manager.thefork.com",
+          "name": "manager.thefork.it",
+          "ipAddress": null
+        },
+        {
+          "type": "ios",
+          "target": "https://apps.apple.com/app/thefork-manager-neo/id1295795281",
+          "uri": "https://apps.apple.com/app/thefork-manager-neo/id1295795281",
+          "name": "\"TheFork Manager\" iOS mobile application",
+          "ipAddress": null
+        },
+        {
+          "type": "android",
+          "target": "https://play.google.com/store/apps/details?id=com.lafourchette.tfm3",
+          "uri": "https://play.google.com/store/apps/details?id=com.lafourchette.tfm3",
+          "name": "\"TheFork Manager\" Android mobile application",
           "ipAddress": null
         },
         {

@@ -817,7 +817,6 @@ tempus-ex.com
 docs.tempus-ex.com
 infiniteathlete.ai
 platform.infiniteathlete.ai
-manager.thefork.com
 secure.thefork.com
 payment.lafourchette.com
 api.thefork.io
@@ -1584,6 +1583,7 @@ hex.tech
 chatspot.ai
 hubspot.net
 cloud.oppo.com
+developers.oppomobile.com
 drp.myoppo.com
 e.oppo.com
 gcsm.oppoit.com
@@ -35735,13 +35735,6 @@ www.transsicura.ch
 socialdeal.nl
 www.whynot.com
 www.socialdeal.nl
-api.soundtrackyourbrand.com
-billing.api.soundtrackyourbrand.com
-builds.soundtrackyourbrand.com
-business.soundtrackyourbrand.com
-auth.api.soundtrackyourbrand.com
-radio.api.soundtrackyourbrand.com
-www.soundtrackyourbrand.com
 www.superdrug.com
 api.superdrug.com
 media.superdrug.com
