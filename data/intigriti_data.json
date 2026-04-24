@@ -3848,6 +3848,12 @@
       ],
       "out_of_scope": [
         {
+          "type": "url",
+          "endpoint": "www.20years.eurid.eu",
+          "description": null,
+          "impact": "Out of scope"
+        },
+        {
           "type": "wildcard",
           "endpoint": "*.yadifa.eu",
           "description": null,

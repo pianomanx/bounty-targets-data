@@ -9137,8 +9137,8 @@
         {
           "type": "website",
           "target": "https://www.hostgator.com.br/",
-          "uri": "",
-          "name": "https://www.hostgator.com.br/",
+          "uri": "https://www.hostgator.com.br/",
+          "name": "www.hostgator.com.br/",
           "ipAddress": null
         },
         {
@@ -9155,6 +9155,27 @@
           "target": "https://carrinho.hostgator.com.br/",
           "uri": "",
           "name": "https://carrinho.hostgator.com.br/",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://www.academy.hostgator.com",
+          "uri": "https://www.academy.hostgator.com",
+          "name": "academy.hostgator.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "https://www.hostgator.com.br",
+          "uri": "https://www.hostgator.com.br",
+          "name": "*.hostgator.com.br",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "*.hostgator.mx",
+          "uri": "",
+          "name": "*.hostgator.mx",
           "ipAddress": ""
         }
       ]
@@ -22407,7 +22428,29 @@
           "ipAddress": ""
         }
       ],
-      "out_of_scope": []
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "https://www.*.snapnames.com",
+          "uri": "https://www.*.snapnames.com",
+          "name": "*.snapnames.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "https://www.namejet.com",
+          "uri": "https://www.namejet.com",
+          "name": "*.namejet.com",
+          "ipAddress": null
+        },
+        {
+          "type": "website",
+          "target": "*.buydomains.com",
+          "uri": "",
+          "name": "*.buydomains.com",
+          "ipAddress": ""
+        }
+      ]
     }
   },
   {
