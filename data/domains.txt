@@ -154,8 +154,6 @@ business.comcast.com
 www.xfinity.com
 consensus2024.sandbox.events.coindesk.com
 console.delltechnologies.com
-app.sandbox.directly.com
-sandbox.directly.com
 docs.eazybi.com
 my.elementor.com
 go.elementor.com
@@ -170,11 +168,6 @@ casino.bwin.com
 casino.sportingbet.com
 www.ladbrokes.com
 www.coral.co.uk
-www.partypoker.com
-www.galabingo.com
-www.partycasino.com
-www.bwin.com
-www.galacasino.com
 www.epam.com
 projects.epam.com
 lab.epam.com
@@ -35389,13 +35382,6 @@ cm.com
 cmcom.atlassian.net
 www.cm.com
 demo.globalticket.com
-payment.backend-capital.com
-capital.com
-open-api.capital.com
-aff.capital.com
-go.capital.com
-register.capital.com
-careers.capital.com
 challenge-0426.intigriti.io
 livechat.citymesh.com
 auth.citymesh.com
