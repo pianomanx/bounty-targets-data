@@ -14398,118 +14398,6 @@
     }
   },
   {
-    "name": "Moneytree KK",
-    "url": "https://bugcrowd.com/engagements/moneytreekkog",
-    "allows_disclosure": false,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "partial",
-    "max_payout": 5000,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "https://wwws-staging.moneytree.jp/link/",
-          "uri": "https://wwws-staging.moneytree.jp/link/",
-          "name": "Moneytree Web for Web",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://vault-staging.getmoneytree.com",
-          "uri": "https://vault-staging.getmoneytree.com",
-          "name": "Moneytree Universal Vault",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://redash-staging.getmoneytree.com/",
-          "uri": "https://redash-staging.getmoneytree.com/",
-          "name": "Moneytree Internal Redash",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://app-staging.getmoneytree.com",
-          "uri": "https://app-staging.getmoneytree.com",
-          "name": "https://app-staging.getmoneytree.com",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://wwws-staging.moneytree.jp/link/mobile/",
-          "uri": "https://wwws-staging.moneytree.jp/link/mobile/",
-          "name": "Moneytree Web for Mobile",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://wwws-staging.moneytree.jp/link/mobile/#/signup?client_id=38d99a6e8e9fc87c866f5aa82bdc2569c464b2323a55e0b28f658efa678e9623&redirect_uri=https://wwws-staging.moneytree.jp/link/mobile/callback&response_type=token&scope=guest_read+accounts_read+transactions_read+request_refresh",
-          "uri": "https://wwws-staging.moneytree.jp/link/mobile/#/signup?client_id=38d99a6e8e9fc87c866f5aa82bdc2569c464b2323a55e0b28f658efa678e9623&redirect_uri=https://wwws-staging.moneytree.jp/link/mobile/callback&response_type=token&scope=guest_read+accounts_read+transactions_read+request_refresh",
-          "name": "Moneytree Web for Mobile (with Oauth)",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://myaccount-staging.getmoneytree.com",
-          "uri": "https://myaccount-staging.getmoneytree.com",
-          "name": "Moneytree MyAccount",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://business-staging.getmoneytree.com/",
-          "uri": "https://business-staging.getmoneytree.com/",
-          "name": "Moneytree Business",
-          "ipAddress": null
-        },
-        {
-          "type": "api",
-          "target": "https://jp-api-staging.getmoneytree.com",
-          "uri": "https://jp-api-staging.getmoneytree.com",
-          "name": "Moneytree API",
-          "ipAddress": null
-        },
-        {
-          "type": "android",
-          "target": "https://play.google.com/store/apps/details?id=jp.moneytree.moneytree&hl=en_AU&gl=US",
-          "uri": "https://play.google.com/store/apps/details?id=jp.moneytree.moneytree&hl=en_AU&gl=US",
-          "name": "Moneytree Android Mobile Application (staging; see below)",
-          "ipAddress": null
-        },
-        {
-          "type": "ios",
-          "target": "https://apps.apple.com/vc/app/moneytree-finance-made-easy/id586847189",
-          "uri": "https://apps.apple.com/vc/app/moneytree-finance-made-easy/id586847189",
-          "name": "Moneytree iOS Mobile Application (production; see below)",
-          "ipAddress": null
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "website",
-          "target": "moneytree.jp",
-          "uri": null,
-          "name": "moneytree.jp",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "Any production asset of Moneytree KK (excepting the iOS app)",
-          "uri": null,
-          "name": "Any production asset of Moneytree KK (excepting the iOS app)",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "getmoneytree.com",
-          "uri": null,
-          "name": "getmoneytree.com",
-          "ipAddress": null
-        }
-      ]
-    }
-  },
-  {
     "name": "Moovit Managed Bug Bounty Program",
     "url": "https://bugcrowd.com/engagements/moovit-mbb-og",
     "allows_disclosure": false,
@@ -19629,6 +19517,48 @@
         }
       ],
       "out_of_scope": []
+    }
+  },
+  {
+    "name": "Plusgrade Loyalty Public Program",
+    "url": "https://bugcrowd.com/engagements/plusgrade-mbb-public",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.points.com",
+          "uri": "",
+          "name": "*.points.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "Additional Loyalty scope included under resources tab",
+          "uri": "",
+          "name": "Additional Loyalty scope included under resources tab",
+          "ipAddress": ""
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "Partner Website & Applications",
+          "uri": "",
+          "name": "Partner Website & Applications",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "Anything not explicitly listed as in-scope",
+          "uri": "",
+          "name": "Anything not explicitly listed as in-scope",
+          "ipAddress": ""
+        }
+      ]
     }
   },
   {
