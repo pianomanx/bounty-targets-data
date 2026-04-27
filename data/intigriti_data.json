@@ -12907,6 +12907,42 @@
     }
   },
   {
+    "id": "ef919950-9ced-48c3-b1f4-2379c43c8ec5",
+    "name": "Wärtsilä Vulnerability Disclosure Program",
+    "company_handle": "wartsila",
+    "handle": "wartsila-vdp",
+    "url": "https://www.intigriti.com/programs/wartsila/wartsila-vdp/detail",
+    "status": "open",
+    "confidentiality_level": "public",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "min_bounty": {
+      "value": 0,
+      "currency": "EUR"
+    },
+    "max_bounty": {
+      "value": 0,
+      "currency": "EUR"
+    },
+    "targets": {
+      "in_scope": [
+        {
+          "type": "wildcard",
+          "endpoint": "*.wartsila.com",
+          "description": null,
+          "impact": "No Bounty"
+        },
+        {
+          "type": "url",
+          "endpoint": "Any Wartsila related domain ",
+          "description": "Please verify ownership or legitimate association via WHOIS, reverse DNS, delegated DNS, or other reliable means to ensure the asset is intended for Wärtsilä use and that Wärtsilä is the appropriate recipient of the disclosure.",
+          "impact": "No Bounty"
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
     "id": "bbc2d49d-6b11-40af-9746-aefa64756928",
     "name": "Yacht",
     "company_handle": "randstad",

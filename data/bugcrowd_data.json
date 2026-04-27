@@ -11334,47 +11334,6 @@
     }
   },
   {
-    "name": "Kaleido",
-    "url": "https://bugcrowd.com/engagements/kaleido",
-    "allows_disclosure": false,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": null,
-    "max_payout": 6000,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "https://www.remove.bg",
-          "uri": "https://www.remove.bg",
-          "name": "*.remove.bg",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://www.designify.com",
-          "uri": "https://www.designify.com",
-          "name": "*.designify.com",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://www.kaleido.ai",
-          "uri": "https://www.kaleido.ai",
-          "name": "*.kaleido.ai",
-          "ipAddress": null
-        },
-        {
-          "type": "website",
-          "target": "https://www.unscreen.com",
-          "uri": "https://www.unscreen.com",
-          "name": "*.unscreen.com",
-          "ipAddress": null
-        }
-      ],
-      "out_of_scope": []
-    }
-  },
-  {
     "name": "Keeper Security Public Bounty Program",
     "url": "https://bugcrowd.com/engagements/keepersecurity",
     "allows_disclosure": true,
@@ -19517,6 +19476,48 @@
         }
       ],
       "out_of_scope": []
+    }
+  },
+  {
+    "name": "Plusgrade Loyalty Public Program",
+    "url": "https://bugcrowd.com/engagements/plusgrade-mbb-public",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.points.com",
+          "uri": "",
+          "name": "*.points.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "Additional Loyalty scope included under resources tab",
+          "uri": "",
+          "name": "Additional Loyalty scope included under resources tab",
+          "ipAddress": ""
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "Partner Website & Applications",
+          "uri": "",
+          "name": "Partner Website & Applications",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "Anything not explicitly listed as in-scope",
+          "uri": "",
+          "name": "Anything not explicitly listed as in-scope",
+          "ipAddress": ""
+        }
+      ]
     }
   },
   {
