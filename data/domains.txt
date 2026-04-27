@@ -36381,5 +36381,3 @@ svn.notebleue.pro
 todo.notebleue.pro
 webtoolbox.notebleue.pro
 cam.notebleue.pro
-toom.de
-api.toom.de
