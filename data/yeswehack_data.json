@@ -477,59 +477,7 @@
       ],
       "out_of_scope": [
         {
-          "target": "The scope of the Bug Bounty program is defined in the preceding section. To remove any potential ambiguity regarding this scope, the following non‑exhaustive examples illustrate domains that are not included in the program:",
-          "type": "other"
-        },
-        {
-          "target": "- www.sncf-connect-tech.fr",
-          "type": "other"
-        },
-        {
-          "target": "- office-web-sncf-a.sips-services.com",
-          "type": "other"
-        },
-        {
-          "target": "- www.sncf.com",
-          "type": "other"
-        },
-        {
-          "target": "- www.groupe-sncf.com",
-          "type": "other"
-        },
-        {
-          "target": "- www.garesetconnexions.sncf",
-          "type": "other"
-        },
-        {
-          "target": "- sncf-voyageurs.com",
-          "type": "other"
-        },
-        {
-          "target": "- www.sncf-voyageurs.com",
-          "type": "other"
-        },
-        {
-          "target": "- tgvinoui.sncf",
-          "type": "other"
-        },
-        {
-          "target": "- ter.sncf.com",
-          "type": "other"
-        },
-        {
-          "target": "- ouigo.com",
-          "type": "other"
-        },
-        {
-          "target": "- www.maxjeune-tgvinoui.sncf",
-          "type": "other"
-        },
-        {
-          "target": "- www.malocationavis.sncf-connect.com",
-          "type": "other"
-        },
-        {
-          "target": "- hiflow.sncf-connect.com",
+          "target": "All domains and subdomains that are not listed within the scope of the Bug Bounty program.",
           "type": "other"
         },
         {
