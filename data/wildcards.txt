@@ -427,6 +427,7 @@ static*.twilio.com
 *.tingmobile.com
 *.tucowsdomains.com
 *.wavelo.com
+*.bancoplata.mx
 *.platacard.mx
 *.365command.com
 *.auditforit.com
