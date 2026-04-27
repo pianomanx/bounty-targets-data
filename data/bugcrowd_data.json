@@ -8966,40 +8966,6 @@
     }
   },
   {
-    "name": "SecureDrop",
-    "url": "https://bugcrowd.com/engagements/freedomofpress",
-    "allows_disclosure": true,
-    "managed_by_bugcrowd": true,
-    "safe_harbor": "partial",
-    "max_payout": 2500,
-    "targets": {
-      "in_scope": [
-        {
-          "type": "other",
-          "target": "https://github.com/freedomofpress/securedrop",
-          "uri": "https://github.com/freedomofpress/securedrop",
-          "name": "https://github.com/freedomofpress/securedrop",
-          "ipAddress": null
-        },
-        {
-          "type": "other",
-          "target": "https://github.com/freedomofpress/securedrop-workstation",
-          "uri": "https://github.com/freedomofpress/securedrop-workstation",
-          "name": "https://github.com/freedomofpress/securedrop-workstation",
-          "ipAddress": null
-        },
-        {
-          "type": "other",
-          "target": "https://github.com/freedomofpress/securedrop-client",
-          "uri": "https://github.com/freedomofpress/securedrop-client",
-          "name": "https://github.com/freedomofpress/securedrop-client",
-          "ipAddress": null
-        }
-      ],
-      "out_of_scope": []
-    }
-  },
-  {
     "name": "Gearset: Managed Bug Bounty",
     "url": "https://bugcrowd.com/engagements/gearset-mbb",
     "allows_disclosure": false,
@@ -19551,6 +19517,48 @@
         }
       ],
       "out_of_scope": []
+    }
+  },
+  {
+    "name": "Plusgrade Loyalty Public Program",
+    "url": "https://bugcrowd.com/engagements/plusgrade-mbb-public",
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "safe_harbor": "full",
+    "max_payout": 5000,
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.points.com",
+          "uri": "",
+          "name": "*.points.com",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "Additional Loyalty scope included under resources tab",
+          "uri": "",
+          "name": "Additional Loyalty scope included under resources tab",
+          "ipAddress": ""
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "Partner Website & Applications",
+          "uri": "",
+          "name": "Partner Website & Applications",
+          "ipAddress": ""
+        },
+        {
+          "type": "website",
+          "target": "Anything not explicitly listed as in-scope",
+          "uri": "",
+          "name": "Anything not explicitly listed as in-scope",
+          "ipAddress": ""
+        }
+      ]
     }
   },
   {
